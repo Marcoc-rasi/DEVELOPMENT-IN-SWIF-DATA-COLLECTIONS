@@ -518,12 +518,6 @@ In summary, this code, in the passive voice, allows the iOS application to inter
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a3f1fae6-9202-4bbb-9f21-0120330334af
 
-
-
-##### OrderApp Extension - State Restoration
-
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac873bab-5576-48a7-ae96-808a1099f464
-
 The provided code consists of several parts that make up an iOS application for managing a restaurant menu. The application allows users to view available categories, select a category to explore menu items, and place orders.
 
 Firstly, essential data structures to represent the menu and orders are defined. The `MenuItem` structure contains details about a menu item, such as its name, price, and image URL. The `Codable` protocol is used to facilitate the conversion between Swift objects and JSON representations. The `MenuResponse` structure is responsible for deserializing the JSON menu response, while `Order` keeps track of user-selected items in their order.
@@ -549,6 +543,33 @@ The `MenuItemCell` class customizes the appearance of menu item cells in table v
 Finally, the `OrderConfirmationViewController` class displays an order confirmation with the estimated preparation time.
 
 In summary, the code presents an iOS application that uses asynchronous programming and `Codable` data structures to manage a restaurant menu. The main controller, `MenuController`, coordinates data retrieval, order placement, and image retrieval. Each view is responsible for displaying specific information, such as categories, menu items, and order confirmations, with detailed cell appearance customization via `MenuItemCell`.
+
+##### OrderApp Extension - State Restoration
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac873bab-5576-48a7-ae96-808a1099f464
+
+The provided code focuses on an iOS application for managing a restaurant menu and placing orders. The overall structure of the code encompasses several key areas, all controlled by the `MenuController` class. This class serves as the central controller for the application, coordinating data retrieval, UI updates, and order management. Here are the key parts of the code:
+
+First, several data structures are defined to represent fundamental elements of the application:
+- The `MenuItem` structure models a menu item and includes properties such as a unique identifier, name, description, price, category, and an image URL. It uses the `Codable` protocol for data encoding and decoding, allowing easy serialization and deserialization of `MenuItem` objects.
+- The `MenuResponse` structure represents a response containing an array of `MenuItem` elements. This is useful for decoding the JSON response from the restaurant's menu.
+- The `CategoriesResponse` structure is responsible for decoding the JSON response containing available menu categories.
+- The `OrderResponse` structure is used to decode the response of an order, including the estimated preparation time. It utilizes key mapping through `CodingKeys` to match property names in the JSON data.
+
+The `MenuController` class plays a crucial role in the application's logic. Some key aspects include:
+- Error handling: The class defines a `MenuControllerError` enumeration that encapsulates possible errors, providing localized error messages.
+- Order update notification: When the order is updated, an `orderUpdatedNotification` is sent to inform other parts of the application.
+- User activity management: An instance of `NSUserActivity` is used to track the application's state, including the current category, menu item, and the current order. This allows for state restoration.
+
+The `MenuController` class also offers a set of asynchronous methods for interacting with the server:
+- `fetchCategories()`: Retrieves available menu categories via an HTTP request and decodes the response into an array of strings.
+- `fetchMenuItems(forCategory categoryName)`: Fetches menu items for a specific category. This involves constructing the URL and decoding the JSON response.
+- `submitOrder(forMenuIDs menuIDs)`: Submits an order with a list of menu item identifiers and receives the estimated preparation time as a response. The request is made as a POST operation with JSON data.
+- `fetchImage(from url)`: Downloads an image from a URL and converts it into a `UIImage` object.
+
+Finally, the `CategoryTableViewController`, `MenuTableViewController`, `MenuItemDetailViewController`, and `OrderTableViewController` classes are view controllers responsible for displaying the user interface and managing user navigation within the application. They use asynchronous methods to retrieve data from the server and update the user interface according to categories, menu items, and orders.
+
+Collectively, this code provides a robust foundation for a restaurant application that allows users to navigate the menu, place orders, and keep track of their order's status. The separation of responsibilities between classes and error handling makes the application robust and easy to maintain.
 
 ### 3 - Advanced Data Display
 
