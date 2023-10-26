@@ -440,7 +440,6 @@ In summary, the provided code outlines the structure and workflow of an iOS appl
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9a5645bd-ff91-4c91-bf71-bc3f6ddf7379
 
-
 In this code, a class named `ViewController` is defined, which inherits from `UIViewController.` View Controllers in iOS are responsible for the management of the user interface and view logic.
 
 Within this class, a property named `emailTextField` is declared with the `@IBOutlet` attribute. This attribute signifies that this property is connected to a user interface element in Interface Builder, in this case, a text field.
@@ -479,11 +478,25 @@ In summary, the code presents a view controller that manages a music playback in
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/922b230d-9343-46b5-9209-46848229f868
 
+The code architecture comprises an iOS application designed to interact with the iTunes API, thereby obtaining data related to the categories offered by this platform. At the core of this application, the `StoreItemController` class is defined to manage communication with iTunes web services for searching store items and loading images associated with these items.
 
+Two key methods in this class are `fetchItems(matching query:)` and `fetchImage(from url:)`. The former is used to perform searches in the online store by establishing communication with the iTunes API through HTTP requests. The latter method, `fetchImage`, is employed to load images from URLs provided by the iTunes API. Both methods are designed to handle specific errors using an enumeration called `StoreItemError`. Types of errors that can be managed include the absence of found items and missing image data. This error handling approach provides precise control over potential issues that may arise during interaction with iTunes web services.
+
+The `StoreItem` structure represents individual store items related to iTunes categories. This structure conforms to the `Codable` protocol, enabling it to be encoded and decoded to and from JSON format. The structure includes properties such as name, artist, type, description, and the item's image URL. Its flexibility is evident in its ability to adapt to various data formats provided by the iTunes API.
+
+To manage the encoding and decoding of `StoreItem` objects from JSON, the `CodingKeys` and `AdditionalKeys` enumerations are used. These enumerations allow mapping Swift properties to specific keys present in the JSON returned by the iTunes API. The custom `init(from decoder:)` method is responsible for decoding `StoreItem` objects from a `Decoder` object, ensuring that the item's information is accurately extracted, even when the description of the item is located in different locations within the JSON provided by the iTunes API. The `StoreItem` structure serves as an in-memory representation of store items, and its versatility facilitates the handling of various data formats from the iTunes API.
+
+The `SearchResponse` structure acts as a container for the results of searches conducted through the iTunes API. Within it, there is an array of `StoreItem` objects representing the items found during a search. This structure plays a crucial role in deserializing the JSON response obtained from the iTunes API and converting this data into Swift objects that can be manipulated by the application.
+
+The `ItemCell` class is responsible for customizing the appearance and content of cells in a table view. This customization is achieved by implementing the `updateConfiguration(using state:)` method, which is automatically called to update the cell's configuration based on its state and the data it should display. Cell properties such as `name`, `artist`, and `artworkImage` are configured to trigger configuration updates whenever their values change. Within the `updateConfiguration` method, a configuration is created based on the cell's default configuration. Subsequently, the text and image values of this configuration are set using data provided by the cell's properties. This allows the cell to efficiently display the name, artist, and an image related to the store item. In case an image is not provided, a default image is displayed, along with its symbol and tint configuration.
+
+In summary, the code in question consists of various components aimed at interacting with the iTunes API. These components include a table view controller (`StoreItemListTableViewController`), a store item controller (`StoreItemController`), data structures for representing items and search responses (`StoreItem` and `SearchResponse`), and a custom cell (`ItemCell`) designed to display information related to iTunes categories in a table view. The modularity and adaptability of this architecture enable effective interaction with web services, data management, and the presentation of store items in an iOS application, offering flexible and efficient organization.
 
 ##### SpacePhoto
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e2749e6a-cb6a-4145-b3ff-37bf23009413
+
+
 
 #### Guided Project - Restaurant
 
