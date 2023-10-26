@@ -593,7 +593,19 @@ In summary, these code pieces enable users to view, add, and modify emojis in th
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/94731158-fbe2-4c64-877f-5708b126af51
 
+The provided code is an implementation of a collection view controller in an iOS application. In this code, a `class` named `BasicCollectionViewController` is defined, which inherits from the `UICollectionViewController` class. This `class` is responsible for being managed by a collection view in the user interface.
 
+The collection view is configured to display a list of `state names` in the United States, which are stored in a `private constant` called `items`. This constant contains an array of strings that represents the `state names`.
+
+The `class` `BasicCollectionViewCell` is used to customize the appearance of the cells in the collection view. This `class` is a subclass of `UICollectionViewCell` and contains a property called `label`, which is an instance of the `UILabel` class. The `label` is declared as an `interface outlet` using the `@IBOutlet` attribute, suggesting that it will be connected to a `label` in the user interface file.
+
+In the `viewDidLoad` method of the `BasicCollectionViewController` `class`, the layout of the collection view is configured using a method called `generateLayout`. The layout of the collection view is set using a `UICollectionViewCompositionalLayout`, which specifies the structure of the view, including `items`, `groups`, and `sections`. In this case, a layout with a single column and fixed-height cells is created.
+
+The `numberOfItemsInSection` method is used to determine the `number of items` to be displayed in the collection view. It returns the `number of items` in the `items` array.
+
+The `cellForItemAt` method is responsible for providing the cells to be displayed in the collection view. A reusable cell identified by `reuseIdentifier` is obtained, and the `text` from the `items` array is assigned to the `text` property of the `label` in the custom cell.
+
+In summary, this code creates a collection view that displays a list of `state names` in custom cells. Customization of the cells is achieved through the `BasicCollectionViewCell` `class`, which contains a `label` to display the text. The structure of the collection view is defined in the `generateLayout` method, and a `UICollectionViewCompositionalLayout` is used to apply the layout.
 
 #### 2 - Swift Generics
 
@@ -601,15 +613,35 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8552000d-9ec3-4637-8f35-e64546a4e3ba
 
+The `structures` and `classes` provided have been designed to handle network requests and decode responses in an application that interacts with the Encyclopedia of Life (EOL) API. These components are fundamental for obtaining and manipulating biological data within the application.
+
+First, `structures` have been defined to represent data related to objects in EOL. The `EOLItem structure` encapsulates essential information about an object, such as its "common name," "scientific name," and "unique identifier." In particular, the `commonName` and `scientificName` properties are used to describe the common and scientific names of the object, respectively. Additionally, `id` is used to uniquely identify the object.
+
+On the other hand, the `SearchResponse structure` serves to encapsulate a search response, which consists of a list of `EOLItem` objects. This structure is crucial for the application, as it stores the results of searches conducted on EOL.
+
+The `EOLController class` plays a central role in the application as it acts as a network request controller. The implementation of this controller follows a Singleton pattern, meaning it provides a single global instance accessible throughout the application. This instance is accessible through the static property `shared`. The controller offers a method called `sendRequest` that allows for sending network requests asynchronously and handling the responses.
+
+The `sendRequest method` is adapted to work with types that conform to the `APIRequest protocol.` This protocol defines two key requirements: `urlRequest` and `decodeResponse.` The former is responsible for constructing the URL request based on the specific data of each request, and the latter is used to decode the response of the request into a specific type. The implementation of `decodeResponse` depends on the nature of the request and the expected response type.
+
+The controller also includes an extension of the `Data structure` that provides the capability to convert JSON data into a readable and formatted string. This is highly useful for debugging, as it allows for visualizing the structure of JSON response data.
+
+Furthermore, `structures` representing specific requests to the EOL API have been defined. Each request `structure`, such as `EOLSearchAPIRequest,` `EOLItemDetailAPIRequest,` `EOLHierarchyAPIRequest,` and `EOLImageAPIRequest,` implements the `APIRequest protocol` with the aim of constructing specific requests and decoding corresponding responses.
+
+In summary, the provided code comprises `structures` and `classes` that enable interaction with the Encyclopedia of Life API. These components are crucial for making network requests, obtaining data related to biological objects, and decoding responses for further manipulation within the application. The implementation is designed to be efficient and scalable, facilitating the incorporation of new functionalities related to obtaining biological information.
+
 #### 3 - Dynamic Data
 
 ##### iTunesSearch
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c0c8e6cc-2217-428a-9aaa-f01512f5123c
 
+
+
 ##### BasicCollectionView
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d5060751-01d6-4e4a-ab84-eb78139b11b9
+
+
 
 #### 4 - Compositional Layout
 
