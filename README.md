@@ -524,7 +524,31 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac873bab-5576-48a7-ae96-808a1099f464
 
+The provided code consists of several parts that make up an iOS application for managing a restaurant menu. The application allows users to view available categories, select a category to explore menu items, and place orders.
 
+Firstly, essential data structures to represent the menu and orders are defined. The `MenuItem` structure contains details about a menu item, such as its name, price, and image URL. The `Codable` protocol is used to facilitate the conversion between Swift objects and JSON representations. The `MenuResponse` structure is responsible for deserializing the JSON menu response, while `Order` keeps track of user-selected items in their order.
+
+The application's main controller, `MenuController`, centralizes operations related to the menu. It includes several asynchronous methods to perform various tasks:
+
+- `fetchCategories()`: Retrieves available categories from the server and returns them as an array of strings. `URLSession` is used for network requests, and `JSONDecoder` for deserialization.
+
+- `fetchMenuItems(forCategory categoryName)`: Retrieves menu items for a specific category and returns them as an array of `MenuItem` objects. Similar to the previous method, it uses `URLSession` and `JSONDecoder` for communication and deserialization.
+
+- `submitOrder(forMenuIDs menuIDs)`: Sends an order to the server with a list of selected menu item IDs and returns the estimated time needed to prepare the order. This involves constructing an HTTP POST request with `URLRequest` and using `JSONEncoder` to serialize the order data.
+
+- `fetchImage(from url)`: Fetches an image from a given URL and returns it as a `UIImage` object. `URLSession` is used to download the image, and the HTTP response status is checked.
+
+The controller also defines the `orderUpdatedNotification` to inform other parts of the application about changes in the menu order. The shared instance of `MenuController` (`shared`) is used throughout the application to access the controller's functionalities.
+
+The application consists of multiple views. The `CategoryTableViewController` class is responsible for displaying available categories in a table view. When the view loads, it performs an asynchronous operation to obtain the categories using `MenuController.shared.fetchCategories()`. The results are reflected in the user interface by calling the `updateUI(with categories)` method.
+
+When the user selects a category, a transition to the corresponding menu item table view, `MenuTableViewController`, is initiated. The `CategoryTableViewController` class also defines the standard table view methods to configure the structure and behavior of the table, including cell configuration.
+
+The `MenuItemCell` class customizes the appearance of menu item cells in table views. It uses observed properties to detect changes in data and the `updateConfiguration(using state: UICellConfigurationState)` method to visually update cells with name, price, and optionally an image.
+
+Finally, the `OrderConfirmationViewController` class displays an order confirmation with the estimated preparation time.
+
+In summary, the code presents an iOS application that uses asynchronous programming and `Codable` data structures to manage a restaurant menu. The main controller, `MenuController`, coordinates data retrieval, order placement, and image retrieval. Each view is responsible for displaying specific information, such as categories, menu items, and order confirmations, with detailed cell appearance customization via `MenuItemCell`.
 
 ### 3 - Advanced Data Display
 
