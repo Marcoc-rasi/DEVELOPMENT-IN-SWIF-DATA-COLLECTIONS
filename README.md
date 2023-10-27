@@ -141,7 +141,7 @@ In summary, this code is essential for ensuring a seamless user experience in an
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
 
-#################################Pendiente###########################################
+An application has been developed to fulfill the challenge of creating a horizontal scroll view that showcases three favorite images. This app features a visually pleasing horizontal scroll view with the user's top three favorite images. Users can easily swipe through these images to enjoy and appreciate the chosen favorites. 
 
 #### 5 - Table Views
 
