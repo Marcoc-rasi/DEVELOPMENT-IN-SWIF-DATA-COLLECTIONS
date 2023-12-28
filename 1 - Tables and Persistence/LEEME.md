@@ -1,27 +1,28 @@
-# Tables and Persistence
+# Tablas y Persistencia
 
-With my current knowledge of Xcode, Swift, and UIKit, I begin to visualize the creation of various types of applications. In this unit, I explored three important sets of techniques in application development that, when combined, allowed me to build much more complex applications.
+Con mis conocimientos actuales de Xcode, Swift y UIKit, comienzo a visualizar la creación de diversos tipos de aplicaciones. En esta unidad, exploré tres conjuntos importantes de técnicas en el desarrollo de aplicaciones que, al combinarse, me permitieron construir aplicaciones mucho más complejas.
 
-Firstly, I understood how to use tables to display lists of information and applied the master-detail design pattern to facilitate my interaction with the information.
+En primer lugar, entendí cómo utilizar tablas para mostrar listas de información y apliqué el patrón de diseño maestro-detalle para facilitar mi interacción con la información.
 
-Secondly, I organized files, structures, and classes in my applications to optimize my work and that of other developers in the future.
+En segundo lugar, organicé los archivos, estructuras y clases en mis aplicaciones para optimizar mi trabajo y el de otros desarrolladores en el futuro.
 
-Thirdly, I discovered an approach to save data on the device, ensuring that any information I entered or modified in my application would be available the next time I opened the application.
+En tercer lugar, descubrí un enfoque para guardar datos en el dispositivo, asegurando que cualquier información que ingresara o modificara en mi aplicación estuviera disponible la próxima vez que abriera la aplicación.
 
-By the end of this unit, I felt comfortable building many useful applications that displayed diverse information and allowed users to input, edit, and save data in the application.
+Al finalizar esta unidad, me sentí cómodo construyendo muchas aplicaciones útiles que mostraban información diversa y permitían a los usuarios ingresar, editar y guardar datos en la aplicación.
 
-## Swift Lessons
-- `Protocols`: A set of rules that defined how a class or structure should implement certain methods and properties.
+## Lecciones de Swift
+- `Protocolos`: Conjunto de reglas que definía cómo una clase o estructura debía implementar ciertos métodos y propiedades.
 
-## SDK Lessons
-- `Application Lifecycle`: I understood how an application started, ran, and terminated.
-- `Model-View-Controller`: I organized my code following this fundamental design pattern.
-- `Scroll Views`: I implemented views that allowed content scrolling.
-- `Table Views`: I used tables to display structured information.
-- `Intermediate Table Views`: I delved into advanced table handling.
-- `System View Controllers`: I understood the role of system-provided view controllers.
-- `Data Persistence`: I explored methods for storing information persistently.
-- `Complex Input Screens`: I applied techniques to create complex user interfaces.
+## Lecciones de SDK
+- `Ciclo de Vida de la Aplicación`: Comprendí cómo se iniciaba, ejecutaba y finalizaba una aplicación.
+- `Modelo-Vista-Controlador`: Organicé mi código siguiendo este patrón de diseño fundamental.
+- `Vistas de Desplazamiento`: Implementé vistas que permitían desplazamiento de contenido.
+- `Vistas de Tabla`: Utilicé tablas para mostrar información estructurada.
+- `Vistas de Tabla Intermedias`: Profundicé en el manejo avanzado de tablas.
+- `Controladores de Vista del Sistema`: Entendí el papel de los controladores de vista proporcionados por el sistema.
+- `Guardado de Datos`: Exploré métodos para almacenar información de manera persistente.
+- `Pantallas de Entrada Complejas`: Apliqué técnicas para crear interfaces de usuario complejas.
 
-## What I Built
-List was a task-tracking application that allowed me to add, edit, and delete tasks in a familiar master-detail interface. I customized the application to track any type of information, such as a collection of cards or my favorite movies.
+## Lo que Construí
+List fue una aplicación de seguimiento de tareas que me permitió agregar, editar y eliminar tareas en una interfaz maestro-detalle familiar. Personalicé la aplicación para realizar un seguimiento de cualquier tipo de información, como una colección de tarjetas o mis películas favoritas.
+
