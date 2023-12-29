@@ -38,3 +38,20 @@ The API in this project has several URLs to implement the application's function
 
 - `/order`: A POST to this endpoint with a collection of menu item ID values will send the order and return a response with the estimated time before the order is ready. The IDs you send must be contained in JSON data under the key `menuIds`. When parsing the JSON, the estimated preparation time before the order is ready will be under the key `preparation_time`.
 
+## Project Extension
+
+### State Restoration
+Consider the following scenario: A user starts an order by adding one or two items to the menu. Then, they get interrupted by an iMessage notification, resulting in 15 minutes of text messages, emails, and web browsing. When the user returns to your application, it has closed. Instead of picking up where they left off, they have to create the order from scratch, which is not a good experience. Furthermore, their menu exploration state has reset to the list of categories, another inconvenience if the menu hierarchy is deep and there are many items. (You probably noticed these shortcomings while developing the application.)
+
+By implementing state restoration, you can ensure that the user perceives no interruption in their activity. This is also crucial for iPad applications that support multiple windows to provide a good user experience.
+
+Starting from iOS 13, state restoration is handled by your UIWindowSceneDelegate and is achieved through the NSUserActivity class. NSUserActivity is a lightweight object that enables various functions on Apple platforms, including state restoration, Handoff, Spotlight search indexing, and SiriKit. You can instantiate NSUserActivity at key moments and provide the necessary contextual information to perform these tasks.
+
+In this extension of the guided project, you will add state restoration to OrderApp. For this application, you will maintain an instance of NSUserActivity in MenuController containing the current order, as well as the necessary elements to recreate the view controllers in your application where the user might have stopped working.
+
+Here's how it works: While the user is using your application, you will track key information in the userInfo dictionary of an instance of NSUserActivity. When your scene goes into the background, iOS will request an instance of NSUserActivity that will be used the next time the scene connects. When the scene reconnects, you will be provided with the same instance of NSUserActivity, which you can use to reconstruct the application state so that the user can continue with what they were doing.
+
+## summary
+I acquired fundamental knowledge about key concepts in modern applications. I explored complex topics in this unit. Firstly, I understood closures and their function in passing code between objects, creating executable blocks later on. Subsequently, I applied closures to develop animations. Lastly, I learned how to make network requests to fetch information from the web and send data back.
+
+With the ability to work with public APIs, my applications are no longer limited to the information users input. I now have access to the entire worldwide web. In the next unit, I delved into collection views, essential tools in iOS that allow displaying extensive collections of information with an almost infinite variety. I reinforced my existing skills and discovered common patterns that will make future exploration in UIKit more familiar.
