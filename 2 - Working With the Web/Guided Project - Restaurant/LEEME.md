@@ -9,12 +9,18 @@ Tomé un tiempo para configurar el servidor y entender los detalles.
 ### Ejecutar el Servidor
 La carpeta del proyecto incluye el archivo binario del servidor, OpenRestaurant.app. Hice clic derecho en OpenRestaurant y seleccioné "Abrir" en el menú desplegable. Dependiendo de la configuración de seguridad de mi Mac, podría aparecer un cuadro de diálogo de advertencia. Hice clic en "Abrir" para indicar que confío en la aplicación.
 
+![SERVER_1](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5c1f546d-c115-4c95-9c20-384e8f463c03)
+
 Para iniciar y detener el servidor, hice clic en el botón en la esquina inferior derecha de la ventana de OpenRestaurant. Si realizaba cambios en los archivos de recursos del servidor, necesitaba detener y reiniciar el servidor.
+
+![SERVER_2](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8b38f700-1f62-471e-9b16-dbf57790d68a)
 
 El servidor me permitió ver categorías y elementos del menú, editar categorías y elementos, y abrir la carpeta de imágenes. Al hacer clic en "Editar Categorías" o "Editar Elementos del Menú", se abría categories.json o menu.json, respectivamente. Estos archivos contienen los datos que devuelve el servidor. Si quería cambiar el menú, necesitaba editar uno o ambos archivos.
 Al hacer clic en "Abrir Carpeta de Imágenes", accedía a un directorio que contenía imágenes ficticias para los elementos del menú. Si quería poner mis propias imágenes de alimentos en este directorio, aseguraba usar imágenes PNG. La imagen de un elemento del menú siempre lleva el nombre de su ID.
 Inicié el servidor con el botón en la esquina inferior derecha. Para verificar que el servidor funcionara correctamente, abrí mi navegador y cargué la URL http://localhost:8080. El navegador debería mostrar texto en pantalla que indique el estado del servidor. Si recibía un error, la causa más común era una edición incorrecta de menu.json, lo que impedía que la lista del menú se creara correctamente. Necesitaba verificar que los datos JSON fueran válidos, cerrar la ventana de la aplicación y reiniciar el servidor. Podía usar el botón "Restablecer Datos" para descartar mis datos personalizados y restaurar los archivos originales.
 Dependiendo de la configuración de mi Mac, podía ver una solicitud para permitir conexiones entrantes al servidor. Hacía clic en "Permitir".
+
+![SERVER_3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/6783db5b-4e9e-4e97-989c-458625c8a58d)
 
 ### Estructura JSON
 Abrí menu.json desde la ventana de OpenRestaurant, luego abrí http://localhost:8080/menu en mi navegador para ver los datos del menú que devolverá la API. En el nivel raíz del JSON hay una matriz de diccionarios, donde cada diccionario representa un elemento del menú. Si observaba detenidamente los datos del servidor en comparación con menu.json, notaba que el JSON no coincidía exactamente. No me preocupaba la discrepancia; el servidor realiza algunos ajustes en la estructura de los datos cuando recibe una solicitud.
