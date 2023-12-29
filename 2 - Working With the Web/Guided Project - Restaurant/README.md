@@ -8,11 +8,13 @@ Before delving into the workflow of the menu application, it's crucial to unders
 ### Running the Server
 The project folder includes the server's binary file, OpenRestaurant.app. I right-clicked on OpenRestaurant and selected "Open" from the dropdown menu. Depending on my Mac's security settings, a warning dialog might appear. I clicked "Open" to indicate my trust in the application.
 
-![SERVER_1](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/db7f7c77-465e-4a67-a44d-7ac9a4230864)
+![SERVER_1](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5c1f546d-c115-4c95-9c20-384e8f463c03)
+
 
 To start and stop the server, I clicked the button in the bottom-right corner of the OpenRestaurant window. If I made changes to the server's resource files, I needed to stop and restart the server.
 
-![SERVER_2](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/93dcfbae-64fd-48e8-98bc-67af2f711b76)
+![SERVER_2](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8b38f700-1f62-471e-9b16-dbf57790d68a)
+
 
 The server allowed me to view menu categories and items, edit categories and items, and open the image folder. Clicking "Edit Categories" or "Edit Menu Items" opened categories.json or menu.json, respectively. These files contained the data returned by the server. If I wanted to change the menu, I needed to edit one or both files.
 Clicking "Open Image Folder" provided access to a directory containing fictional images for menu items. If I wanted to add my own food images to this directory, I made sure to use PNG images. Each menu item's image was named after its ID.
@@ -21,7 +23,8 @@ I started the server with the button in the bottom-right corner. To verify the s
 
 Depending on my Mac's settings, I might see a request to allow incoming connections to the server. I clicked "Allow."
 
-![SERVER_3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/01436e2c-fd56-4579-85ac-468509e72f58)
+![SERVER_3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/6783db5b-4e9e-4e97-989c-458625c8a58d)
+
 
 ### JSON Structure
 I opened menu.json from the OpenRestaurant window, then opened http://localhost:8080/menu in my browser to view the menu data the API would return. At the root level of the JSON, there is an array of dictionaries, where each dictionary represents a menu item. If I closely examined the server data compared to menu.json, I noticed that the JSON didn't exactly match. I wasn't concerned about the discrepancy; the server makes some adjustments to the data structure when it receives a request.
