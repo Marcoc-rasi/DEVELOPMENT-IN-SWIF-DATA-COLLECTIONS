@@ -12,7 +12,7 @@ The `Habits` folder included in this project contains a macOS application for th
 
 To start and stop the `server`, click the button in the `Server` section on the left. If you make changes to the `server` resource files, you'll need to stop and restart the `server`.
 
-(image)
+![IMG_DDF6A3632556-1-3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/69ef7dca-be92-4592-8fa9-83090e47e40e)
 
 The `server` app allows you to edit users, `habits`, `categories`, and the active user, all of which are defined in JSON files. You can also open the images folder that contains user profile images. If you want to add your own images to this directory, make sure they are in PNG format. Note that the profile image for a user is always named after the user's ID.
 
