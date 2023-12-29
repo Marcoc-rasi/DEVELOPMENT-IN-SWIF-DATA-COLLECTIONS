@@ -12,8 +12,7 @@ La carpeta `Habits` incluida en este proyecto contiene una aplicación macOS par
 
 Para iniciar y detener el `servidor`, haz clic en el botón en la sección del `Servidor` a la izquierda. Si realizas cambios en los archivos de recursos del `servidor`, deberás detener y reiniciar el `servidor`.
 
-(imagen)
-
+![IMG_DDF6A3632556-1-3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b8a6a9c9-fffd-49a6-a388-548946c80825)
 
 La aplicación del `servidor` te permite editar usuarios, `hábitos`, `categorías` y el usuario activo, todos los cuales están definidos en archivos JSON. También puedes abrir la carpeta de imágenes que contiene las imágenes de perfil de usuario. Si deseas agregar tus propias imágenes en este directorio, asegúrate de que estén en formato PNG. Ten en cuenta que la imagen de perfil de un usuario siempre lleva el nombre del ID del usuario.
 
