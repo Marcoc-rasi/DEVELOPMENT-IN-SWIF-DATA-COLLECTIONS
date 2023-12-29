@@ -10,7 +10,7 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 ### 1 - Tables and Persistance
 
-#### 2 - App Anatomy and Life Cycle
+#### App Anatomy and Life Cycle
 
 ##### AppEventCount-Marcocrasi
 
