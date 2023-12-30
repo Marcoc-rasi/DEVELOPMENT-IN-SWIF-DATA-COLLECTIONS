@@ -116,6 +116,58 @@ El objeto devuelto tendrá una estructura idéntica a los objetos en el array de
 ## Envío de Datos
 Hay un punto de acceso adicional, loggedHabit, que requiere un POST de datos JSON. Lo utilizarás para permitir al usuario registrar sus propios hábitos. La aplicación HabitServer no maneja cuentas de usuario ni inicio de sesión, por lo que utiliza el contenido del archivo activeUser.json para identificar al usuario que actualmente utiliza la aplicación, en lugar de aquellos simulados por el servidor. No aprenderás a usar curl para probar este punto de acceso.
 
+##### Hábitos
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/aef78543-2d64-4ab8-949c-f17b1185007f
+
+**Aplicación de seguimiento de hábitos de iOS: explicación técnica**
+
+Los fragmentos de código proporcionados son parte de una aplicación iOS para el seguimiento de hábitos, que funciona como una red social para compartir hábitos. Esta explicación detallada proporciona una descripción detallada de los diversos componentes, modelos de datos y solicitudes de red utilizados dentro de la aplicación.
+
+**Capa de modelo:**
+
+1. **Modelo de hábitos:**
+- La estructura "Habit" representa un hábito e incluye atributos como su "nombre", "categoría" e "información". La "categoría" se clasifica además en una estructura de "Categoría" anidada.
+- El modelo "Habit" se ajusta a los protocolos "Codable", "Hashable" y "Comparable", lo que lo hace serializable, hash y comparable según el "nombre" del hábito.
+
+2. **Modelo de categoría:**
+- La estructura `Categoría` define una categoría para hábitos, que contiene el `nombre` y el `color`. El "color" se define como una estructura "Color" separada.
+- Al igual que el modelo `Habit`, `Category` también se ajusta a los protocolos `Codable` y `Hashable`, lo que permite la serialización y la hace hashable.
+
+3. **Modelo de color:**
+- La estructura "Color" representa un color utilizando los valores "tono", "saturación" y "brillo". También cumple con el protocolo "Codable" y tiene una propiedad calculada para convertir el color en "UIColor".
+
+**Capa de red:**
+
+4. **Solicitudes de API:**
+- Se definen varias estructuras de solicitud API, como `HabitRequest`, `UserRequest`, `HabitStatisticsRequest`, `UserStatisticsRequest`, `HabitLeadStatisticsRequest`, `ImageRequest`, `LogHabitRequest` y `CombinedStatisticsRequest`. Cada uno corresponde a un tipo específico de solicitud de API.
+- Estas estructuras de solicitud se ajustan al protocolo "APIRequest". Especifican la ruta de la solicitud, los parámetros de consulta y los datos (si corresponde). Además, manejan la deserialización de las respuestas API.
+- Se implementa el manejo de errores para capturar problemas como elementos faltantes o solicitudes fallidas.
+
+**Capa de interfaz de usuario:**
+
+5. **Controlador HabitCollectionView:**
+- Este controlador de vista administra una vista de colección que muestra una lista de hábitos. Los hábitos están organizados en secciones, incluidos "Favoritos" y categorías basadas en el modelo "Categoría".
+- Se utiliza una fuente de datos diferenciable, `UICollectionViewDiffableDataSource`, para una gestión eficiente de los datos de la vista de colección. Maneja actualizaciones fluidas cuando se producen cambios en la fuente de datos.
+- Cada hábito se presenta en una celda dentro de la vista de colección y los usuarios pueden interactuar con los hábitos a través de menús contextuales.
+
+6. **Controlador HabitDetailView:**
+- Este controlador de vista muestra información detallada sobre un hábito seleccionado. Proporciona una vista del nombre, la categoría y las estadísticas relacionadas del hábito.
+- Similar a `HabitCollectionViewController`, se utiliza una fuente de datos diferenciable para administrar y actualizar la vista de colección dentro de este controlador de vista.
+
+**Fuentes de datos diferenciables:**
+- La aplicación emplea fuentes de datos diferenciables para administrar y mostrar datos en vistas de colección de manera eficiente. Estas fuentes de datos son parte del marco Combine introducido en iOS 13, lo que permite actualizaciones fluidas y eficientes de las vistas de colección.
+- Las fuentes de datos diferenciables funcionan con instantáneas, que representan el estado actual de los datos de la vista de colección. Se actualizan automáticamente cuando se producen cambios.
+- Cuando se agregan nuevos hábitos, categorías o secciones, o cuando se actualizan hábitos, se crea una nueva instantánea y se aplica a la fuente de datos. Este enfoque es muy eficiente y conduce a una interfaz de usuario receptiva.
+
+**Ventajas de las fuentes de datos diferenciables:**
+- Proporcionan una manera conveniente de administrar y mostrar datos dentro de una vista de colección, asegurando que la interfaz de usuario permanezca sincronizada con la fuente de datos.
+- Las fuentes de datos diferenciables simplifican el proceso de insertar, eliminar o mover elementos dentro de una vista de colección, lo que evita que los desarrolladores administren estas operaciones manualmente.
+- Las interacciones del usuario con la aplicación dan como resultado cambios en el modelo de datos que se reflejan perfectamente en la interfaz de usuario con animaciones fluidas, lo que mejora la experiencia general del usuario.
+
+En resumen, la aplicación aprovecha fuentes de datos diferenciables para optimizar el rendimiento y la experiencia del usuario de las vistas de colección. Estas fuentes de datos manejan automáticamente actualizaciones y animaciones en respuesta a cambios en la fuente de datos, lo que las convierte en un componente crucial del desarrollo de aplicaciones iOS modernas para la gestión eficiente de los componentes de la interfaz de usuario.
+
+
 # Resumen
 
 He recorrido un largo camino desde que comencé con Desarrollo en Swift de Colecciones de Datos. En esta unidad, dediqué la mayor parte del tiempo a mostrar conjuntos extensos de datos en diversas formas. En primer lugar, adquirí los conceptos básicos de las vistas de colección, aprovechando mis conocimientos existentes sobre las vistas de tabla. Luego, comprendí cómo los genéricos en Swift me permiten escribir código generalizado. Después, construí interfaces de usuario cada vez más complejas al aprovechar las amplias capacidades de los diseños composicionales y las fuentes de datos difusas.
