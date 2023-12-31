@@ -12,9 +12,9 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 #### App Anatomy and Life Cycle
 
-##### AppEventCount-Marcocrasi
+##### AppEventCount-Marcocrasi-- NO
 
-##### AppLifeCycle-Marcocrasi
+##### AppLifeCycle-Marcocrasi-- NO
 
 
 
@@ -24,63 +24,63 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 #### 4 - Scroll Views
 
-##### ISpy-Marcocrasi
+##### ISpy-Marcocrasi-- NO
 
-##### ScrollingForm-Marcocrasi
+##### ScrollingForm-Marcocrasi -- NO
 
-##### ScrollingChallengeHorizontal
+##### ScrollingChallengeHorizontal -- NO POCHA
 
 #### 5 - Table Views
 
-##### Meal Tracker - Marcocrasi
+##### Meal Tracker - Marcocrasi -- NO
 
-##### EmojiDictionary
+##### EmojiDictionary -- NO POCHA
 
 #### 6 - Intermediate Table Views
 
-#### Favorite books
+#### Favorite books -- NO HAY VIDEO 
 
-#### EmojiDictionary
+#### EmojiDictionary -- NO HAY VIDEO
 
 #### 7 - Saving Data
 
-##### EmojiDictionary savin data
+##### EmojiDictionary savin data -- SI POCHA
 
 #### 8 - System View Controllers
 
-##### HomeFurniture
+##### HomeFurniture -- SI POCHA 
 
-##### SystemViewControllers-Marcocrasi
+##### SystemViewControllers-Marcocrasi -- SI POCHA
 
-##### Challenge SystemViewControllers-Marcocrasi
+##### Challenge SystemViewControllers-Marcocrasi - SI POCHA
 
 #### 9 - Complex Input Screens
 
-##### EmployeeRoster
+##### EmployeeRoster -- NO POCHA
 
-##### Hotel Manzana
+##### Hotel Manzana -- SI POCHA
 
 
 
-#### Guided Project - List
+#### Guided Project - List 
 
-##### ToDoList-Marcocrasi
+##### ToDoList-Marcocrasi -- SI POCHA
 
 ### 2 - Working With The Web
 
 #### 3 - Animations
 
-##### Contest
+##### Contest -- NO POCHA
 
-##### MusicWireframe
+##### MusicWireframe -- SI POCHA 
 
 #### 6 - WWW Concurrency
 
-##### iTunesSearch
+##### iTunesSearch -- SI POCHA
 
-##### SpacePhoto
+##### SpacePhoto -- NO POCHA
 
-#### Guided Project - Restaurant
+#### Guided Project - Restaurant -- SI POCHA
 
 ##### OrderApp
 
@@ -90,39 +90,39 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 #### 1 - Collection Views#####
 
-##### EmojiDictionary
+##### EmojiDictionary -- SI POCHA
 
-##### BasicCollectionView
+##### BasicCollectionView -- NO POCHA 
 
 #### 2 - Swift Generics
 
-##### Life-formSearch
+##### Life-formSearch -- SI POCHA
 
 #### 3 - Dynamic Data
 
-##### iTunesSearch
+##### iTunesSearch -- SI POCHA
 
-##### BasicCollectionView
+##### BasicCollectionView -- SI POCHA
 
 #### 4 - Compositional Layout
 
-#####  Compositional Layout lab
+#####  Compositional Layout lab -- SI POCHA
 
 #### 5 - Advanced Layout
 
-##### iTunesSearch
+##### iTunesSearch -- SI POCHA
 
-##### AppStoreLayout
+##### AppStoreLayout -- SI POCHA 
 
 #### 6 - Local Notifications
 
-##### BillManager
+##### BillManager -- SI POCHA
 
-##### Alarm
+##### Alarm -- SI POCHA
 
 #### Guided Project - Habits
 
-##### Habits
+##### Habits SI POCHA
 
 
 
