@@ -62,6 +62,11 @@ En resumen, este código se utiliza para rastrear y mostrar información sobre e
 
 ##### AppLifeCycle-Marcocrasi
 
+Resumen
+
+Esta aplicación se centra en la exploración de los archivos AppDelegate.swift y SceneDelegate.swift generados automáticamente por Xcode en cada nuevo proyecto. Su propósito es facilitar la comprensión de los métodos de delegado más comunes utilizados durante el ciclo de vida de la aplicación, especialmente durante transiciones como el cambio de primer plano a segundo plano.
+
+Además, al ejecutar la aplicación en el simulador, se observan mensajes en la consola que indican eventos clave, como la finalización del lanzamiento de la aplicación, la conexión de la escena a la sesión, la entrada de la escena en primer plano y la activación de la escena.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/dcd32168-9723-493a-a08e-15b6b7fc0edc
 
