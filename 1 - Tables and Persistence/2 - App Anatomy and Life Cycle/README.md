@@ -20,6 +20,10 @@ In a previous unit, you learned about the different stages of the view controlle
 
 ##### AppEventCount-Marcocrasi
 
+Summary
+
+The purpose of this lab is to create an application that provides a visual representation of the application lifecycle. The application will dynamically update the labels in the UI when different delegate methods are called.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/92fb72f0-f97e-4810-a2ff-e6cea83d9921
 
 The code is divided into three key parts: the view controller `ViewController`, the `SceneDelegate` class, and the `AppDelegate` class. These parts work together to track and manage events related to the lifecycle of an iOS application. They are used to keep track of events and event counters, enabling the display of relevant information in the user interface.
