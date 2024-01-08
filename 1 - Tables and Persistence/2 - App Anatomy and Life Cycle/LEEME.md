@@ -19,7 +19,11 @@ En esta lección, aprenderás más sobre los diferentes estados del ciclo de vid
 ### 1 - Tablas y Persistencia
 
 #### Anatomía y ciclo de vida de la aplicación
-##### AppEventCount-Marcocrasi
+##### AppEventCount-Marcocrasi - Lab
+
+Resumen
+
+El propósito de este laboratorio es crear una aplicación que ofrezca una representación visual del ciclo de vida de la aplicación. La aplicación actualizará dinámicamente las etiquetas en la interfaz de usuario cuando se llamen diferentes métodos de delegado.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ca4ecbcd-6bba-4f51-b6e8-fc0e644d4ec9
 
