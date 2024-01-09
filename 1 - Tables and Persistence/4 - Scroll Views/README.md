@@ -20,9 +20,11 @@ In this lesson, I learned how to use a `UIScrollView` to display content that is
 
 ##### ISpy-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
+Summary
 
-This code snippet is part of an application that displays an image of a cat and allows zoom and pan operations within the zoomed area.
+This is an application that displays an image of a cat and allows zooming and panning operations within the enlarged area.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
 
 First, we import the UIKit module, which is crucial for iOS app development. Then, we define a class called `ViewController`, acting as the primary controller for the app's view. The class inherits from `UIViewController` and conforms to the `UIScrollViewDelegate` protocol, indicating that we're enabling manipulation of scroll views.
 
@@ -42,9 +44,11 @@ In summary, this code configures a scroll view that displays an image of a cat, 
 
 ##### ScrollingForm-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
+Summary
 
-This Swift code snippet is part of an iOS application and resides within a class named `ViewController`. The purpose of this code is to ensure that, when the keyboard appears or disappears within the application, the view adjusts automatically to keep text input fields visible and accessible.
+The purpose of this code is to ensure that when the keyboard appears or disappears within the application, the view automatically adjusts to keep the text entry fields visible and accessible.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
 
 Within the `ViewController` class, a property called `scrollView` is declared, representing a `UIScrollView` object. This object is used to create a scrollable view in the user interface.
 
@@ -60,6 +64,8 @@ In summary, this code is essential for ensuring a seamless user experience in an
 
 ##### ScrollingChallengeHorizontal
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
+Summary
 
 An application has been developed to fulfill the challenge of creating a horizontal scroll view that showcases three favorite images. This app features a visually pleasing horizontal scroll view with the user's top three favorite images. Users can easily swipe through these images to enjoy and appreciate the chosen favorites. 
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
