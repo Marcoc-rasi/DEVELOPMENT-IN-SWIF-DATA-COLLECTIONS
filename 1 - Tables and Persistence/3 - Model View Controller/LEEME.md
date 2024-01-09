@@ -20,6 +20,10 @@ Tengo en cuenta que nunca hay una respuesta correcta única para cualquier decis
 
 #### 3 - Controlador de vista de modelo
 
+Resumen
+
+En este laboratorio, planificarás y crearás una aplicación que utiliza un diseño MVC adecuado. La aplicación constará de dos pantallas para mostrar los atletas favoritos del usuario, permitiéndole agregar nuevos atletas a la lista y editar las entradas existentes.
+
 ##### Atleta favorito
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/acb1c1c6-ccd8-4798-bff5-cb738b7cd19f
