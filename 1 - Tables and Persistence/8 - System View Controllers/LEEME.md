@@ -22,6 +22,10 @@ En esta lección, aprendí cómo incorporar estos controladores de vista del sis
 
 ##### Muebles del hogar
 
+resumen
+
+El objetivo de este laboratorio es utilizar controladores de vista del sistema en una aplicación que enumera habitaciones y muebles, permitiendo a los usuarios compartir elementos de mobiliario con otras aplicaciones en su dispositivo. Asegúrese de construir y ejecutar la aplicación en un dispositivo iOS físico, en lugar del simulador, para disponer de más aplicaciones que permitan compartir imágenes y texto.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33b90da3-60cf-44e3-a59b-4701ee8e28d7
 
 El código consta de tres clases dentro del contexto de una aplicación de iOS escrita en Swift utilizando el marco UIKit: `Room`, `Furniture` y `FurnitureDetailViewController`. Estas clases están diseñadas para modelar y gestionar información sobre habitaciones, muebles y detalles de muebles, lo que permite a los usuarios seleccionar imágenes de muebles y compartir información relevante. A continuación se detallan las funcionalidades y características clave de cada clase.
@@ -57,9 +61,11 @@ En resumen, estas clases trabajan juntas para crear una aplicación que permite 
 
 ##### SystemViewControllers-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/41e84555-bce7-4d11-90f2-236d68524576
+resumen
 
-El código presentado es un controlador de vista ("ViewController") en una aplicación iOS escrita en Swift que integra varias funcionalidades clave para interactuar con el dispositivo y realizar acciones como compartir imágenes, ver sitios web, tomar fotografías y enviar correos electrónicos.
+La aplicación integra varias funcionalidades clave para interactuar con el dispositivo y realizar acciones como compartir imágenes, ver sitios web, tomar fotografías y enviar correos electrónicos.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/41e84555-bce7-4d11-90f2-236d68524576
 
 La clase `ViewController` implementa tres protocolos: `UIImagePickerControllerDelegate`, `UINavigationControllerDelegate` y `MFMailComposeViewControllerDelegate`. Estos protocolos son esenciales para interactuar eficazmente con la cámara, el álbum de fotos y el servicio de correo electrónico.
 
@@ -79,9 +85,11 @@ En resumen, este código demuestra una implementación de una interfaz de usuari
 
 ##### Desafío SystemViewControllers-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f60566fe-3dd3-4385-9ed7-ce064221724d
+resumen
 
-El código es parte de un proyecto de iOS y utiliza el marco UIKit para crear una interfaz de usuario con varios botones, cada uno de los cuales realiza diferentes acciones. Estas acciones incluyen compartir una imagen, abrir un sitio web en Safari, tomar una foto con la cámara del dispositivo, enviar un correo electrónico y enviar un mensaje de texto.
+La aplicación  utiliza el marco UIKit para crear una interfaz de usuario con varios botones, cada uno de los cuales realiza diferentes acciones. Estas acciones incluyen compartir una imagen, abrir un sitio web en Safari, tomar una foto con la cámara del dispositivo, enviar un correo electrónico y enviar un mensaje de texto.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f60566fe-3dd3-4385-9ed7-ce064221724d
 
 El código comienza importando dos módulos esenciales: `SafariServices` para abrir Safari dentro de la aplicación y `MessageUI` para enviar correos electrónicos y mensajes de texto.
 
