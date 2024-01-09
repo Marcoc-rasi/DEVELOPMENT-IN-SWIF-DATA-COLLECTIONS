@@ -18,6 +18,10 @@ In this lesson, I learned how to further customize my table views with custom ce
 
 #### Favorite books
 
+Summary
+
+The goal of this lab is to implement intermediate features of the table view in an application that keeps track of your favorite books.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b267f9aa-94b6-4e28-89d8-dca0aa3f1abd
 
 The code provided is a Swift implementation for an iOS application focused on managing books. The `BookTableViewController` class is a subclass of `UITableViewController` and is used to control a table view in the application's user interface. The table view is used to display a list of books, and I am responsible for managing its content and behavior.
@@ -36,9 +40,11 @@ In summary, the provided code is a Swift implementation for an iOS book manageme
 
 #### EmojiDictionary
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
+Summary
 
-In the provided code, an iOS application is created using the UIKit framework to manage a list of emojis with their corresponding properties. The application consists of several interconnected parts to achieve this functionality. Emoji information is stored in instances of the `Emoji` structure, which conforms to the `Codable` protocol.
+In the app you create a list of emojis with a custom table cell that will add a third larger label aligned to the left edge of the cell to display the emoji.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
 
 The `EmojiTableViewController` class is responsible for displaying the list of emojis in a table view. This class inherits from `UITableViewController` and contains a property named `emojis` that stores an array of `Emoji` objects. The table view is configured with the information from these objects, including their symbol, name, description, and usage.
 
