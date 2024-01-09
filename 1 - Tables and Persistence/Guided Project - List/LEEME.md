@@ -10,6 +10,10 @@ En la siguiente unidad, exploré cómo mejorar mis aplicaciones al `obtener y en
 
 ##### ToDoList-Marcocrasi
 
+resumen
+
+En el código, se está desarrollando una aplicación de iOS para gestionar una lista de tareas pendientes.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e4f905f2-c3e1-4f0e-84f8-0d33d73b5e8b
 
 En el código, se está desarrollando una aplicación de iOS para gestionar una lista de tareas pendientes. Esta aplicación utiliza varias clases y estructuras que funcionan juntas para permitir a los usuarios crear, ver, editar y eliminar tareas.
