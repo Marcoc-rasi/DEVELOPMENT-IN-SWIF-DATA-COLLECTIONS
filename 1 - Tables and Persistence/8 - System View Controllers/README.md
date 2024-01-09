@@ -23,6 +23,10 @@ In this lesson, I learned how to incorporate these system view controllers to di
 
 ##### HomeFurniture
 
+Summary
+
+The goal of this lab is to use system view controllers in an application that lists rooms and furniture, allowing users to share furniture items with other applications on their device. Be sure to build and run the app on a physical iOS device, rather than the simulator, to have more apps that support image and text sharing.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33b90da3-60cf-44e3-a59b-4701ee8e28d7
 
 The code consists of three classes within the context of an iOS application written in Swift using the UIKit framework: `Room`, `Furniture`, and `FurnitureDetailViewController`. These classes are designed to model and manage information about rooms, furniture, and furniture details, allowing users to select furniture images and share relevant information. Below are the key functionalities and features of each class.
@@ -58,9 +62,11 @@ In summary, these classes work together to create an application that enables us
 
 ##### SystemViewControllers-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/41e84555-bce7-4d11-90f2-236d68524576
+summary
 
-The presented code is a view controller (`ViewController`) in a Swift-written iOS application that integrates various key functionalities to interact with the device and perform actions such as sharing images, viewing websites, taking photos, and sending emails.
+The application integrates several key functionalities to interact with the device and perform actions such as sharing images, viewing websites, taking photos and sending emails.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/41e84555-bce7-4d11-90f2-236d68524576
 
 The `ViewController` class implements three protocols: `UIImagePickerControllerDelegate`, `UINavigationControllerDelegate`, and `MFMailComposeViewControllerDelegate`. These protocols are essential for interacting effectively with the camera, photo album, and email service.
 
@@ -80,9 +86,11 @@ In summary, this code demonstrates an implementation of a user interface that al
 
 ##### Challenge SystemViewControllers-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f60566fe-3dd3-4385-9ed7-ce064221724d
+summary
 
-The code is part of an iOS project and utilizes the UIKit framework to create a user interface with various buttons, each performing different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
+The application uses the UIKit framework to create a user interface with several buttons, each of which performs different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f60566fe-3dd3-4385-9ed7-ce064221724d
 
 The code begins by importing two essential modules: `SafariServices` for opening Safari within the app and `MessageUI` for sending emails and text messages.
 
