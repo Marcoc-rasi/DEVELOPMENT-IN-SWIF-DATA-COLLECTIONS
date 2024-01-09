@@ -25,9 +25,13 @@ En esta lección, aprendí por qué las vistas de tabla son tan populares entre 
 
 ##### Rastreador de comidas - Marcocrasi
 
+Resumen
+
+Crearás una aplicación que mostrará una lista de alimentos agrupados en tres secciones, una para cada comida del día.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/7c0dd144-8529-4008-bd24-9f7aa9157600
 
-El código que he compartido representa una aplicación llamada "Meal Tracker" que utiliza Swift y la plataforma iOS para realizar un seguimiento de las comidas y los alimentos que contienen. La aplicación consta de tres partes esenciales: la estructura `Meal`, la estructura `Food` y la clase `FoodTableViewController`.
+La aplicación consta de tres partes esenciales: la estructura `Meal`, la estructura `Food` y la clase `FoodTableViewController`.
 
 La estructura "Comida" se utiliza para modelar información sobre las comidas. Cada instancia de "Meal" tiene dos propiedades cruciales:
 - `nombre`: esta propiedad almacena el nombre de la comida, como "Desayuno", "Almuerzo" o "Cena".
@@ -49,11 +53,11 @@ En resumen, este código representa una aplicación que permite realizar un segu
 
 ##### Diccionario Emoji
 
+Resumen
+
+La aplicacion es una implementación de una vista de tabla que se utiliza para mostrar una lista de emojis y permite operaciones como eliminar y reorganizar elementos en la lista.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/01503d52-4ad7-4598-b691-2c7f03e8dc98
-
-Por supuesto, daré la explicación en inglés, resaltando las palabras clave o términos importantes con comillas invertidas:
-
-El código es una implementación de una vista de tabla que se utiliza para mostrar una lista de emojis y permite operaciones como eliminar y reorganizar elementos en la lista.
 
 El núcleo de la implementación es una clase llamada `EmojiTableViewController` que hereda de `UITableViewController`. En términos de programación, "hereda" significa que esta clase hereda propiedades y métodos de la clase base `UITableViewController`, que es una vista de tabla predefinida en iOS. Esto facilita la creación de una vista de tabla personalizada.
 
