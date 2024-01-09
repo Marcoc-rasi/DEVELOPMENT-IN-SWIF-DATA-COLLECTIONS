@@ -19,9 +19,11 @@ En esta lección, aprendí cómo usar un `UIScrollView` para mostrar contenido q
 
 ##### ISpy-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
+Resumen
 
-Este fragmento de código es parte de una aplicación que muestra una imagen de un gato y permite operaciones de zoom y desplazamiento dentro del área ampliada.
+Esta es  una aplicación que muestra una imagen de un gato y permite operaciones de zoom y desplazamiento dentro del área ampliada.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
 
 Primero, importamos el módulo UIKit, que es crucial para el desarrollo de aplicaciones iOS. Luego, definimos una clase llamada `ViewController`, que actúa como el controlador principal de la vista de la aplicación. La clase hereda de `UIViewController` y se ajusta al protocolo `UIScrollViewDelegate`, lo que indica que estamos habilitando la manipulación de las vistas de desplazamiento.
 
@@ -41,9 +43,11 @@ En resumen, este código configura una vista de desplazamiento que muestra una i
 
 ##### Formulario de desplazamiento-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
+Resumen 
 
-Este fragmento de código Swift es parte de una aplicación de iOS y reside dentro de una clase llamada "ViewController". El propósito de este código es garantizar que, cuando el teclado aparece o desaparece dentro de la aplicación, la vista se ajusta automáticamente para mantener los campos de entrada de texto visibles y accesibles.
+El propósito de este código es garantizar que, cuando el teclado aparece o desaparece dentro de la aplicación, la vista se ajusta automáticamente para mantener los campos de entrada de texto visibles y accesibles.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
 
 Dentro de la clase `ViewController`, se declara una propiedad llamada `scrollView`, que representa un objeto `UIScrollView`. Este objeto se utiliza para crear una vista desplazable en la interfaz de usuario.
 
@@ -59,6 +63,10 @@ En resumen, este código es esencial para garantizar una experiencia de usuario 
 
 ##### DesplazamientoDesafíoHorizontal
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
+Resumen
 
 Se ha desarrollado una aplicación para cumplir el desafío de crear una vista de desplazamiento horizontal que muestre tres imágenes favoritas. Esta aplicación presenta una vista de desplazamiento horizontal visualmente agradable con las tres imágenes favoritas del usuario. Los usuarios pueden deslizar fácilmente estas imágenes para disfrutar y apreciar las favoritas elegidas.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
+
+
