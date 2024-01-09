@@ -22,11 +22,13 @@ In this lesson, I learned how to persist data using Codable, a protocol I learne
 
 #### 7 - Saving Data
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8c820d0a-85f2-4a37-9bbb-ea11a038ad3e
-
 ##### EmojiDictionary savin data
 
-In the provided code, a set of classes and structures are defined, forming an iOS application for managing and displaying emojis. A detailed explanation of the key parts of the code is as follows:
+Summary
+
+The objective of this lab is to implement the persistence of information between application launches by using the Codable protocol, the FileManager and methods in Data. Persistence will be added to Emoji objects, allowing changes made to the emoji list to persist between app restarts.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8c820d0a-85f2-4a37-9bbb-ea11a038ad3e
 
 **`Emoji` Struct:**
 A structure called `Emoji` is defined to represent an emoji. This structure contains properties for the "symbol," "name," "description," and "usage" of an emoji. Additionally, a computed property called `archiveURL` is set to determine the location where emojis will be stored in a Property List (plist) file. A static list named `sampleEmojis` is provided, containing example emojis, which is useful for initializing the application with predefined data. Static methods `saveToFile(emojis: [Emoji])` and `loadFromFile()` are also implemented to save and load emojis from a plist file. This ensures data persistence, allowing emojis to be stored locally and retrieved as needed.
