@@ -25,6 +25,10 @@ En esta lección, aprendí cómo usar la clase UIView y los cierres para agregar
 
 ##### Concurso
 
+resumen
+
+La aplicación "Contest" permite a los usuarios ingresar su dirección de correo electrónico para participar en un concurso y ganar un premio. Si intentan enviar sin proporcionar una dirección de correo electrónico, la aplicación utiliza animaciones para resaltar el campo de texto y alertar al usuario de que es necesario completarlo para participar en el concurso.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9a5645bd-ff91-4c91-bf71-bc3f6ddf7379
 
 En este código, se define una clase llamada `ViewController`, que hereda de `UIViewController`. Los controladores de vista en iOS son responsables de la gestión de la interfaz de usuario y la lógica de vista.
@@ -43,9 +47,11 @@ En resumen, este código representa un controlador de vista en una aplicación d
 
 ##### MúsicaWireframe
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
+Resumen
 
-El código proporcionado representa un controlador de vista ("ViewController") en Swift, diseñado para supervisar y controlar una interfaz de reproducción de música en una aplicación.
+La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de la pantalla "Now Playing" en la aplicación de música.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
 
 La `clase ViewController` contiene varias propiedades etiquetadas con la notación `@IBOutlet`, que están asociadas con componentes de la interfaz de usuario (GUI). Estas propiedades incluyen `albumImageView`, `reverseBackground`, `playPauseBackground`, `forwardBackground`, `reverseButton`, `playPauseButton` y `forwardButton`.
 
