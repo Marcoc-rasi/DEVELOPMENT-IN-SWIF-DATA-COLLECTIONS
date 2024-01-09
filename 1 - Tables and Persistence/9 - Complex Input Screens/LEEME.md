@@ -17,6 +17,10 @@ En esta lección, aprendí cómo combinar múltiples controles y vistas para con
 
 ##### Lista de empleados
 
+resumen
+
+El objetivo de este laboratorio es crear una pantalla que acepte una entrada de usuario compleja. Se utilizará un selector de fechas y un delegado personalizado para construir un registro de empleados que lleve un seguimiento de la información de los empleados.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5b0e0b60-78bf-404c-a4ec-ee5953774556
 
 El fragmento de código proporcionado comprende varios componentes interconectados que forman una aplicación de seguimiento de empleados de iOS. En este sistema, se emplean varios conceptos y patrones de programación esenciales, que se detallarán a continuación.
@@ -53,9 +57,11 @@ En resumen, el código presenta una implementación integral de una aplicación 
 
 ##### Hotel Manzaná
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
+Resumen
 
-El código proporcionado consiste en un controlador de vista en una aplicación de iOS que permite a los usuarios gestionar reservas de habitaciones en un hotel.
+La aplicación consiste en un controlador de vista en una aplicación de iOS que permite a los usuarios gestionar reservas de habitaciones en un hotel.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
 
 En este controlador de vista puede encontrar múltiples propiedades y conexiones de interfaz de usuario (Outlets) que representan elementos como campos de texto, etiquetas, interruptores, entre otros. Además, las propiedades se definen para rastrear el estado del selector de fechas y el tipo de habitación seleccionada.
 
