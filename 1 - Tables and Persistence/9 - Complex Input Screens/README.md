@@ -18,6 +18,10 @@ In this lesson, I learned how to combine multiple controls and views to build cu
 
 ##### EmployeeRoster
 
+summary
+
+The goal of this lab is to create a display that accepts complex user input. A date picker and custom delegate will be used to build an employee registry that keeps track of employee information.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5b0e0b60-78bf-404c-a4ec-ee5953774556
 
 The provided code snippet comprises several interconnected components forming an iOS employee tracking application. In this system, various essential programming concepts and patterns are employed, which will be detailed below.
@@ -54,9 +58,11 @@ In summary, the code presents a comprehensive implementation of an iOS employee 
 
 ##### Hotel Manzana
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
+Summary
 
-The provided code consists of a view controller in an iOS application that allows users to manage room reservations at a hotel.
+The application consists of a view controller in an iOS application that allows users to manage room reservations in a hotel.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
 
 In this view controller, you can find multiple properties and user interface connections (Outlets) representing elements such as text fields, labels, switches, among others. Additionally, properties are defined to track the state of the date picker and the selected room type.
 
