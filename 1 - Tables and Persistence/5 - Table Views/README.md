@@ -27,9 +27,13 @@ In this lesson, I learned why table views are so popular among iOS developers. T
 
 ##### Meal Tracker - Marcocrasi
 
+Summary
+
+You will create an application that will display a list of foods grouped into three sections, one for each meal of the day.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/7c0dd144-8529-4008-bd24-9f7aa9157600
 
-The code I've shared represents an application called `Meal Tracker` that uses Swift and the iOS platform to track meals and the foods within them. The application consists of three essential parts: the `Meal` structure, the `Food` structure, and the `FoodTableViewController` class.
+The application consists of three essential parts: the `Meal` structure, the `Food` structure, and the `FoodTableViewController` class.
 
 The `Meal` structure is used to model information about meals. Each instance of `Meal` has two crucial properties:
 - `name`: This property stores the name of the meal, such as "Breakfast," "Lunch," or "Dinner."
@@ -51,11 +55,11 @@ In summary, this code represents an application that allows tracking of meals an
 
 ##### EmojiDictionary
 
+Summary
+
+The application is an implementation of a table view that is used to display a list of emojis and allows operations like deleting and rearranging items in the list.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/01503d52-4ad7-4598-b691-2c7f03e8dc98
-
-Certainly, I'll provide the explanation in English, highlighting important keywords or terms with backticks:
-
-The code is an implementation of a table view is used to display a list of emojis and allows operations like deleting and rearranging items in the list.
 
 The core of the implementation is a class called `EmojiTableViewController` that inherits from `UITableViewController`. In programming terms, "inherits" means that this class inherits properties and methods from the base class `UITableViewController`, which is a pre-defined table view in iOS. This makes it easy to create a custom table view.
 
