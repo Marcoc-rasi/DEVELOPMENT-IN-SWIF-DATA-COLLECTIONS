@@ -26,6 +26,10 @@ In this lesson, I learned how to use the UIView class and closures to add animat
 
 ##### Contest
 
+summary
+
+The "Contest" app allows users to enter their email address to enter a contest and win a prize. If they attempt to submit without providing an email address, the app uses animations to highlight the text field and alert the user that it needs to be completed to enter the contest.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9a5645bd-ff91-4c91-bf71-bc3f6ddf7379
 
 In this code, a class named `ViewController` is defined, which inherits from `UIViewController.` View Controllers in iOS are responsible for the management of the user interface and view logic.
@@ -44,9 +48,11 @@ In summary, this code represents a View Controller in an iOS application that pe
 
 ##### MusicWireframe
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
+Summary
 
-The provided code represents a view controller (`ViewController`) in Swift, designed to oversee and control a music playback interface in an application.
+The app is a wireframe (a basic outline, with no real functionality) of the "Now Playing" screen in the music app.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
 
 The `ViewController class` contains several properties labeled with the `@IBOutlet` notation, which are associated with user interface (GUI) components. These properties include `albumImageView`, `reverseBackground`, `playPauseBackground`, `forwardBackground`, `reverseButton`, `playPauseButton`, and `forwardButton`.
 
