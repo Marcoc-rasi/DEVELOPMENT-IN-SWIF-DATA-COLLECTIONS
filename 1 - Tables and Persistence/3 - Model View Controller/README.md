@@ -18,6 +18,10 @@ In this lesson, I learned how to organize files, structures, and classes in a de
 
 #### 3 - Model View Controller
 
+Summary
+
+In this lab, you will plan and create an application that uses a proper MVC design. The app will consist of two screens to display the user's favorite athletes, allowing them to add new athletes to the list and edit existing entries.
+
 ##### FavoriteAthlete
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/acb1c1c6-ccd8-4798-bff5-cb738b7cd19f
