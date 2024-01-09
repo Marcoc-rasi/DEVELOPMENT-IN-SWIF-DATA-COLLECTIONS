@@ -17,6 +17,10 @@ En esta lección, aprendí cómo personalizar aún más mis vistas de tabla con 
 
 #### Libros Favoritos
 
+resumen
+
+El objetivo de este laboratorio es implementar características intermedias de la vista de tabla en una aplicación que realiza un seguimiento de tus libros favoritos.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b267f9aa-94b6-4e28-89d8-dca0aa3f1abd
 
 El código proporcionado es una implementación Swift para una aplicación iOS centrada en la gestión de libros. La clase `BookTableViewController` es una subclase de `UITableViewController` y se utiliza para controlar una vista de tabla en la interfaz de usuario de la aplicación. La vista de tabla se utiliza para mostrar una lista de libros y soy responsable de administrar su contenido y comportamiento.
@@ -35,9 +39,11 @@ En resumen, el código proporcionado es una implementación Swift para una aplic
 
 #### Diccionario Emoji
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
+Resumen 
 
-En el código proporcionado, se crea una aplicación de iOS utilizando el marco UIKit para administrar una lista de emojis con sus propiedades correspondientes. La aplicación consta de varias partes interconectadas para lograr esta funcionalidad. La información de los emoji se almacena en instancias de la estructura "Emoji", que se ajusta al protocolo "Codable".
+En la aplicación se crea una lista de emojis con una celda personalizada de tabla que agregará una tercera etiqueta más grande alineada con el borde izquierdo de la celda para mostrar el emoji.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
 
 La clase `EmojiTableViewController` es responsable de mostrar la lista de emojis en una vista de tabla. Esta clase hereda de `UITableViewController` y contiene una propiedad llamada `emojis` que almacena una matriz de objetos `Emoji`. La vista de tabla se configura con la información de estos objetos, incluido su símbolo, nombre, descripción y uso.
 
