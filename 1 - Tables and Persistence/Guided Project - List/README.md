@@ -12,9 +12,13 @@ In the next unit, I explored how to enhance my apps by `retrieving and sending i
 
 ##### ToDoList-Marcocrasi
 
+summary
+
+In the code, an iOS application is being developed to manage a list of "To-Do" tasks. 
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e4f905f2-c3e1-4f0e-84f8-0d33d73b5e8b
 
-In the code, an iOS application is being developed to manage a list of "To-Do" tasks. This application utilizes several classes and structures that work together to enable users to create, view, edit, and delete tasks.
+This application utilizes several classes and structures that work together to enable users to create, view, edit, and delete tasks.
 
 The central class of the application is `ToDoTableViewController`, which inherits from `UITableViewController`. This class serves as the main view controller and is responsible for displaying the list of "To-Do" tasks in a table view. It also implements the `ToDoCellDelegate` protocol to handle specific events from the task cells.
 
