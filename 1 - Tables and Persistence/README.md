@@ -1,14 +1,6 @@
 # Tables and Persistence
 
-With my current knowledge of Xcode, Swift, and UIKit, I begin to visualize the creation of various types of applications. In this unit, I explored three important sets of techniques in application development that, when combined, allowed me to build much more complex applications.
-
-Firstly, I understood how to use tables to display lists of information and applied the master-detail design pattern to facilitate my interaction with the information.
-
-Secondly, I organized files, structures, and classes in my applications to optimize my work and that of other developers in the future.
-
-Thirdly, I discovered an approach to save data on the device, ensuring that any information I entered or modified in my application would be available the next time I opened the application.
-
-By the end of this unit, I felt comfortable building many useful applications that displayed diverse information and allowed users to input, edit, and save data in the application.
+In this unit, I have learned about scroll views, table views, and building complex input screens. I've also learned how to save data, share information with other applications, and work with images in the user's photo library. I have applied this knowledge in the guided project, List, a task tracking application that allows the user to add, edit and delete items in a familiar table-based interface. I have customized the app to keep track of any type of information, such as collections, tasks or playlists.
 
 ## Swift Lessons
 - `Protocols`: A set of rules that defined how a class or structure should implement certain methods and properties.

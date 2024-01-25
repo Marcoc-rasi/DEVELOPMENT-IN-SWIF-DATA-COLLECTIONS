@@ -1,14 +1,6 @@
 # Tablas y Persistencia
 
-Con mis conocimientos actuales de Xcode, Swift y UIKit, comienzo a visualizar la creación de diversos tipos de aplicaciones. En esta unidad, exploré tres conjuntos importantes de técnicas en el desarrollo de aplicaciones que, al combinarse, me permitieron construir aplicaciones mucho más complejas.
-
-En primer lugar, entendí cómo utilizar tablas para mostrar listas de información y apliqué el patrón de diseño maestro-detalle para facilitar mi interacción con la información.
-
-En segundo lugar, organicé los archivos, estructuras y clases en mis aplicaciones para optimizar mi trabajo y el de otros desarrolladores en el futuro.
-
-En tercer lugar, descubrí un enfoque para guardar datos en el dispositivo, asegurando que cualquier información que ingresara o modificara en mi aplicación estuviera disponible la próxima vez que abriera la aplicación.
-
-Al finalizar esta unidad, me sentí cómodo construyendo muchas aplicaciones útiles que mostraban información diversa y permitían a los usuarios ingresar, editar y guardar datos en la aplicación.
+En esta unidad, he aprendido acerca de las vistas de desplazamiento, vistas de tabla y la construcción de pantallas de entrada complejas. También he aprendido a guardar datos, compartir información con otras aplicaciones y trabajar con imágenes en la biblioteca de fotos del usuario. He aplicado este conocimiento en el proyecto guiado, List, una aplicación de seguimiento de tareas que permite al usuario agregar, editar y eliminar elementos en una interfaz basada en tablas conocida. He personalizado la aplicación para llevar un registro de cualquier tipo de información, como colecciones, tareas o listas de reproducción.
 
 ## Lecciones de Swift
 - `Protocolos`: Conjunto de reglas que definía cómo una clase o estructura debía implementar ciertos métodos y propiedades.
