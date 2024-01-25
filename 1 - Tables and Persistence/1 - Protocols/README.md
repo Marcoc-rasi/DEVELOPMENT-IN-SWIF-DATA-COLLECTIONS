@@ -1,18 +1,16 @@
 # Protocols
 
-A protocol is a set of rules or procedures that defines how things are done. In computer science, computers communicate with each other using protocols like `HTTP` (Hypertext Transfer Protocol) and `TCP/IP` (Transmission Control Protocol/Internet Protocol). `HTTP` is a standard that defines how data from a website is communicated between two computers. `TCP/IP` is a communication standard that defines how computers find and send data to each other.
-
-In programming, a protocol defines the properties or methods that an object must have to complete a task. For example, the `Equatable` protocol states that a type must define a `==` method to check if two instances are equal to each other.
-
-In this lesson, I learned what protocols are, when to use them, and how to write my own. I also learned about delegation, a pattern that allows objects to communicate with each other.
+In this lesson, I learned how to use Swift protocols to provide common method definitions across multiple objects, as well as adopt the delegation pattern widely used in iOS. I have understood how to define, adopt, and enforce Swift protocols to provide a common set of functionality across multiple classes.
 
 ## What I Learned
-- What protocols are and why they are used.
-- How to `adopt` and `conform to` Swift protocols.
-- How to print custom information about objects to the console.
-- How to check if instances of custom types are equal, greater, or less than each other.
-- How to set up custom types so their instances can be saved and loaded from a file.
-- How to make one type do work for another using `delegation`.
+
+- Describe the purpose of `protocols`
+- Describe three included Swift protocols (`CustomStringConvertible`, `Equatable`, `Comparable`)
+- Demonstrate how to adopt a protocol
+- Demonstrate how to define a protocol
+- Describe and implement the delegate pattern using `protocols`
+- Demonstrate how to conform to a protocol with an extension
+- Demonstrate how to add a default implementation to a protocol function
 
 ## Vocabulary
 - `adopt`: Accept and apply a protocol.

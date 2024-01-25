@@ -1,18 +1,17 @@
 # Protocolos
 
-Un protocolo es un conjunto de reglas o procedimientos que define cómo se realizan las cosas. En informática, los ordenadores se comunican entre sí utilizando protocolos como `HTTP` (Protocolo de Transferencia de Hipertexto) y `TCP/IP` (Protocolo de Control de Transmisión/Protocolo de Internet). `HTTP` es un estándar que define cómo se comunica los datos del sitio web entre dos ordenadores. `TCP/IP` es un estándar de comunicación que define cómo los ordenadores encuentran y envían datos entre sí.
-
-En programación, un protocolo define las propiedades o métodos que un objeto debe tener para completar una tarea. Por ejemplo, el protocolo `Equatable` dice que un tipo debe definir un método `==` para verificar si dos instancias son iguales entre sí.
-
-En esta lección, aprendí qué son los protocolos, cuándo usarlos y cómo escribir los propios. También aprendí sobre la `delegación`, un patrón que permite que los objetos se comuniquen entre sí.
+En esta lección, he aprendido a utilizar los protocolos de Swift para ofrecer definiciones de métodos comunes en varios objetos, así como para adoptar el patrón de delegación ampliamente utilizado en iOS. He comprendido cómo definir, adoptar y cumplir con los protocolos de Swift para proporcionar un conjunto común de funcionalidades en varias clases.
 
 ## Lo que Aprendí
-- Qué son los protocolos y por qué se utilizan.
-- Cómo `adoptar` y `cumplir con` los protocolos de Swift.
-- Cómo imprimir información personalizada sobre los objetos a la consola.
-- Cómo verificar si las instancias de los tipos personalizados son iguales, mayores o menores entre sí.
-- Cómo configurar los tipos personalizados para que sus instancias puedan guardarse y cargarse desde un archivo.
-- Cómo hacer que un tipo realice trabajo para otro utilizando la `delegación`.
+
+- Describir el propósito de los "protocolos"
+- Describir tres protocolos Swift incluidos (`CustomStringConvertible`, `Equatable`, `Comparable`)
+- Demostrar cómo adoptar un protocolo.
+- Demostrar cómo definir un protocolo.
+- Describir e implementar el patrón de delegado usando `protocolos`
+- Demostrar cómo ajustarse a un protocolo con una extensión.
+- Demostrar cómo agregar una implementación predeterminada a una función de protocolo.
+
 
 ## Vocabulario
 - `adoptar`: Aceptar y aplicar un protocolo.
