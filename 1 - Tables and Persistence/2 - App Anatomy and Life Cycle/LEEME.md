@@ -1,10 +1,12 @@
 # Anatomía de la Aplicación y Ciclo de Vida
 
-En una unidad anterior, aprendiste sobre las diferentes etapas del ciclo de vida del controlador de vista. El ciclo de vida de una aplicación funciona de manera muy similar: la aplicación se abre, se ejecuta, entra en segundo plano y luego se cierra.
-En esta lección, aprenderás más sobre los diferentes estados del ciclo de vida y los ganchos del delegado para ejecutar lógica a medida que la aplicación avanza a través de cada estado.
+En esta lección, he explorado cómo responder al lanzamiento de una aplicación, al entrar en un estado en segundo plano, al regresar a un estado en primer plano o al salir. He adquirido conocimientos sobre cómo se carga una aplicación en la memoria y sobre los "hooks" del delegado que permiten ejecutar lógica en diferentes etapas del ciclo de vida de la aplicación.
 
 ## Lo que Aprenderás
-- Cómo ejecutar código en diferentes etapas del ciclo de vida de la aplicación.
+
+- Identificar y describir cada evento del ciclo de vida en la aplicación y los delegados de escena.
+- Identificar los eventos del ciclo de vida correctos para ejecutar la lógica para iniciar la aplicación.
+- Identificar los eventos correctos del ciclo de vida para ejecutar la lógica para entrar o salir del fondo
 
 ## Vocabulario
 - `activo`: Estado en el que la aplicación está actualmente en primer plano y ejecutándose.
@@ -23,11 +25,11 @@ En esta lección, aprenderás más sobre los diferentes estados del ciclo de vid
 
 Resumen
 
-El propósito de este laboratorio es crear una aplicación que ofrezca una representación visual del ciclo de vida de la aplicación. La aplicación actualizará dinámicamente las etiquetas en la interfaz de usuario cuando se llamen diferentes métodos de delegado.
+Las siete etiquetas se actualizan con los eventos del ciclo de vida de la aplicación. Las etiquetas se refrescan correctamente cuando el usuario desencadena diferentes eventos, como navegar a la pantalla de inicio y regresar, o activar la interfaz de cambio de aplicaciones.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ca4ecbcd-6bba-4f51-b6e8-fc0e644d4ec9
 
-El código que proporcionó se divide en tres partes clave: el controlador de vista `ViewController`, la clase `SceneDelegate` y la clase `AppDelegate`. Estas partes trabajan juntas para rastrear y administrar eventos relacionados con el ciclo de vida de una aplicación iOS. Se utilizan para realizar un seguimiento de eventos y contadores de eventos, lo que permite mostrar información relevante en la interfaz de usuario.
+El código se divide en tres partes clave: el controlador de vista `ViewController`, la clase `SceneDelegate` y la clase `AppDelegate`. Estas partes trabajan juntas para rastrear y administrar eventos relacionados con el ciclo de vida de una aplicación iOS. Se utilizan para realizar un seguimiento de eventos y contadores de eventos, lo que permite mostrar información relevante en la interfaz de usuario.
 
 **`ViewController.swift` - Controlador de vista:**
 

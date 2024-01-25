@@ -1,9 +1,12 @@
 # Anatomy of the Application and Lifecycle
 
-In a previous unit, you learned about the different stages of the view controller lifecycle. The lifecycle of an application works very similarly: the application opens, runs, goes into the background, and then closes. In this lesson, you will learn more about the different states of the lifecycle and the delegate hooks to execute logic as the application progresses through each state.
+
 
 ## What You Will Learn
-- How to execute code at different stages of the application lifecycle.
+
+- Identify and describe each life cycle event in the app and scene delegates
+- Identify the correct life cycle events for executing logic to launch the app
+- Identify the correct life cycle events for executing logic to enter or exit the background
 
 ## Vocabulary
 - `active`: State in which the application is currently in the foreground and running.
@@ -22,7 +25,7 @@ In a previous unit, you learned about the different stages of the view controlle
 
 Summary
 
-The purpose of this lab is to create an application that provides a visual representation of the application lifecycle. The application will dynamically update the labels in the UI when different delegate methods are called.
+The seven tags are updated with application lifecycle events. Labels refresh correctly when the user triggers different events, such as navigating to the home screen and back, or triggering the app switching interface.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/92fb72f0-f97e-4810-a2ff-e6cea83d9921
 
