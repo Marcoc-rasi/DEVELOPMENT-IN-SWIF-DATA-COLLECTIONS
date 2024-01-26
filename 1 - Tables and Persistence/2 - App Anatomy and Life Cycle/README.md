@@ -1,6 +1,6 @@
 # Anatomy of the Application and Lifecycle
 
-In this lesson, I have explored cómo responder al lanzamiento de una aplicación, al entrar en un estado en segundo plano, al regresar a un estado en primer plano o al salir. He adquirido conocimientos sobre cómo se carga una aplicación en la memoria y sobre los hooks del delegado que permiten ejecutar lógica en diferentes etapas del ciclo de vida de la aplicación.
+In this lesson, I have explored how to respond to launching an app, entering a background state, returning to a foreground state, or exiting. I have gained knowledge about how an application is loaded into memory and about delegate hooks that allow logic to be executed at different stages of the application's lifecycle.
 
 ## What You Will Learn
 
