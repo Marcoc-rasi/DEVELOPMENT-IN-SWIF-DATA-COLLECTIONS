@@ -1,13 +1,13 @@
 # Trabajando con la Web: Concurrencia
 
-En la lección anterior, aprendí cómo decodificar JSON en tipos Swift nativos y objetos de modelo personalizados, cómo escribir mi propio controlador de finalización para manejar código asíncrono y un poco sobre cómo podría abordar la adición de código a un proyecto Xcode.
-En esta lección, tomé los datos que recibí de una solicitud de red, los decodifiqué y los mostré en mi propia aplicación. También descargué y configuré mi primera imagen para mostrarla. Para lograr todo esto, aprendí sobre el sistema de concurrencia en iOS y cómo asegurarme de que el código que actualiza la interfaz de usuario se ejecute en el lugar correcto.
+En esta lección, he aprendido a actualizar una interfaz de usuario con nuevos datos. He comprendido las mejores prácticas para incluir código de red en una aplicación y para despachar actualizaciones de interfaz a la cola principal.
 
 ## Lo que Aprendí
-- Cómo agregar código de red a un proyecto Xcode.
-- Los conceptos básicos de cómo el procesador ejecuta código en diferentes colas.
-- Cómo enviar código que actualiza la interfaz de usuario para que se ejecute en la cola principal.
-- Cómo funciona el sistema de almacenamiento en caché de URL compartida para guardar las respuestas de solicitudes de red repetidas.
+
+- Demostrar las mejores prácticas para diseñar código de red en una aplicación.
+- Describir el modelo de concurrencia de una aplicación de iOS.
+- Demostrar cómo enviar actualizaciones de la interfaz de usuario a la cola principal.
+- Demostrar cómo mostrar una lista de objetos modelo de una solicitud de red en una vista de lista
 
 ## Vocabulario
 - `App Transport Security (ATS)`: Sistema de seguridad que protege las comunicaciones de red en una aplicación iOS.
@@ -21,6 +21,8 @@ En esta lección, tomé los datos que recibí de una solicitud de red, los decod
 #### 6 - Concurrencia WWW
 
 ##### Búsqueda de iTunes
+
+El objetivo de este laboratorio es integrar las solicitudes de red de búsqueda de iTunes en una aplicación real y aplicar las lecciones aprendidas sobre concurrencia al proyecto. Crearás una aplicación que permitirá al usuario buscar diferentes tipos de medios y ver los resultados en una vista de tabla. Para mejorar el rendimiento de la vista de tabla, también aprenderás a actualizar el tamaño de la caché de URL para guardar temporalmente las imágenes.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/922b230d-9343-46b5-9209-46848229f868
 
@@ -39,6 +41,8 @@ La clase `ItemCell` es responsable de personalizar la apariencia y el contenido 
 En resumen, el código en cuestión consta de varios componentes destinados a interactuar con la API de iTunes. Estos componentes incluyen un controlador de vista de tabla (`StoreItemListTableViewController`), un controlador de elementos de tienda (`StoreItemController`), estructuras de datos para representar elementos y respuestas de búsqueda (`StoreItem` y `SearchResponse`) y una celda personalizada (`ItemCell`). diseñado para mostrar información relacionada con las categorías de iTunes en una vista de tabla. La modularidad y adaptabilidad de esta arquitectura permiten una interacción efectiva con servicios web, gestión de datos y presentación de artículos de la tienda en una aplicación iOS, ofreciendo una organización flexible y eficiente.
 
 ##### Foto espacial
+
+Una app que utiliza la API de la Fotografía Astronómica del Día (APOD) de la NASA para obtener datos y mostrar la información junto con la imagen en la propia aplicación.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e2749e6a-cb6a-4145-b3ff-37bf23009413
 

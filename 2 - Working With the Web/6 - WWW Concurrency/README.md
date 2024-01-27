@@ -1,14 +1,13 @@
 # Working with the Web: Concurrency
 
-In the previous lesson, I learned how to decode JSON into native Swift types and custom model objects, how to write my own completion handler to handle asynchronous code, and a bit about how I might approach adding code to an Xcode project.
-
-In this lesson, I took the data I received from a network request, decoded it, and displayed it in my own application. I also downloaded and set up my first image to display. To achieve all this, I learned about the concurrency system in iOS and how to ensure that code updating the user interface runs in the right place.
+In this lesson, I learned how to update a user interface with new data. I have understood the best practices for including networking code in an application and for dispatching interface updates to the main queue.
 
 ## What I Learned
-- How to add network code to an Xcode project.
-- The basics of how the processor executes code on different queues.
-- How to dispatch code updating the user interface to run on the main queue.
-- How the shared URL cache system works to store responses from repeated network requests.
+
+- Demonstrate best practices for architecting networking code in an application
+- Describe the concurrency model of an iOS app
+- Demonstrate how to dispatch user interface updates to the main queue
+- Demonstrate how to display a list of model objects from a network request in a list view
 
 ## Vocabulary
 - `App Transport Security (ATS)`: Security system that protects network communications in an iOS app.
@@ -22,6 +21,8 @@ In this lesson, I took the data I received from a network request, decoded it, a
 #### 6 - WWW Concurrency
 
 ##### iTunesSearch
+
+The goal of this lab is to integrate iTunes search network requests into a real application and apply the lessons learned about concurrency to the project. You will create an application that will allow the user to search for different types of media and view the results in a table view. To improve table view performance, you'll also learn how to update the URL cache size to temporarily store images.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/922b230d-9343-46b5-9209-46848229f868
 
@@ -40,6 +41,8 @@ The `ItemCell` class is responsible for customizing the appearance and content o
 In summary, the code in question consists of various components aimed at interacting with the iTunes API. These components include a table view controller (`StoreItemListTableViewController`), a store item controller (`StoreItemController`), data structures for representing items and search responses (`StoreItem` and `SearchResponse`), and a custom cell (`ItemCell`) designed to display information related to iTunes categories in a table view. The modularity and adaptability of this architecture enable effective interaction with web services, data management, and the presentation of store items in an iOS application, offering flexible and efficient organization.
 
 ##### SpacePhoto
+
+An app that uses NASA's Astronomical Photograph of the Day (APOD) API to obtain data and display the information along with the image in the application itself.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e2749e6a-cb6a-4145-b3ff-37bf23009413
 
