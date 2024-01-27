@@ -1,14 +1,17 @@
 # Vistas de Tabla
 
-iOS se ejecuta en dispositivos potentes que pueden manejar tareas informáticas sofisticadas, lo que permite a los usuarios trabajar con conjuntos grandes de datos. Como programador, ¿cómo puedes mostrar datos de manera elegante para que sea eficiente verlos y manipularlos?
-Ingresa `UITableView`, una de las vistas más ampliamente utilizadas en iOS. Las vistas de tabla son perfectas para mostrar eficientemente cantidades grandes o pequeñas de información y para gestionar listas de datos dinámicas o estáticas.
-En esta lección, aprendí por qué las vistas de tabla son tan populares entre los desarrolladores de iOS. Esta lección se centró en vistas de tabla dinámicas; la siguiente lección de vistas de tabla cubrirá vistas de tabla estáticas.
+En esta lección, he aprendido a construir una interfaz de `scrolling` utilizando la vista de tabla, la interfaz más común en aplicaciones móviles. También he adquirido conocimientos sobre cómo instanciar y proporcionar datos a una vista de tabla.
 
 ## Lo que Aprendí
-- Cómo usar estilos predefinidos de `UITableViewCell` para personalizar mis vistas de tabla.
-- Cómo proporcionar datos dinámicos a una vista de tabla.
-- Cómo responder a la interacción del usuario en una vista de tabla.
-- Cómo actualizar los datos de la vista de tabla.
+
+- Describir casos de uso adecuados para mostrar datos en vistas de tabla.
+- Demostrar cómo proporcionar datos a una vista de tabla.
+- Describir la relación entre una matriz y la fuente de datos de la vista de tabla.
+- Describir cuatro tipos de celdas predeterminados
+- Describir las secciones de la tabla y controlar el reordenamiento.
+- Demostrar cómo utilizar una vista de tabla para responder a la interacción del usuario.
+- Describir el propósito del control de actualización.
+- Describir los márgenes de legibilidad de las tablas.
 
 ## Vocabulario
 - `vista accesoria`: Elemento adicional que se muestra en una celda de vista de tabla, como un botón o un indicador.

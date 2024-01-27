@@ -1,16 +1,18 @@
 # Table Views
 
-iOS runs on powerful devices that can handle sophisticated computing tasks, enabling users to work with large sets of data. As a developer, how can you elegantly display data so that it's efficient to view and manipulate?
-
-Enter `UITableView`, one of the most widely used views in iOS. Table views are perfect for efficiently displaying both large and small amounts of information and for managing dynamic or static lists of data.
-
-In this lesson, I learned why table views are so popular among iOS developers. This lesson focused on dynamic table views; the next lesson on table views will cover static table views.
+In this lesson, I learned how to build a `scrolling` interface using the table view, the most common interface in mobile applications. I have also gained knowledge on how to instantiate and provide data to a table view.
 
 ## What I Learned
-- How to use predefined styles of `UITableViewCell` to customize my table views.
-- How to provide dynamic data to a table view.
-- How to respond to user interaction in a table view.
-- How to update table view data.
+
+- Describe proper use cases for displaying data in table views
+- Demonstrate how to provide data to a table view
+- Describe the relationship between an array and the table view data source
+- Describe four default cell types
+- Describe table sections and reorder control
+- Demonstrate how to use a table view to respond to user interaction
+- Describe the purpose of the refresh control
+- Describe readability margins for tables
+
 
 ## Vocabulary
 - `accessory view`: Additional element displayed in a table view cell, such as a button or indicator.
