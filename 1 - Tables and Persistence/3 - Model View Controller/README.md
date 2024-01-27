@@ -1,12 +1,14 @@
 # Model-View-Controller
 
-At this stage of the course, I felt more comfortable with how applications work and how to build basic application functions. I saw how even relatively simple applications depend on many files, structures, and classes. I envisioned how the code for a medium-sized application could span hundreds of files in my project.
-
-In this lesson, I learned how to organize files, structures, and classes in a design pattern called Model-View-Controller, or MVC. MVC will help me design the files in my application, as well as the interactions and relationships between different types and instances. MVC is not a trivial topic. This lesson helped me get started, but I will continue learning and reinforcing my understanding of MVC concepts for a long time. I learned the complexities of implementing proper MVC patterns in my application through example code, building my own applications, and with the guidance of mentors and teachers. I acknowledge that there is never a single correct answer for any architectural decision. There are best practices, but style and personal preference will play a role in how I choose to organize my application projects and relationship models.
+In this lesson, I have learned how to work with network services and `APIs`, as well as how to serialize `JSON` into model objects that can be used in an application.
 
 ## What I Learned
-- How to use the Model-View-Controller pattern to design objects and relationships in my application.
-- A common way to organize files in my Xcode projects.
+
+- Describe `JSON` (JavaScript Object Notation) and the role `JSON` plays in working with network services
+- Demonstrate how to read and write basic `JSON` data
+- Demonstrate how to use `JSON` serialization to encode and decode `JSON`
+- Demonstrate how to serialize `JSON` data into custom model objects
+
 
 ## Vocabulary
 - `abstraction`: Simplified representation of reality.
