@@ -1,10 +1,6 @@
 # Trabajando con la Web
 
-La mayoría de las aplicaciones se conectan a servicios web para obtener o enviar información utilizada en la aplicación. En esta unidad, aprendí a crear y enviar solicitudes de red para enviar y recibir datos.
-
-Para comenzar, exploré los `closures`, que son bloques de código que se pueden usar como variables y que permiten escribir código que se ejecutará en un momento posterior. Utilicé `closures` para escribir código que se ejecutará después de que las solicitudes de red finalicen. También aprendí a usar `closures` para trabajar con colecciones y crear animaciones en mi aplicación.
-
-Luego, trabajé a través de tres lecciones que explicaban cómo funciona la web, cómo solicitar información de un servicio web, cómo convertir esa información en estructuras o clases que puedo utilizar en mi aplicación, y cómo hacer que mi aplicación funcione sin problemas con operaciones de red de larga duración.
+En esta lección, he aprendido sobre vistas de colección, diseños composicionales, fuentes de datos difables, genéricos de Swift y notificaciones de usuario. He aplicado este conocimiento en el proyecto guiado, Habits, una aplicación que permite a los usuarios realizar un seguimiento de buenos hábitos registrándolos en una red social. La aplicación utiliza un servicio web para simular la actividad de los usuarios en la red social, y he tenido la capacidad de personalizar los hábitos y los usuarios simulados.
 
 ## Lecciones de Swift
 - `Closures`: Bloques de código ejecutables en momentos específicos.

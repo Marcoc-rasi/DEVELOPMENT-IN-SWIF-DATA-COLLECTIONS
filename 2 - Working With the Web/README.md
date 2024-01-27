@@ -1,10 +1,6 @@
 # Working with the Web
 
-Most applications connect to web services to retrieve or send information used in the application. In this unit, I learned how to create and send network requests to send and receive data.
-
-To begin with, I explored `closures`, which are code blocks that can be used as variables and allow writing code that will be executed at a later time. I used `closures` to write code that would run after network requests finish. I also learned to use `closures` to work with collections and create animations in my application.
-
-Next, I worked through three lessons that explained how the web works, how to request information from a web service, how to convert that information into structures or classes that I can use in my application, and how to make my application work smoothly with long-running network operations.
+In this lesson, I have learned about collection views, compositional layouts, diffable data sources, Swift generics, and user notifications. I have applied this knowledge in the guided project, Habits, an application that allows users to track good habits by recording them on a social network. The application uses a web service to simulate user activity on the social network, and I have had the ability to customize the habits and simulated users.
 
 ## Swift Lessons
 - `Closures`: Executable code blocks at specific moments.
