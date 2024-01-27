@@ -1,17 +1,15 @@
 
 # DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS
 
-# Introduction
+# Introducción
 
 Amplié mis conocimientos y habilidades en el desarrollo de aplicaciones iOS, aprovechando lo que aprendí en el curso "Fundamentos". En esta etapa me centré en crear aplicaciones más complejas y avanzadas. Trabajé con datos provenientes de un servidor y exploré nuevas API de "iOS" que permiten experiencias de aplicaciones mucho más ricas. Aprendí a manejar "grandes conjuntos de datos" en múltiples formatos, lo que ha ampliado significativamente mis capacidades en el desarrollo de aplicaciones para la plataforma "iOS".
 
-## Featured Apps
+## Videos de aplicaciones y explicacion
 
 ### Unit 1 – `Tables and Persistance`
 
 #### Lesson 1.2 - App Anatomy and Life Cycle 
-
-##### Apps 
 
 ###### AppEventCount-Marcocrasi – Lab
 
@@ -23,15 +21,11 @@ La aplicación proporciona una comprensión práctica y visual a través de la c
 
 #### Lesson 1.3 - Model View Controller
 
-##### Apps 
-
 ###### FavoriteAthlete – Lab
 
 En este laboratorio, planificarás y crearás una aplicación que utiliza un diseño MVC adecuado. La aplicación constará de dos pantallas para mostrar los atletas favoritos del usuario, permitiéndole agregar nuevos atletas a la lista y editar las entradas existentes.
 
 #### Lesson 1.4 - Scroll Views
-
-##### Apps 
 
 ###### ISpy-Marcocrasi - Lab
 
@@ -45,9 +39,7 @@ El propósito de esta app es garantizar que, cuando el teclado aparece o desapar
 
 Esta aplicación presenta una vista de desplazamiento horizontal visualmente agradable con las tres imágenes favoritas del usuario.
 
-#### Lesson 1.5 - Table Views
-
-##### Apps  
+#### Lesson 1.5 - Table Views 
 
 ###### Meal Tracker – Marcocrasi – Lab
 
@@ -59,8 +51,6 @@ La aplicacion es una implementación de una vista de tabla que se utiliza para m
 
 #### Lesson 1.6 - Intermediate Table Views
 
-##### Apps 
-
 ###### Favorite books - Lab
 
 El objetivo de este laboratorio es implementar características intermedias de la vista de tabla en una aplicación que realiza un seguimiento de tus libros favoritos.
@@ -71,15 +61,11 @@ En la aplicacion se crea una lista de emojis con una celda personalizada de tabl
 
 #### Lesson 1.7 - Saving Data
 
-##### Apps 
-
 ###### EmojiDictionary savin data – lab
 
 Se añadirá persistencia a los objetos Emoji, permitiendo que los cambios realizados en la lista de emojis persistan entre los reinicios de la aplicación.
 
 #### Lesson 1.8 - System View Controllers
-
-##### Apps 
 
 ###### HomeFurniture - Lab
 
@@ -94,8 +80,6 @@ La aplicacion integra varias funcionalidades clave para interactuar con el dispo
 La aplicación  utiliza el marco UIKit para crear una interfaz de usuario con varios botones, cada uno de los cuales realiza diferentes acciones. Estas acciones incluyen compartir una imagen, abrir un sitio web en Safari, tomar una foto con la cámara del dispositivo, enviar un correo electrónico y enviar un mensaje de texto.
 
 #### Lesson 1.9 - Complex Input Screens
-
-##### Apps 
 
 ###### EmployeeRoster - Lab
 
@@ -113,8 +97,6 @@ La aplicación permite gestionar listas de manera eficiente. Puede añadir, modi
 
 #### Lesson 2.3 – Animations
 
-##### Apps 
-
 ###### Contest - Lab
 
 La aplicación permite a los usuarios ingresar su dirección de correo electrónico para participar en un concurso y ganar un premio. Si intentan enviar sin proporcionar una dirección de correo electrónico, la aplicación utiliza animaciones para resaltar el campo de texto y alertar al usuario de que es necesario completarlo para participar en el concurso.
@@ -124,8 +106,6 @@ La aplicación permite a los usuarios ingresar su dirección de correo electrón
 La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de la pantalla "Now Playing" en la aplicación de música.
 
 #### Lesson 2.6 - WWW Concurrency
-
-##### Apps 
 
 ###### iTunesSearch – Lab
 
@@ -147,8 +127,6 @@ En la extensión del proyecto, agregarás la capacidad de que la aplicación Ord
 
 #### Lesson 3.1 - Collection Views
 
-##### Apps 
-
 ###### EmojiDictionary – Lab
 
 EmojiDictionary App, en esta ocasión utilizando una vista de colección en lugar de una vista de tabla.
@@ -159,15 +137,11 @@ App para organizar datos en una cuadrícula utilizando los bloques básicos de c
 
 #### Lesson 3.2 - Swift Generics
 
-##### Apps 
-
 ###### Life-formSearch – Lab
 
 He desarrollado una aplicación que simplifica la búsqueda y visualización de información taxonómica y fotos de formas de vida. La app utiliza la API de servicios de datos de la Enciclopedia de la Vida para acceder y mostrar datos sobre las formas de vida identificadas.
 
-#### Lesson 3.3 - Dynamic Data
-
-##### Apps 
+#### Lesson 3.3 - Dynamic Data 
 
 ###### iTunesSearch – Lab
 
@@ -179,15 +153,11 @@ La app usa la API `UICollectionViewDiffableDataSource` para proporcionar datos a
 
 #### Lesson 3.4 - Compositional Layout
 
-##### Apps 
-
 ######  Compositional Layout lab
 
 App Emoji Dictionary se agregaron diseños de cuadrícula y columnas, una función para cambiar entre ellos, y añadido encabezados de sección simples.
 
-#### Lesson 3.5 - Advanced Layout
-
-##### Apps 
+#### Lesson 3.5 - Advanced Layout 
 
 ###### iTunesSearch – Lab
 
@@ -198,8 +168,6 @@ En esta actualización de la solución del Laboratorio de Búsqueda en iTunes (P
 He construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas, también se usa la API `UICollectionViewDiffableDataSource`.
 
 #### Lesson 3.6 - Local Notifications
-
-##### Apps 
 
 ###### BillManager – Lab
 
