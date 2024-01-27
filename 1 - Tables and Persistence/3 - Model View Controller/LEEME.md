@@ -1,10 +1,13 @@
 # Modelo-Vista-Controlador
 
-
+En esta lección, he aprendido a organizar un proyecto de aplicación, reflexionando sobre sus archivos, estructuras y clases, y cómo establecer y gestionar relaciones entre objetos en una aplicación.
 
 ## Lo que Aprendí
 
-
+- Describir el patrón de diseño Modelo-Vista-Controlador (`MVC`)
+- Describir la función del controlador de vista en el patrón `MVC`
+- Describir cómo podría cambiar `MVC` al extraer datos de una fuente de datos externa
+- Demostrar una forma común de organizar archivos en un proyecto.
 
 ## Vocabulario
 - `abstracción`: Representación simplificada de la realidad.

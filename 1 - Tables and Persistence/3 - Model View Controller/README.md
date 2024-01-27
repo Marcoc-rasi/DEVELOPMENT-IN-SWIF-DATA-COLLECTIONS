@@ -1,11 +1,13 @@
 # Model-View-Controller
 
-
+In this lesson, I learned how to organize an application project, thinking about its files, structures, and classes, and how to establish and manage relationships between objects in an application.
 
 ## What I Learned
 
-
-
+- Describe the Model-View-Controller (`MVC`) design pattern
+- Describe the role of the view controller in the `MVC` pattern
+- Describe how `MVC` might change when pulling data from an external data source
+- Demonstrate one common way to organize files in a project
 
 ## Vocabulary
 - `abstraction`: Simplified representation of reality.
