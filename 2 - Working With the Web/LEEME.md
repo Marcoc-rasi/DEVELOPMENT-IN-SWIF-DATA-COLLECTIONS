@@ -12,5 +12,36 @@ En esta lección, he aprendido sobre la personalidad de la aplicación, animacio
 - `Trabajando con la Web: JSON`: Procesar y utilizar datos JSON provenientes de la web.
 - `Trabajando con la Web: Concurrencia`: Manejar operaciones concurrentes de manera eficiente.
 
-## Lo que Construí
-La aplicación de Restaurante permite a los usuarios explorar un menú personalizable que obtiene información de un servicio web. Puedo personalizar todo el menú con mis propios platillos, descripciones, precios y fotos que aparecerán en la aplicación.
+## Videos de aplicaciones y explicacion
+
+#### Guided Project – Restaurant - OrderApp
+
+En este proyecto se utilizo networking, JSON, concurrencia y cierres en Swift al construir una aplicación cliente para una API web que proporciona una lista de elementos de menú para un restaurante. Presenta un menú interactiv, permitiendo a los clientes visualizar una lista de opciones, agregar artículos a un pedido y enviar dicho pedido al restaurante.
+
+##### Project OrderApp Extension - State Restoration
+
+En la extensión del proyecto, agregarás la capacidad de que la aplicación OrderApp recuerde el estado en el que estaba. Esto significa que, si el usuario detiene la aplicación y vuelve más tarde, la aplicación recordará dónde estaba. Para lograr esto, usarás una herramienta llamada NSUserActivity, que básicamente almacena información clave sobre la orden actual del usuario. Este "estado" se guardará en una parte específica de la aplicación llamada MenuController. Así, cuando el usuario vuelva a abrir la aplicación, empezará exactamente desde donde la dejó.
+
+### Unit. 2 - Working With The Web
+
+#### Lesson 2.3 – Animations
+
+###### Contest - Lab
+
+La aplicación permite a los usuarios ingresar su dirección de correo electrónico para participar en un concurso y ganar un premio. Si intentan enviar sin proporcionar una dirección de correo electrónico, la aplicación utiliza animaciones para resaltar el campo de texto y alertar al usuario de que es necesario completarlo para participar en el concurso.
+
+###### MusicWireframe. Lesson app
+
+La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de la pantalla "Now Playing" en la aplicación de música.
+
+#### Lesson 2.6 - WWW Concurrency
+
+###### iTunesSearch – Lab
+
+El objetivo de este laboratorio es integrar las solicitudes de red de búsqueda de iTunes en una vista de tabla.
+
+###### SpacePhoto – Lesson app
+
+Una app que utiliza la API de la Fotografía Astronómica del Día (APOD) de la NASA para obtener datos y mostrar la información junto con la imagen en la propia aplicación.
+
+
