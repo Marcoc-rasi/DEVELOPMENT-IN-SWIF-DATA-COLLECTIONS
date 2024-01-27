@@ -19,6 +19,8 @@ In this lesson, I learned how to build compositional layouts for collection view
 
 ##### iTunesSearch
 
+In this update to the iTunes Search Lab solution (Part 4), I've added a new search scope that spans all four existing scopes (Movies, Music, Apps, and Books). The results have been grouped into sections for clear separation.
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/2124db42-8144-4aa0-a9ea-0237a9e1212c
 
 The provided code refers to a set of classes and structures in an iOS application used to display store items in both a table view and a collection view. These classes and structures work together to enable searching and displaying store items based on various search categories. Below is a technical explanation of how this code works and how the different parts are interconnected:

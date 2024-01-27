@@ -17,6 +17,9 @@ En esta lección, he aprendido a construir diseños composicionales para vistas 
 
 ##### Búsqueda de iTunes
 
+En esta actualización de la solución del Laboratorio de Búsqueda en iTunes (Parte 4), he añadido un nuevo alcance de búsqueda que abarca los cuatro alcances existentes (Películas, Música, Aplicaciones y Libros). Los resultados se han agrupado en secciones para una separación clara.
+
+
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/2124db42-8144-4aa0-a9ea-0237a9e1212c
 
 El código proporcionado hace referencia a un conjunto de clases y estructuras en una aplicación de iOS que se utiliza para mostrar elementos de la tienda tanto en una vista de tabla como en una vista de colección. Estas clases y estructuras trabajan juntas para permitir la búsqueda y visualización de artículos de la tienda según varias categorías de búsqueda. A continuación se muestra una explicación técnica de cómo funciona este código y cómo se interconectan las diferentes partes:
