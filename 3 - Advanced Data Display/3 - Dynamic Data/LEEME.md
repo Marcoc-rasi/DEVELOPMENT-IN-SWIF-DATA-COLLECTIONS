@@ -1,13 +1,11 @@
 # Dynamic Data
 
-Ahora que comprendes cómo funcionan los genéricos, estás listo para usarlos en la práctica. Muchas API de UIKit no utilizan genéricos porque fueron escritas antes de que Swift fuera el lenguaje dominante en el desarrollo de iOS. Algunas API modernas, exclusivas de Swift, aprovechan los genéricos. Añaden un nivel adicional de elegancia a tu código y potencian características que antes serían difíciles o imposibles.
-En esta lección, aprenderás sobre tu primera API que utiliza genéricos: `UICollectionViewDiffableDataSource`. Aprenderás cómo puede reducir el trabajo necesario para suministrar datos a una vista de colección, proporcionándote características estándar, como la animación de cambios, de forma gratuita.
+Trabajar con conjuntos extensos de datos me ha enseñado que como desarrollador, es crucial ofrecer una forma eficiente de navegar por el contenido. Una práctica común es implementar una función de búsqueda o filtro para reducir la cantidad de resultados. Además, la gestión de la fuente de datos de una aplicación puede volverse engorrosa, especialmente con conjuntos de datos más grandes. La API de fuente de datos difusa surge para abordar estos problemas. Con una cantidad relativamente pequeña de código, puedo dirigir a la fuente de datos para que se administre (casi) por sí misma y controle su presentación en una tabla o vista de colección.
 
 ## Lo que Aprendí
-- Cómo implementar UISearchController para proporcionar funciones de filtro de datos.
-- Cómo actualizar datos en una vista de colección.
-- Cómo crear y utilizar fuentes de datos diferenciables (diffable data sources).
-- Cómo aplicar instantáneas de fuentes de datos diferenciables para actualizar una vista de colección.
+
+- Utilizar `UISearchController`
+- Demostrar y describir `UICollectionViewDiffableDataSource`
 
 ## Vocabulario
 - `fuente de datos diferenciable` (diffable data source): Una fuente de datos que utiliza instantáneas para representar el estado actual de los datos y facilita las actualizaciones en una vista.
@@ -15,6 +13,8 @@ En esta lección, aprenderás sobre tu primera API que utiliza genéricos: `UICo
 - `instantánea` (snapshot): Una representación inmutable del estado actual de los datos en una fuente de datos diferenciable.
 
 ##### Búsqueda de iTunes
+
+En este laboratorio, he aplicado mis nuevos conocimientos sobre vistas de colección, controladores de búsqueda y fuentes de datos difusas para actualizar la solución de la Búsqueda en iTunes (Parte 3). Comencé con una versión refactorizada de la solución, disponible en la carpeta de recursos. La solución ha sido mejorada para utilizar un controlador de vista personalizado, lo que me permite alternar entre las vistas de dos controladores de vista. (Los controladores de vista contenedor UIKit estándar incluyen UINavigationController y UITabBarController). También se ha actualizado para utilizar un controlador de búsqueda en lugar de una barra de búsqueda.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c0c8e6cc-2217-428a-9aaa-f01512f5123c
 
@@ -39,6 +39,8 @@ Dentro de las extensiones de estas clases se implementa el método `configure(fo
 Juntas, estas clases y estructuras forman la base de una aplicación que permite a los usuarios buscar y ver artículos de la tienda, con la capacidad de cargar imágenes y gestionar eficientemente tareas asincrónicas. El código proporciona una estructura sólida para implementar esta funcionalidad, que abarca la gestión de datos hasta la presentación de la interfaz de usuario.
 
 ##### Vista de colección básica
+
+En esta lección, he aprendido sobre mi primer API que utiliza genéricos: `UICollectionViewDiffableDataSource`. Entendí cómo puede reducir el trabajo necesario para proporcionar datos a una vista de colección, ofreciéndome características estándar, como la animación de cambios, de manera automática.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d5060751-01d6-4e4a-ab84-eb78139b11b9
 
