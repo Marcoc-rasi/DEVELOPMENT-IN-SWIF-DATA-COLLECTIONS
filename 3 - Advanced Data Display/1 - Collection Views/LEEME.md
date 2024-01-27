@@ -1,13 +1,15 @@
 # Collection Views
 
-Ahora estoy familiarizado con listas de datos mostradas usando UITableView, pero ¿qué pasa con otros diseños? Ahí es donde entra UICollectionView. Las vistas de colección te permiten organizar contenido en una sencilla cuadrícula desplazable o en diseños personalizados más complejos para adaptarse al estilo y necesidades de tu aplicación.
-No necesitas buscar mucho para encontrar ejemplos de vistas de colección en iOS. El diseño de la pantalla de inicio de iOS, con sus cuadrículas de iconos de aplicaciones y carpetas, es un ejemplo de lo que se puede lograr con vistas de colección.
-En esta lección, aprendí cómo organizar datos en una cuadrícula utilizando los bloques de construcción básicos para vistas de colección y un diseño compositivo simple. En una próxima lección, aprenderé a crear diseños personalizados más complejos para aplicaciones bien organizadas y atractivas.
+En esta lección, he aprendido cómo organizar datos en una cuadrícula utilizando los bloques de construcción básicos para vistas de colección y un diseño composicional simple. 
 
 ## Lo que Aprendí
-- Cuándo usar vistas de colección.
-- Cómo proporcionar datos a una vista de colección.
-- Cómo crear una celda de vista de colección prototipo en Interface Builder.
+
+- Identificar aplicaciones o componentes dentro de aplicaciones que pueden haberse implementado con una vista de colección
+- Describir casos de uso adecuados para mostrar datos en vistas de colección.
+- Proporcionar datos a una vista de colección.
+- Crear celdas prototipo en Interface Builder
+- Utilice un diseño compositivo básico.
+- Describir cuándo utilizar diseños compositivos simples o complejos.
 
 ## Vocabulario
 - `vista de colección`: Componente de interfaz de usuario que organiza y muestra contenido en una cuadrícula.
@@ -19,6 +21,8 @@ En esta lección, aprendí cómo organizar datos en una cuadrícula utilizando l
 #### 1 - Vistas de colección#####
 
 ##### Diccionario Emoji
+
+En este laboratorio, aplicarás lo aprendido en un proyecto anterior sobre vistas de tabla: EmojiDictionary. En esta ocasión, lo implementarás utilizando una vista de colección en lugar de una vista de tabla."
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c7f8d0e-dc5e-48d4-a84f-30aa9a830c2d
 
@@ -33,6 +37,8 @@ Por otro lado, la clase `AddEditEmojiTableViewController` se utiliza para agrega
 En resumen, estos fragmentos de código permiten a los usuarios ver, agregar y modificar emojis en la interfaz de usuario de una aplicación de iOS. Las estructuras y clases están meticulosamente diseñadas para brindar una experiencia integral en la gestión de emojis dentro de la aplicación. La conformidad con "Codable" facilita la manipulación de datos emoji, mientras que las clases `EmojiCollectionViewController` y `AddEditEmojiTableViewController` manejan la presentación y edición de emoji en la vista de colección y la tabla, respectivamente. La clase `EmojiCollectionViewCell` personaliza la apariencia visual de los emojis en la vista de colección, asegurando su visualización adecuada. La interacción y la lógica de la aplicación se implementan de manera consistente en todo el código, brindando una experiencia integrada en la gestión de emoji dentro de la aplicación.
 
 ##### Vista de colección básica
+
+En esta lección, aprenderás a organizar datos en una cuadrícula utilizando los bloques básicos de construcción para vistas de colección y un diseño compositivo simple.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/94731158-fbe2-4c64-877f-5708b126af51
 

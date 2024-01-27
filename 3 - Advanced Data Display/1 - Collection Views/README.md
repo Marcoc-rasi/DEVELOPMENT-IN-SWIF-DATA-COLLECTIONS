@@ -1,15 +1,16 @@
 # Collection Views
 
-Now that I'm familiar with displaying data in lists using UITableView, what about other layouts? That's where UICollectionView comes in. Collection views allow organizing content in a simple scrollable grid or in more complex custom layouts to fit the style and needs of my application.
-
-I don't need to look far to find examples of collection views in iOS. The design of the iOS home screen, with its grids of app icons and folders, is an example of what can be achieved with collection views.
-
-In this lesson, I learned how to organize data in a grid using the basic building blocks for collection views and a simple compositional layout. In an upcoming lesson, I'll learn to create more complex custom layouts for well-organized and appealing apps.
+In this lesson, I learned how to organize data in a grid using the basic building blocks for collection views and a simple compositional layout.
 
 ## What I Learned
-- When to use collection views.
-- How to provide data to a collection view.
-- How to create a prototype collection view cell in Interface Builder.
+
+- Identify apps or components within apps that may have been implemented with a collection view
+- Describe proper use cases for displaying data in collection views
+- Provide data to a collection view
+- Create prototype cells in Interface Builder
+- Use a basic compositional layout
+- Describe when to use simple or complex compositional layouts
+
 
 ## Vocabulary
 - `collection view`: A UI component that organizes and displays content in a grid.
@@ -21,6 +22,8 @@ In this lesson, I learned how to organize data in a grid using the basic buildin
 #### 1 - Collection Views#####
 
 ##### EmojiDictionary
+
+In this lab, you will apply what you learned in a previous project on table views: EmojiDictionary. This time, you'll implement it using a collection view instead of a table view.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c7f8d0e-dc5e-48d4-a84f-30aa9a830c2d
 
@@ -35,6 +38,8 @@ On the other hand, the `AddEditEmojiTableViewController` class is used to add or
 In summary, these code pieces enable users to view, add, and modify emojis in the user interface of an iOS application. The structs and classes are meticulously designed to provide a comprehensive experience in emoji management within the application. Conformance to "Codable" facilitates emoji data manipulation, while the `EmojiCollectionViewController` and `AddEditEmojiTableViewController` classes handle emoji presentation and editing in the collection view and the table, respectively. The `EmojiCollectionViewCell` class customizes the visual appearance of emojis in the collection view, ensuring their proper display. Interaction and application logic are implemented consistently throughout the code, delivering an integrated experience in emoji management within the application.
 
 ##### BasicCollectionView
+
+In this lesson, you'll learn how to organize data in a grid using the basic building blocks for collection views and a simple compositional layout.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/94731158-fbe2-4c64-877f-5708b126af51
 
