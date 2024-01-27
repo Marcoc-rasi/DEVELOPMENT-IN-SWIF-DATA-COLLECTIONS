@@ -1,12 +1,13 @@
 # Guardando Datos
 
-Anteriormente en esta unidad, aprendí cómo la arquitectura Modelo-Vista-Controlador (MVC) me ayuda a separar los roles de los datos, las vistas y los objetos auxiliares que se comunican entre ellos. En casi todos los casos, los datos son extremadamente importantes para mis usuarios. Si ingresan información en una aplicación, esperan que persista, o continúe existiendo, dentro de la aplicación, incluso después de que esta se haya cerrado.
-En esta lección, aprendí cómo persistir datos utilizando Codable, un protocolo del que aprendí en una lección anterior.
+En esta lección, he aprendido a utilizar el protocolo `Codable` para persistir datos y cómo emplear `PropertyListDecoder` y `PropertyListEncoder` para leer y escribir datos en el directorio de documentos.
 
 ## Lo que Aprendí
-- Cómo escribir y acceder a archivos en el directorio Documents de mi aplicación.
-- Cómo serializar datos del modelo a un formato que se puede guardar.
-- Cómo deserializar datos guardados a datos del modelo que se pueden utilizar en la aplicación.
+
+- Demostrar cómo acceder al directorio de Documentos.
+- Demostrar cómo escribir archivos en el directorio de Documentos.
+- Demostrar cómo recuperar archivos del directorio de Documentos.
+- Demostrar cómo utilizar el protocolo `Codable` para serializar datos guardados en datos de modelo.
 
 ## Vocabulario
 - `archivar`: Proceso de guardar datos en un formato que se puede recuperar más tarde.

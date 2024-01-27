@@ -1,13 +1,13 @@
 # Saving Data
 
-Earlier in this unit, I learned how the Model-View-Controller (MVC) architecture helps me separate the roles of data, views, and helper objects that communicate between them. In almost all cases, data is extremely important to my users. If they enter information into an app, they expect it to persist, or continue to exist, within the app even after it's closed.
-
-In this lesson, I learned how to persist data using Codable, a protocol I learned about in a previous lesson.
+In this lesson, I learned how to use the `Codable` protocol to persist data and how to use `PropertyListDecoder` and `PropertyListEncoder` to read and write data to the document directory.
 
 ## What I Learned
-- How to write and access files in the Documents directory of my app.
-- How to serialize model data into a format that can be saved.
-- How to deserialize saved data back into model data that can be used in the app.
+
+- Demonstrate how to access the Documents directory
+- Demonstrate how to write files to the Documents directory
+- Demonstrate how to fetch files from the Documents directory
+- Demonstrate how to use the `Codable` protocol to serialize saved data to model data
 
 ## Vocabulary
 - `archive`: Process of saving data in a format that can be retrieved later.
