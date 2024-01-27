@@ -1,12 +1,12 @@
 # Animación Práctica
 
-Echa un vistazo a las aplicaciones iOS más populares y verás elegantes y sutiles animaciones utilizadas para crear una conexión con el contenido en pantalla. Cuando se implementan en los lugares correctos y en los momentos adecuados, la animación puede proporcionar retroalimentación, mejorar la sensación de manipulación directa o ayudar a los usuarios a visualizar los resultados de sus acciones.
-En esta lección, aprendí cómo usar la clase UIView y los cierres para agregar animaciones que mejoran la presentación y funcionalidad de mis aplicaciones.
+En esta lección, he aprendido a realizar animaciones simples en la vista para dirigir la atención del usuario, orientarlo, o vincular comportamientos del usuario para mejorar la experiencia de uso de una aplicación.
 
 ## Lo que Aprendí
-- Cómo y cuándo usar animaciones para mejorar la experiencia del usuario.
-- Qué propiedades se pueden animar utilizando UIKit.
-- Cómo usar UIKit para crear animaciones básicas.
+
+- Demostrar cómo realizar animaciones básicas `UIView`.
+- Enumerar las propiedades de vista que se pueden animar.
+- Describir el papel apropiado de las animaciones personalizadas en una aplicación.
 
 ## Vocabulario
 - `transformación afín`: Operación matemática que aplica una transformación lineal a elementos gráficos.
