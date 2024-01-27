@@ -1,12 +1,15 @@
 # Notificaciones Locales
 
-Las notificaciones son una excelente manera de interactuar y conectarse con tus usuarios, incluso cuando no están utilizando tu aplicación. Utilizando el marco UserNotifications, puedes alertar a los usuarios sobre eventos significativos y darles la oportunidad de responder a esos eventos. Las notificaciones pueden programarse localmente y también enviarse de forma remota. En esta lección, aprenderás a utilizar el marco UserNotifications para programar y gestionar notificaciones locales.
+Las notificaciones son una parte esencial de la experiencia en iOS, permitiendo que las aplicaciones se comuniquen con sus usuarios incluso cuando están cerradas. He aprendido sobre el marco UserNotifications y cómo programar y gestionar notificaciones locales.
 
 ## Lo que Aprendí
-- Cómo utilizar notificaciones locales para informar o recordar a los usuarios sobre información nueva o actualizada.
-- Cómo programar y configurar notificaciones locales.
-- Cómo crear notificaciones con acciones personalizadas.
-- Cómo manejar notificaciones recibidas en primer plano y en segundo plano.
+
+- Comprender la diferencia entre notificaciones locales y remotas
+- Configurar una aplicación para recibir notificaciones locales
+- Programe notificaciones locales que utilicen distintas combinaciones de credenciales, alertas y sonidos.
+- Crear una categoría de notificación con dos acciones diferentes que un usuario puede realizar
+- Crear una notificación que reciba entrada de texto como respuesta del usuario.
+
 
 ## Vocabulario
 - `notificación con acción` (actionable notification): Una notificación que permite al usuario realizar acciones directamente desde la notificación.
@@ -18,6 +21,8 @@ Las notificaciones son una excelente manera de interactuar y conectarse con tus 
 
 
 ##### Administrador de facturas
+
+Extendí el proyecto BillManager en la carpeta de recursos. En la actualidad, BillManager permite a los usuarios hacer un seguimiento de las facturas pendientes y marcarlas como pagadas o pendientes. Mi tarea fue agregar notificaciones locales para recordar a los usuarios los pagos pendientes.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5f7e1d12-48d5-433c-90e4-c9fe5686ebfa
 
@@ -56,6 +61,8 @@ El código proporcionado pertenece a una aplicación llamada "BillManager" y con
 En conjunto, este código crea una aplicación para administrar facturas, lo que permite a los usuarios agregar, editar y programar recordatorios de sus facturas. Además, se encarga de la persistencia de los datos y la gestión de notificaciones relacionadas con facturas. Las extensiones brindan funcionalidad adicional para una gestión eficiente de las facturas.
 
 ##### Alarma
+
+Este proyecto consiste en la estructura básica de una aplicación de alarma simple que permite crear una alarma a la vez. He implementado la lógica para crear una alarma, obtener autorización para enviar notificaciones, programar notificaciones locales y ofrecer a los usuarios la opción de posponer su alarma.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/16cbfcf3-e26a-4535-8a5a-c2500bf6f75f
 
