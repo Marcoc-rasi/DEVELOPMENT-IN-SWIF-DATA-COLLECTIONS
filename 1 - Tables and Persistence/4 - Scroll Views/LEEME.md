@@ -1,12 +1,12 @@
 # Vistas Desplazables
 
-Hasta ahora en este curso, todas mis vistas han ajustado su contenido perfectamente en una sola pantalla. A medida que crecen mis ideas para aplicaciones, no siempre podré afirmar lo mismo. ¿Y si quiero que los usuarios completen un formulario largo, como una página de registro? O tal vez quiero permitirles examinar los detalles de una imagen muy grande. ¿Qué enfoque debería tomar?
-En esta lección, aprendí cómo usar un `UIScrollView` para mostrar contenido que es más grande que la pantalla del dispositivo y permitir que el usuario interactúe con él.
+En esta lección, he aprendido a construir una interfaz de desplazamiento que permite a los usuarios ver más contenido del que cabe en la pantalla del dispositivo. También he adquirido conocimientos sobre cómo instanciar y proporcionar datos a una vista de desplazamiento.
 
 ## Lo que Aprendí
-- Cómo y cuándo usar vistas desplazables.
-- Cómo usar vistas desplazables con Auto Layout y vistas de pila.
-- Cómo agregar espacio de amortiguación alrededor de mi contenido.
+
+- Describir usos comunes para las vistas de desplazamiento.
+- Demostrar cómo mostrar más información en una sola pantalla usando una vista de desplazamiento
+- Describir la relación de la vista de desplazamiento con las vistas de tabla y las vistas de colección.
 
 ## Vocabulario
 - `bounds`: Área rectangular que representa el tamaño y la posición de una vista en relación con su propio sistema de coordenadas.

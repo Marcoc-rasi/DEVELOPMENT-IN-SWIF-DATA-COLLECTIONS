@@ -1,13 +1,14 @@
 # Scroll Views
 
-So far in this course, all my views have neatly fit their content within a single screen. As my ideas for applications grow, I may not always be able to claim the same. What if I want users to complete a long form, like a registration page? Or perhaps I want to allow them to examine the details of a very large image. What approach should I take?
+In this lesson, I learned how to build a scrolling interface that allows users to see more content than fits on the device's screen. I have also gained knowledge on how to instantiate and provide data to a scroll view.
 
-In this lesson, I learned how to use a `UIScrollView` to display content that is larger than the device's screen and allow the user to interact with it.
 
 ## What I Learned
-- How and when to use scroll views.
-- How to use scroll views with Auto Layout and stack views.
-- How to add padding around my content.
+
+- Describe common uses for scroll views
+- Demonstrate how to display more information on a single screen using a scroll view
+- Describe the relationship of the scroll view to table views and collection views
+
 
 ## Vocabulary
 - `bounds`: Rectangular area representing the size and position of a view in relation to its own coordinate system.
