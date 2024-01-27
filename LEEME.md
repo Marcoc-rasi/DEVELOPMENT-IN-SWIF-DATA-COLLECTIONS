@@ -123,7 +123,7 @@ En este proyecto se utilizo networking, JSON, concurrencia y cierres en Swift al
 
 En la extensión del proyecto, agregarás la capacidad de que la aplicación OrderApp recuerde el estado en el que estaba. Esto significa que, si el usuario detiene la aplicación y vuelve más tarde, la aplicación recordará dónde estaba. Para lograr esto, usarás una herramienta llamada NSUserActivity, que básicamente almacena información clave sobre la orden actual del usuario. Este "estado" se guardará en una parte específica de la aplicación llamada MenuController. Así, cuando el usuario vuelva a abrir la aplicación, empezará exactamente desde donde la dejó.
 
-### 3 - Advanced Data Display
+### Unit 3 - Advanced Data Display
 
 #### Lesson 3.1 - Collection Views
 
