@@ -1,13 +1,14 @@
 # Intermediate Table Views
 
-Table views are one of the most common views in iOS, and you'll use them in almost every app you build. In the previous lesson, you learned the basics of setting up a table view and displaying a list of information.
-
-In this lesson, I learned how to further customize my table views with custom cells, dynamically insert and delete cells, use static table views to present forms or other lists that don't change, and allow the user to swipe to delete cells.
+In this lesson, I've delved into more advanced table view features, such as creating custom cells, enabling table view editing, and working with static table views.
 
 ## What I Learned
-- How to create custom-designed cells.
-- How to add and delete rows from a table view.
-- How to use a static table view.
+
+- Demonstrate how to create a custom table view cell
+- Demonstrate how to use table view editing to enable swipe functionality
+- Demonstrate how to use a static table view
+- Describe use cases for static table views
+- Demonstrate how to use table view cell actions
 
 ## Vocabulary
 - `custom table view cell`: Custom-designed element for a cell in a table view.
