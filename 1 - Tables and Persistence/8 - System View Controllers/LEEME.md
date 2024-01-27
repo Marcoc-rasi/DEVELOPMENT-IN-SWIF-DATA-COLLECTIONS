@@ -1,14 +1,14 @@
 # Controladores de Vista del Sistema
 
-Hasta este punto del curso, he estado creando mis propias subclases de `UIViewController` para mostrar información en mis aplicaciones. Pero UIKit incluye varias subclases de `UIViewController` que facilitan la presentación, el acceso y el intercambio de contenido de la aplicación.
-En esta lección, aprendí cómo incorporar estos controladores de vista del sistema para mostrar alertas, compartir contenido, enviar mensajes y acceder a la cámara y la biblioteca de fotos en un dispositivo iOS.
+En esta lección, he aprendido acerca de los controladores de vista del sistema más comunes y cómo utilizarlos para presentar alertas, enviar mensajes, compartir contenido y acceder al carrete de la cámara.
 
 ## Lo que Aprendí
-- Cómo presentar un controlador de actividad.
-- Cómo presentar un controlador de vista de Safari.
-- Cómo presentar y responder a acciones en un controlador de alerta.
-- Cómo acceder y responder a selecciones en un controlador de selección de imágenes.
-- Cómo presentar un controlador de vista de composición de correo.
+
+- Demostrar cómo presentar un controlador de alertas y responder a las elecciones del usuario.
+- Demostrar cómo presentar un controlador de vista de actividad.
+- Demostrar cómo presentar un controlador de vista de redacción de correo.
+- Demostrar cómo presentar un controlador de vista de selector de imágenes y utilizar la imagen seleccionada.
+- Demostrar cómo presentar un controlador de vista de Safari para presentar un sitio web.
 
 ## Vocabulario
 - `controlador de actividad`: Controlador de sistema que permite al usuario realizar actividades como compartir contenido.

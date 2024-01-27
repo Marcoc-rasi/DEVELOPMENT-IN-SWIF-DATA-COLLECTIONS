@@ -1,15 +1,14 @@
 # System View Controllers
 
-Up to this point in the course, I've been creating my own subclasses of `UIViewController` to display information in my apps. But UIKit includes several subclasses of `UIViewController` that make it easy to present, access, and share app content.
-
-In this lesson, I learned how to incorporate these system view controllers to display alerts, share content, send messages, and access the camera and photo library on an iOS device.
+In this lesson, I learned about the most common system view controllers and how to use them to present alerts, send messages, share content, and access the camera roll.
 
 ## What I Learned
-- How to present an activity view controller.
-- How to present a Safari view controller.
-- How to present and respond to actions in an alert controller.
-- How to access and respond to selections in an image picker controller.
-- How to present a mail composition view controller.
+
+- Demonstrate how to present an alert controller and respond to user choices
+- Demonstrate how to present an activity view controller
+- Demonstrate how to present a mail compose view controller
+- Demonstrate how to present an image picker view controller and use the selected image
+- Demonstrate how to present a Safari view controller to present a website
 
 ## Vocabulary
 - `activity view controller`: System controller that allows the user to perform activities like sharing content.
