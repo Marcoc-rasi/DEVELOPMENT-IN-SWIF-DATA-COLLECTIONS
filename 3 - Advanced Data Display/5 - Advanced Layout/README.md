@@ -1,10 +1,15 @@
 # Advanced Compositional Layouts
 
-You have learned that collection views are a flexible tool for displaying data collections in different ways, and you have learned how to create basic lists and grids using compositional layouts. This is a good start, but you can do much more. In this lesson, you will learn how to make the most of the capabilities of compositional layouts to create richer interfaces that provide an excellent user experience.
+In this lesson, I learned how to build compositional layouts for collection views that allow data to be displayed in ways that the flow layout does not support. The focus is on building applications that present data in distinct groups and sections. Additionally, I have gained valuable refactoring skills during the hands-on lab portion of the lesson.
 
 ## What I Learned
-- How to create sections with different layouts.
-- How to create sections with orthogonal scrolling in a compositional layout.
+
+- Use `UICollectionViewCompositionalLayout` to create complex layouts, including sections with distinct layouts
+- Describe the three components of a compositional layout
+- Use `UICollectionLayoutSectionOrthogonalScrollingBehavior` to make sections scroll orthogonally to the main layout
+- Use supplementary views to add headers and other items to layout sections
+
+
 
 ## Vocabulary
 - `anchor`: A reference point used to position elements within a compositional layout.
@@ -35,6 +40,8 @@ The `StoreItemContainerViewController` is the central point of the application a
 In summary, this code provides a complete infrastructure for searching and displaying store items in an iOS application. It employs a modular design with custom cells and a central controller to coordinate the search and display of items. Structures and enums are used to represent crucial data and settings, and asynchronous concurrency is leveraged to improve application responsiveness during search and image loading.
 
 ##### AppStoreLayout
+
+In this lesson, I built a replica of the iOS App Store home page using a single collection view and a compositional layout with distinct sections. The focus of this lesson is on creating compositional layout and reinforcing my knowledge of `UICollectionViewDiffableDataSource`.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac8b5e34-d34b-477d-a3a9-22c653da83c8
 

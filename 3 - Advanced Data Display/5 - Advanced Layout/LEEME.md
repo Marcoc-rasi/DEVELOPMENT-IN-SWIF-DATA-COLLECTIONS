@@ -1,10 +1,13 @@
 # Advanced Compositional Layouts
 
-Has aprendido que las vistas de colección son una herramienta flexible para mostrar colecciones de datos de diferentes maneras, y has aprendido cómo crear listas y cuadrículas básicas utilizando compositional layouts. Esto es un buen comienzo, pero puedes hacer mucho más. En esta lección, aprenderás a aprovechar al máximo las capacidades de los compositional layouts para crear interfaces más ricas que brinden una excelente experiencia al usuario.
+En esta lección, he aprendido a construir diseños composicionales para vistas de colección que permiten mostrar datos de formas que el diseño de flujo no admite. El enfoque se centra en construir aplicaciones que presenten datos en grupos y secciones distintas. Además, he adquirido habilidades valiosas de refactorización durante la parte práctica del laboratorio de la lección.
 
 ## Lo que Aprendí
-- Cómo crear secciones con diseños distintos.
-- Cómo crear secciones con desplazamiento ortogonal en un diseño composicional.
+
+- Utilice `UICollectionViewCompositionalLayout` para crear diseños complejos, incluidas secciones con diseños distintos
+- Describir los tres componentes de un diseño compositivo.
+- Utilice `UICollectionLayoutSectionOrthogonalScrollingBehavior` para hacer que las secciones se desplacen ortogonalmente al diseño principal.
+- Utilice vistas complementarias para agregar encabezados y otros elementos a las secciones de diseño
 
 ## Vocabulario
 - `anclaje` (anchor): Punto de referencia utilizado para posicionar elementos dentro de un diseño composicional.
@@ -35,6 +38,8 @@ El `StoreItemContainerViewController` es el punto central de la aplicación y es
 En resumen, este código proporciona una infraestructura completa para buscar y mostrar artículos de la tienda en una aplicación de iOS. Emplea un diseño modular con celdas personalizadas y un controlador central para coordinar la búsqueda y visualización de artículos. Se utilizan estructuras y enumeraciones para representar datos y configuraciones cruciales, y se aprovecha la concurrencia asincrónica para mejorar la capacidad de respuesta de la aplicación durante la búsqueda y la carga de imágenes.
 
 ##### Diseño de tienda de aplicaciones
+
+En esta lección, he construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas. El enfoque de esta lección se centra en la creación del diseño composicional y en reforzar mi conocimiento sobre `UICollectionViewDiffableDataSource`.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac8b5e34-d34b-477d-a3a9-22c653da83c8
 
