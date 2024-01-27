@@ -1,11 +1,14 @@
 # Compositional Layout
 
-You have used compositional layouts with collection views in previous lessons, but you haven't really explored their capabilities. Compositional layouts for collection views are powerful tools. They allow you to break down a layout into small components and assemble them into larger groups with a simple set of rules, and their API is general enough to cover a wide range of user interfaces for displaying large data collections.
-In this lesson, you will learn more about how compositional layouts work and get to know supplementary views, which allow you to add a rich layer of design to any collection view.
+In previous lessons, I have used compositional layouts with collection views, but I have not fully explored their capabilities. Collection view compositional layouts are powerful tools. They allow a design to be decomposed into small components that can be assembled into larger groups with a simple set of rules, and their API is general enough to span a wide variety of user interfaces for displaying large collections of data.
+
+In this lesson, I've delved into how compositional layouts work and supplemental views, which allow me to add a rich layer of layout to any collection view.
 
 ## What I Learned
-- How the elements, groups, and sections of compositional layouts work together.
-- How to use supplementary views.
+
+- Describe how items, groups, and sections of compositional layouts work together
+- Use supplementary views in collection views
+
 
 ## Vocabulary
 - `absolute size`: The exact size of an element or group in a compositional layout.
@@ -21,6 +24,8 @@ In this lesson, you will learn more about how compositional layouts work and get
 #### 4 - Compositional Layout
 
 #####  Compositional Layout lab
+
+In this lab, I have applied my knowledge and skills to evolve the Emoji Dictionary project. I've implemented grid and column layouts, a feature to switch between them, and added simple section headers. 
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/089578a6-0465-4fc8-ad0d-20643a5cf940
 

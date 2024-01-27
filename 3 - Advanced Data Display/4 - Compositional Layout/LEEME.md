@@ -1,11 +1,13 @@
 # Compositional Layout
 
-Has utilizado compositional layouts con vistas de colección en lecciones anteriores, pero realmente no has explorado sus capacidades. Los compositional layouts de las vistas de colección son herramientas poderosas. Te permiten dividir un diseño en pequeños componentes y ensamblarlos en grupos más grandes con un conjunto simple de reglas, y su API es lo suficientemente general como para abarcar una amplia gama de interfaces de usuario para mostrar grandes colecciones de datos.
-En esta lección, aprenderás más sobre cómo funcionan los compositional layouts y conocerás las vistas complementarias, que te permiten agregar una capa rica de diseño a cualquier vista de colección.
+En lecciones anteriores, he utilizado diseños composicionales con vistas de colección, pero no he explorado completamente sus capacidades. Los diseños composicionales de vistas de colección son herramientas potentes. Permiten descomponer un diseño en pequeños componentes que se pueden ensamblar en grupos más grandes con un conjunto simple de reglas, y su API es lo suficientemente general como para abarcar una amplia variedad de interfaces de usuario para mostrar grandes colecciones de datos.
+
+En esta lección, he profundizado en cómo funcionan los diseños composicionales y en las vistas suplementarias, que me permiten agregar una capa rica de diseño a cualquier vista de colección.
 
 ## Lo que Aprendí
-- Cómo los elementos, grupos y secciones de los compositional layouts trabajan juntos.
-- Cómo utilizar vistas complementarias.
+
+- Describir cómo funcionan juntos los elementos, grupos y secciones de diseños compositivos.
+- Utilice vistas complementarias en vistas de colección
 
 ## Vocabulario
 - `tamaño absoluto` (absolute size): El tamaño exacto de un elemento o grupo en un diseño composicional.
@@ -19,6 +21,8 @@ En esta lección, aprenderás más sobre cómo funcionan los compositional layou
 - `vista complementaria` (supplementary item): Un elemento visual adicional que se puede agregar a un diseño composicional para proporcionar información adicional o mejorar la apariencia.
 
 ##### Laboratorio de diseño compositivo
+
+En este laboratorio, he aplicado mis conocimientos y habilidades para evolucionar el proyecto Emoji Dictionary. He implementado diseños de cuadrícula y columnas, una función para cambiar entre ellos, y añadido encabezados de sección simples.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/089578a6-0465-4fc8-ad0d-20643a5cf940
 
