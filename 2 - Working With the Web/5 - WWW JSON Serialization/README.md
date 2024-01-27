@@ -1,13 +1,13 @@
 # Working with the Web: JSON Decoding
 
-In the last lesson, I learned how to create and send a network request using the URLSession class. I also learned how URLs are constructed and how they can convey a request to a web server. I requested data from NASA's Astronomy Picture of the Day (APOD) API, downloaded, and printed the server's response.
-
-But in what format did the response come? Many modern web services return data in the format of JavaScript Object Notation (JSON). In this lesson, I learned how to read basic data in JSON format. I also learned how to convert JSON into Swift types and custom model objects using the Codable protocol and a JSONDecoder.
+In this lesson, I have learned how to work with network services and `APIs`, as well as how to serialize `JSON` into model objects that can be used in an application.
 
 ## What I Learned
-- How to read basic data in JSON format.
-- How to use JSONDecoder to decode JSON.
-- How to decode JSON data into custom Swift types.
+
+- Describe `JSON` (JavaScript Object Notation) and the role `JSON` plays in working with network services
+- Demonstrate how to read and write basic `JSON` data
+- Demonstrate how to use `JSON` serialization to encode and decode `JSON`
+- Demonstrate how to serialize `JSON` data into custom model objects
 
 ## Vocabulary
 - `escaping closure`: A closure that escapes the scope in which it is defined.

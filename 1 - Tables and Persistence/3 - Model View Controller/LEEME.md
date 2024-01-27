@@ -1,13 +1,10 @@
 # Modelo-Vista-Controlador
 
-En esta lección, he aprendido a trabajar con servicios de red y `APIs`, así como a serializar `JSON` en objetos de modelo que pueden ser utilizados en una aplicación.
+
 
 ## Lo que Aprendí
 
-- Describir `JSON` (JavaScript Object Notation) y el papel que desempeña `JSON` en el trabajo con servicios de red
-- Demostrar cómo leer y escribir datos básicos en formato `JSON`
-- Demostrar cómo utilizar la serialización `JSON` para codificar y decodificar `JSON`
-- Demostrar cómo serializar datos en formato `JSON` en objetos de modelo personalizados
+
 
 ## Vocabulario
 - `abstracción`: Representación simplificada de la realidad.
