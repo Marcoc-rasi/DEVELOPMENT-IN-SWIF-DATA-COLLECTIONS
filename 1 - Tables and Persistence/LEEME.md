@@ -15,7 +15,7 @@ Hemos explorado diversos conceptos para mejorar nuestras habilidades en el desar
 - `Vistas de Tabla Intermedias:` Profundizamos en el manejo avanzado de tablas.
 - `Controladores de Vista del Sistema:` Entendimos el papel de los controladores de vista proporcionados por el sistema.
 - `Guardado de Datos:` Exploramos métodos para almacenar información de manera persistente.
-- Pantallas de Entrada Complejas:` Aplicamos técnicas para crear interfaces de usuario complejas.
+- `Pantallas de Entrada Complejas:` Aplicamos técnicas para crear interfaces de usuario complejas.
 
 ## `Videos de Aplicaciones y Explicación`
 
