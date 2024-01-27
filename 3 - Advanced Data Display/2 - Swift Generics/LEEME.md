@@ -1,13 +1,13 @@
 # Swift Generics
 
-Un principio de diseño importante del lenguaje de programación Swift es la divulgación progresiva: la práctica de revelar conceptos con el tiempo a medida que el usuario adquiere experiencia y confianza, en lugar de hacerlo de una vez. Por ejemplo, puedes usar Swift como principiante sin entender nada acerca de los protocolos, aunque estás utilizando protocolos cada vez que usas incluso tipos básicos como Int o String.
-Los genéricos son otro ejemplo de divulgación progresiva. Son una característica poderosa de Swift, pero para usarlos, debes sentirte cómodo con los fundamentos del lenguaje. Como cualquier nuevo concepto, los genéricos pueden parecer confusos al principio, pero ya has dominado todos los conceptos necesarios para empezar a explorarlos. Al final de esta unidad, estaré utilizando genéricos para hacer que mis proyectos sean más fáciles de leer y mantener.
+Los genéricos son una herramienta poderosa en Swift. Al principio, pueden parecer confusos, pero una vez que te familiarizas con los fundamentos del lenguaje, se convierten en una forma fantástica de hacer que tus proyectos sean más legibles y fáciles de mantener. Después de dominar los conceptos, te das cuenta de que los genéricos son una gran ayuda para escribir un código más limpio, abstracto y reutilizable. ¡Realmente hacen que la programación sea mucho más eficiente y elegante!
 
 ## Lo que Aprendí
-- Cómo identificar tipos y métodos genéricos por su sintaxis.
-- Cómo usar genéricos para hacer que el código sea reutilizable.
-- Cómo usar genéricos en conjunto con protocolos.
-- Cómo usar tipos asociados con protocolos.
+
+- Comprender los beneficios de los genéricos.
+- Identificar tipos y métodos genéricos en función de la sintaxis de su definición.
+- Comprender cómo funcionan juntos los protocolos y los genéricos.
+- Comprender los beneficios de los protocolos con tipos asociados.
 
 ## Vocabulario
 - `tipo asociado`: Tipo relacionado con un protocolo que se especifica cuando se adopta el protocolo.
@@ -17,6 +17,8 @@ Los genéricos son otro ejemplo de divulgación progresiva. Son una característ
 
 
 ##### Búsqueda de formas de vida
+
+En este laboratorio, he construido una aplicación que facilita a los usuarios la búsqueda de formas de vida y la visualización de información taxonómica y fotos disponibles. Aplicando lo aprendido en esta lección y en lecciones anteriores, he creado una app que utiliza la API de servicios de datos de la Enciclopedia de la Vida (www.eol.org) para explorar su base de datos y obtener información sobre las formas de vida identificadas.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8552000d-9ec3-4637-8f35-e64546a4e3ba
 

@@ -1,14 +1,14 @@
 # Swift Generics
 
-An important design principle of the Swift programming language is progressive disclosure: the practice of revealing concepts over time as the user gains experience and confidence, rather than all at once. For example, you can use Swift as a beginner without understanding anything about protocols, even though you are using protocols every time you use even basic types like Int or String.
-
-Generics are another example of progressive disclosure. They are a powerful feature of Swift, but to use them, you should feel comfortable with the fundamentals of the language. Like any new concept, generics may seem confusing at first, but you've already mastered all the necessary concepts to start exploring them. By the end of this unit, you'll be using generics to make your projects more readable and maintainable.
+Generics are a powerful tool in Swift. They may seem confusing at first, but once you get familiar with the basics of the language, they become a fantastic way to make your projects more readable and maintainable. After mastering the concepts, you realize that generics are a great help in writing cleaner, abstract, and reusable code. They really make programming much more efficient and elegant!
 
 ## What I Learned
-- How to identify generic types and methods by their syntax.
-- How to use generics to make code reusable.
-- How to use generics in conjunction with protocols.
-- How to use associated types with protocols.
+
+- Understand the benefits of generics
+- Identify generic types and methods based on the syntax of their definition
+- Understand how protocols and generics work together
+- Understand the benefits of protocols with associated types
+
 
 ## Vocabulary
 - `associated type`: A type associated with a protocol that is specified when adopting the protocol.
@@ -17,6 +17,8 @@ Generics are another example of progressive disclosure. They are a powerful feat
 - `type parameter`: A type used as a placeholder to represent specific types when using a generic type.
 
 ##### Life-formSearch
+
+In this lab, I have built an application that makes it easy for users to search for life forms and view available taxonomic information and photos. Applying what I learned in this lesson and previous lessons, I have created an app that uses the data services API of the Encyclopedia of Life (www.eol.org) to explore its database and obtain information about life forms. identified.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8552000d-9ec3-4637-8f35-e64546a4e3ba
 
