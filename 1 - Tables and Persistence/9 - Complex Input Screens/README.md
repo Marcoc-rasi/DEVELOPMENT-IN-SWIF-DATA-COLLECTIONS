@@ -1,14 +1,15 @@
 # Complex Input Screens
 
-If you're an iOS user, you know that the App Store offers many excellent apps: games, social networking apps, and other apps that make your life easier or more fun. But the App Store also offers apps that help businesses track, record, and monitor their daily activities. Whether it's recording daily safety inspections for a city transit system, customer orders, or hotel guests, these apps have complex screens that allow users to input data for storage and management.
-
-In this lesson, I learned how to combine multiple controls and views to build custom and complex user input workflows.
+In this lesson, I learned how to use standard user interface controls to build a data entry interface with complex input forms.
 
 ## What I Learned
-- How to build custom forms for inputting data and creating model objects.
-- How and when to use different controls to collect data.
-- How to dynamically resize cells in a table view.
-- How to use custom protocols to pass data between view controllers.
+
+- Demonstrate how to build complex workflows with complex controls
+- Demonstrate how to use a custom protocol and delegate for passing data between view controllers
+- Demonstrate how to use `UITableViewDelegate` methods to dynamically resize table cells
+- Demonstrate how to use a date picker in a table view controller
+- Demonstrate how to use a static table view to create a form
+
 
 ## Vocabulary
 - `AnyObject`: Protocol type that represents an object of any type.
