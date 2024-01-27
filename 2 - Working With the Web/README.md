@@ -1,6 +1,6 @@
 # Working with the Web
 
-In this lesson, I have learned about collection views, compositional layouts, diffable data sources, Swift generics, and user notifications. I have applied this knowledge in the guided project, Habits, an application that allows users to track good habits by recording them on a social network. The application uses a web service to simulate user activity on the social network, and I have had the ability to customize the habits and simulated users.
+In this lesson, I have learned about application personality, animations, concurrency, and working with the web. I have applied this knowledge in the guided project, Restaurant, a customizable menu application that displays a restaurant's available dishes and allows the user to place an order. This app uses a web service that allows students to configure the menu with their own items and photos.
 
 ## Swift Lessons
 - `Closures`: Executable code blocks at specific moments.

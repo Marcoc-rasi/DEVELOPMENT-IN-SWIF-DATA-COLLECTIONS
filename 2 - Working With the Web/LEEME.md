@@ -1,6 +1,6 @@
 # Trabajando con la Web
 
-En esta lección, he aprendido sobre vistas de colección, diseños composicionales, fuentes de datos difables, genéricos de Swift y notificaciones de usuario. He aplicado este conocimiento en el proyecto guiado, Habits, una aplicación que permite a los usuarios realizar un seguimiento de buenos hábitos registrándolos en una red social. La aplicación utiliza un servicio web para simular la actividad de los usuarios en la red social, y he tenido la capacidad de personalizar los hábitos y los usuarios simulados.
+En esta lección, he aprendido sobre la personalidad de la aplicación, animaciones, concurrencia y trabajo con la web. He aplicado este conocimiento en el proyecto guiado, Restaurant, una aplicación de menú personalizable que muestra los platos disponibles de un restaurante y permite al usuario realizar un pedido. Esta aplicación utiliza un servicio web que permite a los estudiantes configurar el menú con sus propios elementos y fotos.
 
 ## Lecciones de Swift
 - `Closures`: Bloques de código ejecutables en momentos específicos.
