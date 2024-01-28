@@ -1,8 +1,8 @@
-# Notificaciones Locales
+# `Notificaciones Locales`
 
 Las notificaciones son una parte esencial de la experiencia en iOS, permitiendo que las aplicaciones se comuniquen con sus usuarios incluso cuando están cerradas. He aprendido sobre el marco UserNotifications y cómo programar y gestionar notificaciones locales.
 
-## Lo que Aprendí
+## `Lo que Aprendí`
 
 - Comprender la diferencia entre notificaciones locales y remotas
 - Configurar una aplicación para recibir notificaciones locales
@@ -11,7 +11,7 @@ Las notificaciones son una parte esencial de la experiencia en iOS, permitiendo 
 - Crear una notificación que reciba entrada de texto como respuesta del usuario.
 
 
-## Vocabulario
+## `Vocabulario`
 - `notificación con acción` (actionable notification): Una notificación que permite al usuario realizar acciones directamente desde la notificación.
 - `insignia` (badge): Un número o símbolo que aparece en el ícono de una aplicación para indicar la presencia de nuevas notificaciones o mensajes.
 - `banderín` (banner): Una forma común de presentar notificaciones en la parte superior de la pantalla.
@@ -20,11 +20,11 @@ Las notificaciones son una parte esencial de la experiencia en iOS, permitiendo 
 - `notificación remota` (remote notification): Una notificación enviada desde un servidor remoto a un dispositivo.
 
 
-##### Administrador de facturas
+### `Administrador de facturas`
 
 Extendí el proyecto BillManager en la carpeta de recursos. En la actualidad, BillManager permite a los usuarios hacer un seguimiento de las facturas pendientes y marcarlas como pagadas o pendientes. Mi tarea fue agregar notificaciones locales para recordar a los usuarios los pagos pendientes.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5f7e1d12-48d5-433c-90e4-c9fe5686ebfa
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/63f6454c-9645-4fa0-9d8c-5e31c2967886
 
 El código proporcionado pertenece a una aplicación llamada "BillManager" y consta de varias secciones que funcionan juntas para administrar las facturas. La aplicación se centra en gestionar los detalles de facturación, incluidos recordatorios y notificaciones. Aquí hay una explicación continua del código, destacando aspectos clave:
 
@@ -60,11 +60,11 @@ El código proporcionado pertenece a una aplicación llamada "BillManager" y con
 
 En conjunto, este código crea una aplicación para administrar facturas, lo que permite a los usuarios agregar, editar y programar recordatorios de sus facturas. Además, se encarga de la persistencia de los datos y la gestión de notificaciones relacionadas con facturas. Las extensiones brindan funcionalidad adicional para una gestión eficiente de las facturas.
 
-##### Alarma
+### `Alarma`
 
 Este proyecto consiste en la estructura básica de una aplicación de alarma simple que permite crear una alarma a la vez. He implementado la lógica para crear una alarma, obtener autorización para enviar notificaciones, programar notificaciones locales y ofrecer a los usuarios la opción de posponer su alarma.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/16cbfcf3-e26a-4535-8a5a-c2500bf6f75f
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a572abb8-9764-4079-a479-5b8b566bdecc
 
 El código proporcionado se centra en gestionar alarmas y notificaciones en una aplicación de iOS. La estructura central involucrada se denomina "Alarma". Esta estructura representa una alarma y abarca varias funcionalidades clave.
 
