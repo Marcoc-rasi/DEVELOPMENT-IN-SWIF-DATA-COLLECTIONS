@@ -1,8 +1,8 @@
-# Local Notifications
+# `Local Notifications`
 
 Notifications are an essential part of the iOS experience, allowing apps to communicate with their users even when they are closed. I have learned about the UserNotifications framework and how to schedule and manage local notifications.
 
-## What I Learned
+## `What I Learned`
 
 - Understand the difference between local and remote notifications
 - Configure an app to receive local notifications
@@ -11,7 +11,7 @@ Notifications are an essential part of the iOS experience, allowing apps to comm
 - Create a notification that takes text input as a response from the user
 
 
-## Vocabulary
+## `Vocabulary`
 - `actionable notification`: A notification that allows the user to perform actions directly from the notification.
 - `badge`: A number or symbol that appears on the app icon to indicate the presence of new notifications or messages.
 - `banner`: A common way to present notifications at the top of the screen.
@@ -19,11 +19,11 @@ Notifications are an essential part of the iOS experience, allowing apps to comm
 - `notification category`: A classification that allows the user to manage how notifications are presented.
 - `remote notification`: A notification sent from a remote server to a device.
 
-##### BillManager
+### `BillManager`
 
 I extended the BillManager project in the resources folder. Currently, BillManager allows users to track outstanding invoices and mark them as paid or pending. My task was to add local notifications to remind users of pending payments.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5f7e1d12-48d5-433c-90e4-c9fe5686ebfa
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/63f6454c-9645-4fa0-9d8c-5e31c2967886
 
 The provided code pertains to an application called "BillManager" and consists of various sections that work together to manage bills. The application focuses on managing billing details, including reminders and notifications. Here's a continuous explanation of the code, highlighting key aspects:
 
@@ -59,11 +59,11 @@ The provided code pertains to an application called "BillManager" and consists o
 
 Collectively, this code creates an application for managing bills, enabling users to add, edit, and schedule reminders for their bills. Additionally, it takes care of data persistence and the management of bill-related notifications. The extensions provide additional functionality for efficient bill management.
 
-##### Alarm
+### `Alarm`
 
 This project consists of the basic structure of a simple alarm application that allows you to create one alarm at a time. I've implemented logic to create an alarm, get authorization to send notifications, schedule local notifications, and give users the option to snooze their alarm.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/16cbfcf3-e26a-4535-8a5a-c2500bf6f75f
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a572abb8-9764-4079-a479-5b8b566bdecc
 
 The provided code focuses on managing alarms and notifications in an iOS application. The central structure involved is named `Alarm`. This structure represents an alarm and encompasses various key functionalities.
 
