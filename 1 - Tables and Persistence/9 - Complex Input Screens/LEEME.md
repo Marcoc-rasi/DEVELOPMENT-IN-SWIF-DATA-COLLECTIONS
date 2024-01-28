@@ -14,15 +14,13 @@ En esta lección, he aprendido a utilizar controles estándar de interfaz de usu
 - `AnyObject`: Tipo de protocolo que representa un objeto de cualquier tipo.
 - `formateo de fecha`: Proceso de ajuste de la presentación de una fecha según un formato específico.
 
-#### 9 - Pantallas de entrada complejas
+## `9 - Pantallas de entrada complejas`
 
-##### Lista de empleados
-
-resumen
+### `Lista de empleados`
 
 El objetivo de este laboratorio es crear una pantalla que acepte una entrada de usuario compleja. Se utilizará un selector de fechas y un delegado personalizado para construir un registro de empleados que lleve un seguimiento de la información de los empleados.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5b0e0b60-78bf-404c-a4ec-ee5953774556
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f6af2ee5-438b-41c5-982f-0c403aa22205
 
 El fragmento de código proporcionado comprende varios componentes interconectados que forman una aplicación de seguimiento de empleados de iOS. En este sistema, se emplean varios conceptos y patrones de programación esenciales, que se detallarán a continuación.
 
@@ -56,13 +54,11 @@ El flujo de la aplicación se desarrolla de la siguiente manera:
 
 En resumen, el código presenta una implementación integral de una aplicación de seguimiento de empleados de iOS que utiliza múltiples controladores de vista y un modelo de datos para administrar y mostrar información sobre los empleados, incluido su nombre, fecha de nacimiento y tipo de empleado. Se emplean protocolos y delegados para comunicar cambios y selecciones entre los controladores de vista.
 
-##### Hotel Manzaná
-
-Resumen
+### `Hotel Manzaná`
 
 La aplicación consiste en un controlador de vista en una aplicación de iOS que permite a los usuarios gestionar reservas de habitaciones en un hotel.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/67035da4-6246-4863-a34a-41654675b396
 
 En este controlador de vista puede encontrar múltiples propiedades y conexiones de interfaz de usuario (Outlets) que representan elementos como campos de texto, etiquetas, interruptores, entre otros. Además, las propiedades se definen para rastrear el estado del selector de fechas y el tipo de habitación seleccionada.
 
