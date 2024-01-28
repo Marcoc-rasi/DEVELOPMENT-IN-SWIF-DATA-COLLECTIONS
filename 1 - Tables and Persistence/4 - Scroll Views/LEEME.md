@@ -15,15 +15,13 @@ En esta lección, he aprendido a construir una interfaz de desplazamiento que pe
 - `marco`: Área rectangular que representa el tamaño y la posición de una vista en relación con el sistema de coordenadas de su superposición.
 - `vista desplazable`: Componente que permite mostrar contenido más grande que la pantalla y permite al usuario desplazarse para ver diferentes partes del contenido.
 
-#### 4 - Vistas de desplazamiento
+## `4 - Vistas de desplazamiento`
 
-##### ISpy-Marcocrasi
-
-Resumen
+### `ISpy-Marcocrasi`
 
 Esta es  una aplicación que muestra una imagen de un gato y permite operaciones de zoom y desplazamiento dentro del área ampliada.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b00cc336-41cb-4633-84fd-c7270f7438d2
 
 Primero, importamos el módulo UIKit, que es crucial para el desarrollo de aplicaciones iOS. Luego, definimos una clase llamada `ViewController`, que actúa como el controlador principal de la vista de la aplicación. La clase hereda de `UIViewController` y se ajusta al protocolo `UIScrollViewDelegate`, lo que indica que estamos habilitando la manipulación de las vistas de desplazamiento.
 
@@ -41,13 +39,11 @@ Finalmente, el método personalizado `updateZoomFor` calcula los factores de esc
 
 En resumen, este código configura una vista de desplazamiento que muestra una imagen de un gato, lo que permite operaciones de zoom y desplazamiento dentro del área ampliada. La lógica dentro de la clase `ViewController` garantiza que la imagen se ajuste adecuadamente a la pantalla y proporciona una experiencia de usuario fluida al interactuar con la imagen del gato.
 
-##### Formulario de desplazamiento-Marcocrasi
-
-Resumen 
+### `Formulario de desplazamiento-Marcocrasi`
 
 El propósito de este código es garantizar que, cuando el teclado aparece o desaparece dentro de la aplicación, la vista se ajusta automáticamente para mantener los campos de entrada de texto visibles y accesibles.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/dcf8e41e-0e44-4111-af4d-e707a37ba1ef
 
 Dentro de la clase `ViewController`, se declara una propiedad llamada `scrollView`, que representa un objeto `UIScrollView`. Este objeto se utiliza para crear una vista desplazable en la interfaz de usuario.
 
@@ -61,12 +57,9 @@ Cuando el teclado está a punto de ocultarse, se llama al método `keyboardWillB
 
 En resumen, este código es esencial para garantizar una experiencia de usuario perfecta en una aplicación de iOS. Cuando se muestra el teclado, la vista se ajusta automáticamente para evitar que el teclado cubra elementos de la interfaz de usuario. Cuando el teclado está oculto, la vista vuelve a su estado original. Este enfoque mejora la usabilidad al permitir a los usuarios interactuar con los campos de entrada de texto cómodamente, sin obstrucciones del teclado. El uso de notificaciones del sistema y la manipulación de `scrollView` son claves para lograr este comportamiento.
 
-##### DesplazamientoDesafíoHorizontal
-
-Resumen
+### `DesplazamientoDesafíoHorizontal`
 
 Se ha desarrollado una aplicación para cumplir el desafío de crear una vista de desplazamiento horizontal que muestre tres imágenes favoritas. Esta aplicación presenta una vista de desplazamiento horizontal visualmente agradable con las tres imágenes favoritas del usuario. Los usuarios pueden deslizar fácilmente estas imágenes para disfrutar y apreciar las favoritas elegidas.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
-
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/84e11f24-3815-4158-8efd-d7bd64b12697
 
