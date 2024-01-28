@@ -22,7 +22,7 @@ In this lesson, I learned how to make simple animations in the view to direct th
 - `transform`: Change the position, size, or orientation of an object.
 - `wireframe model`: Visual representation of a three-dimensional object using lines instead of solid surfaces.
 
-## `3 - Animations
+## `3 - Animations`
 
 ### `Contest`
 
