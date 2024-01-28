@@ -17,15 +17,13 @@ In this lesson, I learned how to build a scrolling interface that allows users t
 - `frame`: Rectangular area representing the size and position of a view in relation to its superview's coordinate system.
 - `scroll view`: Component that allows displaying content larger than the screen and enables the user to scroll to view different parts of the content.
 
-#### 4 - Scroll Views
+## `4 - Scroll Views`
 
-##### ISpy-Marcocrasi
-
-Summary
+### `ISpy-Marcocrasi`
 
 This is an application that displays an image of a cat and allows zooming and panning operations within the enlarged area.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8517974f-8ca4-47b8-bac0-2f8846ce4a5a
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3a3a96d0-faa5-4735-a6f4-8b1be67b26f1
 
 First, we import the UIKit module, which is crucial for iOS app development. Then, we define a class called `ViewController`, acting as the primary controller for the app's view. The class inherits from `UIViewController` and conforms to the `UIScrollViewDelegate` protocol, indicating that we're enabling manipulation of scroll views.
 
@@ -43,13 +41,11 @@ Finally, the custom method `updateZoomFor` calculates the scale factors necessar
 
 In summary, this code configures a scroll view that displays an image of a cat, allowing zoom and pan operations within the zoomed area. The logic within the `ViewController` class ensures that the image fits appropriately on the screen and provides a smooth user experience when interacting with the cat image.
 
-##### ScrollingForm-Marcocrasi
-
-Summary
+### `ScrollingForm-Marcocrasi`
 
 The purpose of this code is to ensure that when the keyboard appears or disappears within the application, the view automatically adjusts to keep the text entry fields visible and accessible.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c4d3282-49e5-4938-916f-e6b73c1d9284
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/7e51ec93-456a-4ba1-b45d-74ef42682c88
 
 Within the `ViewController` class, a property called `scrollView` is declared, representing a `UIScrollView` object. This object is used to create a scrollable view in the user interface.
 
@@ -63,10 +59,8 @@ When the keyboard is about to be hidden, the `keyboardWillBeHidden(_)` method is
 
 In summary, this code is essential for ensuring a seamless user experience in an iOS application. When the keyboard is shown, the view automatically adjusts to prevent the keyboard from covering user interface elements. When the keyboard is hidden, the view returns to its original state. This approach enhances usability by allowing users to interact with text input fields conveniently, without keyboard obstructions. The use of system notifications and manipulation of the `scrollView` are key to achieving this behavior.
 
-##### ScrollingChallengeHorizontal
-
-Summary
+### `ScrollingChallengeHorizontal`
 
 An application has been developed to fulfill the challenge of creating a horizontal scroll view that showcases three favorite images. This app features a visually pleasing horizontal scroll view with the user's top three favorite images. Users can easily swipe through these images to enjoy and appreciate the chosen favorites. 
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/0f304516-4c40-4e01-a546-606b6ec77faa
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1ef0f578-1e58-4b0d-9f53-28046721a5b4
