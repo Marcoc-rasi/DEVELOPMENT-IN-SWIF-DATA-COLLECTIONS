@@ -1,22 +1,22 @@
-# Dynamic Data
+# `Dynamic Data`
 
 Trabajar con conjuntos extensos de datos me ha enseñado que como desarrollador, es crucial ofrecer una forma eficiente de navegar por el contenido. Una práctica común es implementar una función de búsqueda o filtro para reducir la cantidad de resultados. Además, la gestión de la fuente de datos de una aplicación puede volverse engorrosa, especialmente con conjuntos de datos más grandes. La API de fuente de datos difusa surge para abordar estos problemas. Con una cantidad relativamente pequeña de código, puedo dirigir a la fuente de datos para que se administre (casi) por sí misma y controle su presentación en una tabla o vista de colección.
 
-## Lo que Aprendí
+## `Lo que Aprendí`
 
 - Utilizar `UISearchController`
 - Demostrar y describir `UICollectionViewDiffableDataSource`
 
-## Vocabulario
+## `Vocabulario`
 - `fuente de datos diferenciable` (diffable data source): Una fuente de datos que utiliza instantáneas para representar el estado actual de los datos y facilita las actualizaciones en una vista.
 - `controlador de búsqueda` (search controller): Un componente que gestiona la barra de búsqueda y los resultados de búsqueda en una interfaz de usuario.
 - `instantánea` (snapshot): Una representación inmutable del estado actual de los datos en una fuente de datos diferenciable.
 
-##### Búsqueda de iTunes
+### `Búsqueda de iTunes`
 
 En este laboratorio, he aplicado mis nuevos conocimientos sobre vistas de colección, controladores de búsqueda y fuentes de datos difusas para actualizar la solución de la Búsqueda en iTunes (Parte 3). Comencé con una versión refactorizada de la solución, disponible en la carpeta de recursos. La solución ha sido mejorada para utilizar un controlador de vista personalizado, lo que me permite alternar entre las vistas de dos controladores de vista. (Los controladores de vista contenedor UIKit estándar incluyen UINavigationController y UITabBarController). También se ha actualizado para utilizar un controlador de búsqueda en lugar de una barra de búsqueda.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c0c8e6cc-2217-428a-9aaa-f01512f5123c
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/72b160a8-931e-4277-bc98-bbe5af678187
 
 El código presenta un conjunto de clases y estructuras diseñadas para implementar una aplicación iOS para buscar y mostrar artículos de una tienda, posiblemente vinculada a la tienda iTunes. Se destacan varios componentes clave en este código, y todos contribuyen a la funcionalidad general de la aplicación.
 
@@ -38,11 +38,11 @@ Dentro de las extensiones de estas clases se implementa el método `configure(fo
 
 Juntas, estas clases y estructuras forman la base de una aplicación que permite a los usuarios buscar y ver artículos de la tienda, con la capacidad de cargar imágenes y gestionar eficientemente tareas asincrónicas. El código proporciona una estructura sólida para implementar esta funcionalidad, que abarca la gestión de datos hasta la presentación de la interfaz de usuario.
 
-##### Vista de colección básica
+### `Vista de colección básica`
 
 En esta lección, he aprendido sobre mi primer API que utiliza genéricos: `UICollectionViewDiffableDataSource`. Entendí cómo puede reducir el trabajo necesario para proporcionar datos a una vista de colección, ofreciéndome características estándar, como la animación de cambios, de manera automática.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d5060751-01d6-4e4a-ab84-eb78139b11b9
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b68afb0e-04ec-453e-a29c-d6181852cd69
 
 En el fragmento de código proporcionado, se presenta una implementación de una vista de colección (UICollectionView) en un entorno de desarrollo iOS utilizando el lenguaje Swift. Esta vista de colección muestra una lista de los estados de Estados Unidos y proporciona una función de búsqueda en tiempo real.
 
