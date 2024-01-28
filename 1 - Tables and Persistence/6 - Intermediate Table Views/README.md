@@ -15,15 +15,13 @@ In this lesson, I've delved into more advanced table view features, such as crea
 - `row action`: Functionality associated with a row in a table view, such as delete or share.
 - `static table view`: Type of table view that displays a fixed list of items, typically used for forms or lists that don't change.
 
-#### 6 - Intermediate Table Views
+## `6 - Intermediate Table Views`
 
-#### Favorite books
-
-Summary
+### `Favorite books`
 
 The goal of this lab is to implement intermediate features of the table view in an application that keeps track of your favorite books.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b267f9aa-94b6-4e28-89d8-dca0aa3f1abd
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a0eb3cd5-ed99-4767-8a5a-375953aeabfe
 
 The code provided is a Swift implementation for an iOS application focused on managing books. The `BookTableViewController` class is a subclass of `UITableViewController` and is used to control a table view in the application's user interface. The table view is used to display a list of books, and I am responsible for managing its content and behavior.
 
@@ -39,13 +37,11 @@ Lastly, the `Book` structure represents a book with properties for the title, au
 
 In summary, the provided code is a Swift implementation for an iOS book management application. It uses classes and structures to represent books and customize their display in a table view. Table view methods handle data presentation, and the `Book` structure provides a detailed textual description of a book for display. The code also includes logic for editing and navigating between views.
 
-#### EmojiDictionary
-
-Summary
+### `EmojiDictionary`
 
 In the app you create a list of emojis with a custom table cell that will add a third larger label aligned to the left edge of the cell to display the emoji.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b97eb7c1-1928-4053-b649-d11da7bee860
 
 The `EmojiTableViewController` class is responsible for displaying the list of emojis in a table view. This class inherits from `UITableViewController` and contains a property named `emojis` that stores an array of `Emoji` objects. The table view is configured with the information from these objects, including their symbol, name, description, and usage.
 
