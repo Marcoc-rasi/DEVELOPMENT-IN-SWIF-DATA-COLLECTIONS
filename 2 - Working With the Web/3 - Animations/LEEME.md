@@ -21,15 +21,14 @@ En esta lección, he aprendido a realizar animaciones simples en la vista para d
 - `transformar`: Cambiar la posición, tamaño u orientación de un objeto.
 - `modelo de alambre`: Representación visual de un objeto tridimensional mediante líneas en lugar de superficies sólidas.
 
-#### 3 - Animaciones
+## `3 - Animaciones`
 
-##### Concurso
-
-resumen
+### `Concurso`
 
 La aplicación "Contest" permite a los usuarios ingresar su dirección de correo electrónico para participar en un concurso y ganar un premio. Si intentan enviar sin proporcionar una dirección de correo electrónico, la aplicación utiliza animaciones para resaltar el campo de texto y alertar al usuario de que es necesario completarlo para participar en el concurso.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9a5645bd-ff91-4c91-bf71-bc3f6ddf7379
+[
+](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a291d783-7426-4472-a309-608e803e1be5)
 
 En este código, se define una clase llamada `ViewController`, que hereda de `UIViewController`. Los controladores de vista en iOS son responsables de la gestión de la interfaz de usuario y la lógica de vista.
 
@@ -45,13 +44,11 @@ Además, se proporciona una extensión llamada "Challenge Solution", que define 
 
 En resumen, este código representa un controlador de vista en una aplicación de iOS que realiza animaciones en respuesta a la interacción del usuario. La animación "sacudir" se utiliza para indicar un campo de texto vacío, y la extensión "Challenge Solution" ofrece una versión más compleja de la animación "sacudir" para fines de experimentación o desafío.
 
-##### MúsicaWireframe
-
-Resumen
+### `MúsicaWireframe`
 
 La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de la pantalla "Now Playing" en la aplicación de música.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1deebd41-0447-4637-b41f-f826d54b66a5
 
 La `clase ViewController` contiene varias propiedades etiquetadas con la notación `@IBOutlet`, que están asociadas con componentes de la interfaz de usuario (GUI). Estas propiedades incluyen `albumImageView`, `reverseBackground`, `playPauseBackground`, `forwardBackground`, `reverseButton`, `playPauseButton` y `forwardButton`.
 
