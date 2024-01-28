@@ -22,6 +22,8 @@ En este proyecto se utilizó networking, JSON, concurrencia y cierres en Swift a
 
 En la extensión del proyecto, agregarás la capacidad de que la aplicación OrderApp recuerde el estado en el que estaba. Esto significa que, si el usuario detiene la aplicación y vuelve más tarde, la aplicación recordará dónde estaba. Para lograr esto, usarás una herramienta llamada NSUserActivity, que básicamente almacena información clave sobre la orden actual del usuario. Este "estado" se guardará en una parte específica de la aplicación llamada MenuController. Así, cuando el usuario vuelva a abrir la aplicación, empezará exactamente desde donde la dejó.
 
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/893161c1-7736-4265-a364-56b865609c7b
+
 ## `Unit. 2 - Working With The Web`
 
 ### `Lesson 2.3 – Animations`
@@ -30,9 +32,13 @@ En la extensión del proyecto, agregarás la capacidad de que la aplicación Ord
 
 La aplicación permite a los usuarios ingresar su dirección de correo electrónico para participar en un concurso y ganar un premio. Si intentan enviar sin proporcionar una dirección de correo electrónico, la aplicación utiliza animaciones para resaltar el campo de texto y alertar al usuario de que es necesario completarlo para participar en el concurso.
 
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/60f67f85-fd90-4994-b00a-bed3d6ef6a85
+
 #### `MusicWireframe. Lesson app`
 
 La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de la pantalla "Now Playing" en la aplicación de música.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c4827476-b0ab-4f3a-a5ce-12ab5c7e02f3
 
 ### `Lesson 2.6 - WWW Concurrency`
 
@@ -40,6 +46,10 @@ La aplicación es un wireframe (un esquema básico, sin funcionalidad real) de l
 
 El objetivo de este laboratorio es integrar las solicitudes de red de búsqueda de iTunes en una vista de tabla.
 
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/4c5d326f-3c11-44a0-9e18-565819585b31
+
 #### `SpacePhoto – Lesson app`
 
 Una app que utiliza la API de la Fotografía Astronómica del Día (APOD) de la NASA para obtener datos y mostrar la información junto con la imagen en la propia aplicación.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/62a5fe7c-5d0e-4953-948c-b7c95fbbba8d
