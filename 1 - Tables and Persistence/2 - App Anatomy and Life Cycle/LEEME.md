@@ -16,7 +16,7 @@ En esta lección, he explorado cómo responder al lanzamiento de una aplicación
 - `en primer plano`: Estado en el que la aplicación está actualmente visible para el usuario.
 - `delegado de escena`: Objeto que maneja eventos específicos de la escena en la aplicación.
 
-## Aplicaciones de vídeos
+## Aplicaciones Videos
 
 ### `AppEventCount-Marcocrasi - Lab`
 
