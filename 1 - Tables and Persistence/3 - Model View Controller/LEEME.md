@@ -17,15 +17,13 @@ En esta lección, he aprendido a organizar un proyecto de aplicación, reflexion
 - `Modelo-Vista-Controlador`: Patrón de diseño que separa los componentes de la aplicación en tres roles principales.
 - `vista`: Componente encargado de mostrar la interfaz de usuario y recibir la entrada del usuario.
 
-#### 3 - Controlador de vista de modelo
-
-Resumen
+## `3 - Controlador de vista de modelo`
 
 En este laboratorio, planificarás y crearás una aplicación que utiliza un diseño MVC adecuado. La aplicación constará de dos pantallas para mostrar los atletas favoritos del usuario, permitiéndole agregar nuevos atletas a la lista y editar las entradas existentes.
 
-##### Atleta favorito
+### `Atleta favorito`
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/acb1c1c6-ccd8-4798-bff5-cb738b7cd19f
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/84483c68-df9a-45f6-834b-d005c387611e
 
 El código consta de tres secciones principales que juntas forman una aplicación para gestionar la información de los deportistas. El primer fragmento de código define una clase llamada `AthleteTableViewController`, que hereda de `UITableViewController` y se utiliza para mostrar una lista de atletas en una vista de tabla dentro de una aplicación iOS.
 
