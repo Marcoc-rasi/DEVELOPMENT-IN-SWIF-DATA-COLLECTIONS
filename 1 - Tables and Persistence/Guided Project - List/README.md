@@ -8,15 +8,13 @@ Now, with the ability to build `table views`, persist data, and use the `MVC` pa
 
 In the next unit, I explored how to enhance my apps by `retrieving and sending information over the Internet`. I am well on my way to becoming an experienced `iOS developer`. Congratulations!
 
-#### Guided Project - List
+## `Guided Project - List`
 
-##### ToDoList-Marcocrasi
-
-summary
+### `ToDoList-Marcocrasi`
 
 In the code, an iOS application is being developed to manage a list of "To-Do" tasks. 
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e4f905f2-c3e1-4f0e-84f8-0d33d73b5e8b
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/11813fd7-4125-4192-b359-ec65c4bdb6ed
 
 This application utilizes several classes and structures that work together to enable users to create, view, edit, and delete tasks.
 
