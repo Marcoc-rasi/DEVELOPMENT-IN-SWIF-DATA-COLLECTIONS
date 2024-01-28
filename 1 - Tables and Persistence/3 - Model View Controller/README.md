@@ -17,11 +17,11 @@ In this lesson, I learned how to organize an application project, thinking about
 - `Model-View-Controller`: Design pattern that separates the components of the application into three main roles.
 - `view`: Component responsible for displaying the user interface and receiving user input.
 
-#### `3 - Model View Controller`
+## `3 - Model View Controller`
 
 In this lab, you will plan and create an application that uses a proper MVC design. The app will consist of two screens to display the user's favorite athletes, allowing them to add new athletes to the list and edit existing entries.
 
-##### `FavoriteAthlete`
+### `FavoriteAthlete`
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b139b0b-eb33-47c1-a312-a6d9adecc1b7
 
