@@ -25,15 +25,13 @@ In this lesson, I learned how to build a `scrolling` interface using the table v
 - `table view cell`: Individual element in a table view that holds data and is displayed in a row.
 - `zero-based`: System where numbering starts from zero instead of one.
 
-#### 5 - Table Views
+## `5 - Table Views`
 
-##### Meal Tracker - Marcocrasi
-
-Summary
+### `Meal Tracker - Marcocrasi`
 
 You will create an application that will display a list of foods grouped into three sections, one for each meal of the day.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/7c0dd144-8529-4008-bd24-9f7aa9157600
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/52ed8d25-6b86-43e0-b67a-e2516bfb8755
 
 The application consists of three essential parts: the `Meal` structure, the `Food` structure, and the `FoodTableViewController` class.
 
@@ -55,13 +53,11 @@ The view controller's lifecycle begins with the `viewDidLoad` method, which is u
 
 In summary, this code represents an application that allows tracking of meals and their associated foods. The `Meal` and `Food` structures are used to organize the information, and the `FoodTableViewController` class manages the user interface to display the data in a table view.
 
-##### EmojiDictionary
-
-Summary
+### `EmojiDictionary`
 
 The application is an implementation of a table view that is used to display a list of emojis and allows operations like deleting and rearranging items in the list.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/01503d52-4ad7-4598-b691-2c7f03e8dc98
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3716b392-5016-4ad8-ada1-3df3a3253270
 
 The core of the implementation is a class called `EmojiTableViewController` that inherits from `UITableViewController`. In programming terms, "inherits" means that this class inherits properties and methods from the base class `UITableViewController`, which is a pre-defined table view in iOS. This makes it easy to create a custom table view.
 
