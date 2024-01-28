@@ -1,26 +1,25 @@
-# Advanced Compositional Layouts
+# `Advanced Compositional Layouts`
 
 En esta lección, he aprendido a construir diseños composicionales para vistas de colección que permiten mostrar datos de formas que el diseño de flujo no admite. El enfoque se centra en construir aplicaciones que presenten datos en grupos y secciones distintas. Además, he adquirido habilidades valiosas de refactorización durante la parte práctica del laboratorio de la lección.
 
-## Lo que Aprendí
+## `Lo que Aprendí`
 
 - Utilice `UICollectionViewCompositionalLayout` para crear diseños complejos, incluidas secciones con diseños distintos
 - Describir los tres componentes de un diseño compositivo.
 - Utilice `UICollectionLayoutSectionOrthogonalScrollingBehavior` para hacer que las secciones se desplacen ortogonalmente al diseño principal.
 - Utilice vistas complementarias para agregar encabezados y otros elementos a las secciones de diseño
 
-## Vocabulario
+## `Vocabulario`
 - `anclaje` (anchor): Punto de referencia utilizado para posicionar elementos dentro de un diseño composicional.
 - `entorno de diseño` (layout environment): El contexto en el que se está creando el diseño, que incluye información sobre el tamaño y otros atributos del entorno.
 - `comentario MARK` (MARK comment): Un comentario especial utilizado para dividir y organizar el código fuente.
 - `ortogonal` (orthogonal): Relacionado con líneas o secciones perpendiculares entre sí en un diseño, en este contexto, se refiere a secciones con desplazamiento perpendicular.
 
-##### Búsqueda de iTunes
+### `Búsqueda de iTunes`
 
 En esta actualización de la solución del Laboratorio de Búsqueda en iTunes (Parte 4), he añadido un nuevo alcance de búsqueda que abarca los cuatro alcances existentes (Películas, Música, Aplicaciones y Libros). Los resultados se han agrupado en secciones para una separación clara.
 
-
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/2124db42-8144-4aa0-a9ea-0237a9e1212c
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/971682b2-7332-4b5a-bf93-3ffc52367b01
 
 El código proporcionado hace referencia a un conjunto de clases y estructuras en una aplicación de iOS que se utiliza para mostrar elementos de la tienda tanto en una vista de tabla como en una vista de colección. Estas clases y estructuras trabajan juntas para permitir la búsqueda y visualización de artículos de la tienda según varias categorías de búsqueda. A continuación se muestra una explicación técnica de cómo funciona este código y cómo se interconectan las diferentes partes:
 
@@ -40,11 +39,11 @@ El `StoreItemContainerViewController` es el punto central de la aplicación y es
 
 En resumen, este código proporciona una infraestructura completa para buscar y mostrar artículos de la tienda en una aplicación de iOS. Emplea un diseño modular con celdas personalizadas y un controlador central para coordinar la búsqueda y visualización de artículos. Se utilizan estructuras y enumeraciones para representar datos y configuraciones cruciales, y se aprovecha la concurrencia asincrónica para mejorar la capacidad de respuesta de la aplicación durante la búsqueda y la carga de imágenes.
 
-##### Diseño de tienda de aplicaciones
+### `Diseño de tienda de aplicaciones`
 
 En esta lección, he construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas. El enfoque de esta lección se centra en la creación del diseño composicional y en reforzar mi conocimiento sobre `UICollectionViewDiffableDataSource`.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac8b5e34-d34b-477d-a3a9-22c653da83c8
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33dc4aa1-04dc-4e6b-bde4-1c3bf5b19e08
 
 El código se compone de múltiples clases y estructuras en el lenguaje de programación Swift y utiliza el marco UIKit de iOS para crear una interfaz de usuario. El objetivo principal del código es definir la apariencia y el comportamiento de una vista de colección que muestra una lista de aplicaciones y categorías de una tienda de aplicaciones.
 
