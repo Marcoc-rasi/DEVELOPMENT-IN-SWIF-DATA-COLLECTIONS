@@ -18,13 +18,13 @@ En esta lección, he aprendido a actualizar una interfaz de usuario con nuevos d
 - `cola principal`: Cola en la que se ejecuta el código relacionado con la interfaz de usuario.
 - `indicador de actividad de red`: Representación visual del estado de la actividad de red en una aplicación.
 
-#### 6 - Concurrencia WWW
+## `6 - Concurrencia WWW`
 
-##### Búsqueda de iTunes
+### `Búsqueda de iTunes`
 
 El objetivo de este laboratorio es integrar las solicitudes de red de búsqueda de iTunes en una aplicación real y aplicar las lecciones aprendidas sobre concurrencia al proyecto. Crearás una aplicación que permitirá al usuario buscar diferentes tipos de medios y ver los resultados en una vista de tabla. Para mejorar el rendimiento de la vista de tabla, también aprenderás a actualizar el tamaño de la caché de URL para guardar temporalmente las imágenes.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/922b230d-9343-46b5-9209-46848229f868
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a61ee110-3164-4442-968e-c0da4c3be1f7
 
 La arquitectura del código comprende una aplicación iOS diseñada para interactuar con la API de iTunes, obteniendo así datos relacionados con las categorías que ofrece esta plataforma. En el núcleo de esta aplicación, la clase `StoreItemController` está definida para gestionar la comunicación con los servicios web de iTunes para buscar artículos de la tienda y cargar imágenes asociadas con estos artículos.
 
@@ -40,11 +40,11 @@ La clase `ItemCell` es responsable de personalizar la apariencia y el contenido 
 
 En resumen, el código en cuestión consta de varios componentes destinados a interactuar con la API de iTunes. Estos componentes incluyen un controlador de vista de tabla (`StoreItemListTableViewController`), un controlador de elementos de tienda (`StoreItemController`), estructuras de datos para representar elementos y respuestas de búsqueda (`StoreItem` y `SearchResponse`) y una celda personalizada (`ItemCell`). diseñado para mostrar información relacionada con las categorías de iTunes en una vista de tabla. La modularidad y adaptabilidad de esta arquitectura permiten una interacción efectiva con servicios web, gestión de datos y presentación de artículos de la tienda en una aplicación iOS, ofreciendo una organización flexible y eficiente.
 
-##### Foto espacial
+### `Foto espacial`
 
 Una app que utiliza la API de la Fotografía Astronómica del Día (APOD) de la NASA para obtener datos y mostrar la información junto con la imagen en la propia aplicación.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e2749e6a-cb6a-4145-b3ff-37bf23009413
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a769780c-085e-4b5c-a3f1-56208cf336d6
 
 El código proporcionado consta de tres componentes relacionados: `ViewController`, `PhotoInfoController` y `PhotoInfo`. Estos componentes trabajan juntos para recuperar información y una imagen de una fotografía espacial de la API de la NASA y mostrarla en una aplicación de iOS. Aquí hay una explicación técnica detallada de cómo funcionan estas partes y se relacionan entre sí.
 
