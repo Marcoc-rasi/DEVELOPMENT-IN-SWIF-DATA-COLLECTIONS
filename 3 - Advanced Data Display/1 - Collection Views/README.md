@@ -1,8 +1,8 @@
-# Collection Views
+# `Collection Views`
 
 In this lesson, I learned how to organize data in a grid using the basic building blocks for collection views and a simple compositional layout.
 
-## What I Learned
+## `What I Learned`
 
 - Identify apps or components within apps that may have been implemented with a collection view
 - Describe proper use cases for displaying data in collection views
@@ -12,20 +12,20 @@ In this lesson, I learned how to organize data in a grid using the basic buildin
 - Describe when to use simple or complex compositional layouts
 
 
-## Vocabulary
+## `Vocabulary`
 - `collection view`: A UI component that organizes and displays content in a grid.
 - `collection view cell`: An individual element in a collection view that displays specific information.
 - `collection view layout`: A layout that defines the appearance and organization of cells in a collection view.
 - `compositional layout`: A design approach that uses modular building blocks to create flexible and reusable layouts.
 - `flow layout`: A type of collection view layout that organizes cells in a linear sequence.
 
-#### 1 - Collection Views#####
+## `1 - Collection Views`
 
-##### EmojiDictionary
+### `EmojiDictionary`
 
 In this lab, you will apply what you learned in a previous project on table views: EmojiDictionary. This time, you'll implement it using a collection view instead of a table view.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9c7f8d0e-dc5e-48d4-a84f-30aa9a830c2d
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d34d45df-3457-4fed-b3b0-5b0e7ca60298
 
 The provided code, spanning multiple interconnected parts, creates an iOS emoji dictionary application. First and foremost, there is the `Emoji` struct, marked as "Codable," to represent an emoji. This struct stores four essential attributes: `symbol`, `name`, `description`, and `usage.` Conforming to "Codable" allows for easy encoding and decoding of emojis in JSON format, simplifying their storage and transmission in an iOS application.
 
@@ -37,11 +37,11 @@ On the other hand, the `AddEditEmojiTableViewController` class is used to add or
 
 In summary, these code pieces enable users to view, add, and modify emojis in the user interface of an iOS application. The structs and classes are meticulously designed to provide a comprehensive experience in emoji management within the application. Conformance to "Codable" facilitates emoji data manipulation, while the `EmojiCollectionViewController` and `AddEditEmojiTableViewController` classes handle emoji presentation and editing in the collection view and the table, respectively. The `EmojiCollectionViewCell` class customizes the visual appearance of emojis in the collection view, ensuring their proper display. Interaction and application logic are implemented consistently throughout the code, delivering an integrated experience in emoji management within the application.
 
-##### BasicCollectionView
+### `BasicCollectionView`
 
 In this lesson, you'll learn how to organize data in a grid using the basic building blocks for collection views and a simple compositional layout.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/94731158-fbe2-4c64-877f-5708b126af51
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/86bd098a-37da-4227-b8f1-6017a680eb68
 
 The provided code is an implementation of a collection view controller in an iOS application. In this code, a `class` named `BasicCollectionViewController` is defined, which inherits from the `UICollectionViewController` class. This `class` is responsible for being managed by a collection view in the user interface.
 
