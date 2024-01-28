@@ -18,7 +18,7 @@ En esta lección, he explorado cómo responder al lanzamiento de una aplicación
 
 ## Aplicaciones de vídeos
 
-### AppEventCount-Marcocrasi - Lab
+### `AppEventCount-Marcocrasi - Lab`
 
 Las siete etiquetas se actualizan con los eventos del ciclo de vida de la aplicación. Las etiquetas se refrescan correctamente cuando el usuario desencadena diferentes eventos, como navegar a la pantalla de inicio y regresar, o activar la interfaz de cambio de aplicaciones.
 
@@ -61,7 +61,7 @@ Las funciones más relevantes de esta clase son:
 
 En resumen, este código se utiliza para rastrear y mostrar información sobre eventos y contadores de eventos relacionados con la aplicación y escenas en la interfaz de usuario. Las clases `SceneDelegate` y `AppDelegate` se utilizan para administrar contadores y eventos del ciclo de vida, mientras que el controlador de vista `ViewController` es responsable de mostrar esta información en la interfaz de usuario. Esto puede resultar útil para la depuración, el seguimiento del uso y la recopilación de datos relacionados con la interacción de la aplicación con el usuario.
 
-### AppLifeCycle-Marcocrasi
+### `AppLifeCycle-Marcocrasi`
 
 Esta aplicación se centra en la exploración de los archivos AppDelegate.swift y SceneDelegate.swift generados automáticamente por Xcode en cada nuevo proyecto. Su propósito es facilitar la comprensión de los métodos de delegado más comunes utilizados durante el ciclo de vida de la aplicación, especialmente durante transiciones como el cambio de primer plano a segundo plano.
 
