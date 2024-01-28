@@ -15,15 +15,13 @@ In this lesson, I learned how to use standard user interface controls to build a
 - `AnyObject`: Protocol type that represents an object of any type.
 - `date formatting`: Process of adjusting the presentation of a date according to a specific format.
 
-#### 9 - Complex Input Screens
+## `9 - Complex Input Screens`
 
-##### EmployeeRoster
-
-summary
+### `EmployeeRoster`
 
 The goal of this lab is to create a display that accepts complex user input. A date picker and custom delegate will be used to build an employee registry that keeps track of employee information.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5b0e0b60-78bf-404c-a4ec-ee5953774556
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a3b6d49f-fc81-4540-ae30-beaaa6bff082
 
 The provided code snippet comprises several interconnected components forming an iOS employee tracking application. In this system, various essential programming concepts and patterns are employed, which will be detailed below.
 
@@ -57,13 +55,11 @@ The application flow unfolds as follows:
 
 In summary, the code presents a comprehensive implementation of an iOS employee tracking application that utilizes multiple view controllers and a data model to manage and display information about employees, including their name, date of birth, and employee type. Protocols and delegates are employed to communicate changes and selections between the view controllers.
 
-##### Hotel Manzana
-
-Summary
+### `Hotel Manzana`
 
 The application consists of a view controller in an iOS application that allows users to manage room reservations in a hotel.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f02be49e-5510-4aca-9e40-26f0313dec20
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/97ade3b1-0e64-4012-ad70-00139b5aebdc
 
 In this view controller, you can find multiple properties and user interface connections (Outlets) representing elements such as text fields, labels, switches, among others. Additionally, properties are defined to track the state of the date picker and the selected room type.
 
