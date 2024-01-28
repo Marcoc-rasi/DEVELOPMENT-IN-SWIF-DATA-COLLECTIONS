@@ -1,11 +1,11 @@
-# Guided Project: Restaurant
+# `Guided Project: Restaurant`
 
 In this unit, I acquired new tools in Swift and learned how to send and retrieve information through a web services API. In the guided project, I put my knowledge to the test by designing an interactive menu for a restaurant that allows the customer to view a list of options, add items to an order, and submit the order to the restaurant. Using a server running on my own computer, I had the opportunity to modify the options, descriptions, and images returned by the API.
 
-## Server Details and Project Setup
+## `Server Details and Project Setup`
 Before delving into the workflow of the menu application, it's crucial to understand how to work with the server. By comprehending the API and server functionality, I could outline a set of features for the project. While no modifications were necessary for the server data, running the server on my Mac was essential.
 
-### Running the Server
+## `Running the Server`
 The project folder includes the server's binary file, OpenRestaurant.app. I right-clicked on OpenRestaurant and selected "Open" from the dropdown menu. Depending on my Mac's security settings, a warning dialog might appear. I clicked "Open" to indicate my trust in the application.
 
 ![SERVER_1](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/5c1f546d-c115-4c95-9c20-384e8f463c03)
@@ -26,7 +26,7 @@ Depending on my Mac's settings, I might see a request to allow incoming connecti
 ![SERVER_3](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/6783db5b-4e9e-4e97-989c-458625c8a58d)
 
 
-### JSON Structure
+## `JSON Structure`
 I opened menu.json from the OpenRestaurant window, then opened http://localhost:8080/menu in my browser to view the menu data the API would return. At the root level of the JSON, there is an array of dictionaries, where each dictionary represents a menu item. If I closely examined the server data compared to menu.json, I noticed that the JSON didn't exactly match. I wasn't concerned about the discrepancy; the server makes some adjustments to the data structure when it receives a request.
 In each dictionary of the JSON returned by the server, I found the following keys:
 - `id` is a unique Int that distinguishes one item from another. If I added or modified a dictionary, I ensured that each `id` value was unique.
@@ -38,7 +38,7 @@ In each dictionary of the JSON returned by the server, I found the following key
 
 When modifying menu.json, I only needed to use the keys `id`, `name`, `description`, `price`, `category`, and `estimated_prep_time`. The last key doesn't appear in the JSON returned by the server for menu items, but the server uses it to provide an estimate of how long it will take to fulfill an order. The server is configured to use these keys (and only these keys). If I added other keys to a dictionary, the server would ignore them.
 
-### Server Endpoints
+## `Server Endpoints`
 The API in this project has several URLs to implement the application's functions. Each URL starts with http://localhost:8080 and can be combined with the following endpoints:
 - `/categories`: A GET request to this endpoint will return an array of strings representing the categories in menu.json. The array will be available under the key `categories` in the JSON.
 - `/menu`: A GET request to this endpoint will return the complete array of menu items. It can also be combined with the query parameter `category` to return a subset of items. The array will be available under the key `items` in the JSON.
@@ -48,9 +48,9 @@ The API in this project has several URLs to implement the application's function
 - `/order`: A POST to this endpoint with a collection of menu item ID values will send the order and return a response with the estimated time before the order is ready. The IDs you send must be contained in JSON data under the key `menuIds`. When parsing the JSON, the estimated preparation time before the order is ready will be under the key `preparation_time`.
 
 
-##### OrderApp
+### `OrderApp`
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a3f1fae6-9202-4bbb-9f21-0120330334af
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/dfd7603b-7a66-4335-83dc-32214a9fde82
 
 The provided code consists of several parts that make up an iOS application for managing a restaurant menu. The application allows users to view available categories, select a category to explore menu items, and place orders.
 
@@ -79,9 +79,8 @@ Finally, the `OrderConfirmationViewController` class displays an order confirmat
 In summary, the code presents an iOS application that uses asynchronous programming and `Codable` data structures to manage a restaurant menu. The main controller, `MenuController`, coordinates data retrieval, order placement, and image retrieval. Each view is responsible for displaying specific information, such as categories, menu items, and order confirmations, with detailed cell appearance customization via `MenuItemCell`.
 
 
-## Project Extension
+## `State Restoration`
 
-### State Restoration
 Consider the following scenario: A user starts an order by adding one or two items to the menu. Then, they get interrupted by an iMessage notification, resulting in 15 minutes of text messages, emails, and web browsing. When the user returns to your application, it has closed. Instead of picking up where they left off, they have to create the order from scratch, which is not a good experience. Furthermore, their menu exploration state has reset to the list of categories, another inconvenience if the menu hierarchy is deep and there are many items. (You probably noticed these shortcomings while developing the application.)
 
 By implementing state restoration, you can ensure that the user perceives no interruption in their activity. This is also crucial for iPad applications that support multiple windows to provide a good user experience.
@@ -92,34 +91,7 @@ In this extension of the guided project, you will add state restoration to Order
 
 Here's how it works: While the user is using your application, you will track key information in the userInfo dictionary of an instance of NSUserActivity. When your scene goes into the background, iOS will request an instance of NSUserActivity that will be used the next time the scene connects. When the scene reconnects, you will be provided with the same instance of NSUserActivity, which you can use to reconstruct the application state so that the user can continue with what they were doing.
 
-##### OrderApp Extension - State Restoration
-
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ac873bab-5576-48a7-ae96-808a1099f464
-
-The provided code focuses on an iOS application for managing a restaurant menu and placing orders. The overall structure of the code encompasses several key areas, all controlled by the `MenuController` class. This class serves as the central controller for the application, coordinating data retrieval, UI updates, and order management. Here are the key parts of the code:
-
-First, several data structures are defined to represent fundamental elements of the application:
-- The `MenuItem` structure models a menu item and includes properties such as a unique identifier, name, description, price, category, and an image URL. It uses the `Codable` protocol for data encoding and decoding, allowing easy serialization and deserialization of `MenuItem` objects.
-- The `MenuResponse` structure represents a response containing an array of `MenuItem` elements. This is useful for decoding the JSON response from the restaurant's menu.
-- The `CategoriesResponse` structure is responsible for decoding the JSON response containing available menu categories.
-- The `OrderResponse` structure is used to decode the response of an order, including the estimated preparation time. It utilizes key mapping through `CodingKeys` to match property names in the JSON data.
-
-The `MenuController` class plays a crucial role in the application's logic. Some key aspects include:
-- Error handling: The class defines a `MenuControllerError` enumeration that encapsulates possible errors, providing localized error messages.
-- Order update notification: When the order is updated, an `orderUpdatedNotification` is sent to inform other parts of the application.
-- User activity management: An instance of `NSUserActivity` is used to track the application's state, including the current category, menu item, and the current order. This allows for state restoration.
-
-The `MenuController` class also offers a set of asynchronous methods for interacting with the server:
-- `fetchCategories()`: Retrieves available menu categories via an HTTP request and decodes the response into an array of strings.
-- `fetchMenuItems(forCategory categoryName)`: Fetches menu items for a specific category. This involves constructing the URL and decoding the JSON response.
-- `submitOrder(forMenuIDs menuIDs)`: Submits an order with a list of menu item identifiers and receives the estimated preparation time as a response. The request is made as a POST operation with JSON data.
-- `fetchImage(from url)`: Downloads an image from a URL and converts it into a `UIImage` object.
-
-Finally, the `CategoryTableViewController`, `MenuTableViewController`, `MenuItemDetailViewController`, and `OrderTableViewController` classes are view controllers responsible for displaying the user interface and managing user navigation within the application. They use asynchronous methods to retrieve data from the server and update the user interface according to categories, menu items, and orders.
-
-Collectively, this code provides a robust foundation for a restaurant application that allows users to navigate the menu, place orders, and keep track of their order's status. The separation of responsibilities between classes and error handling makes the application robust and easy to maintain.
-
-## summary
+## `summary`
 I acquired fundamental knowledge about key concepts in modern applications. I explored complex topics in this unit. Firstly, I understood closures and their function in passing code between objects, creating executable blocks later on. Subsequently, I applied closures to develop animations. Lastly, I learned how to make network requests to fetch information from the web and send data back.
 
 With the ability to work with public APIs, my applications are no longer limited to the information users input. I now have access to the entire worldwide web. In the next unit, I delved into collection views, essential tools in iOS that allow displaying extensive collections of information with an almost infinite variety. I reinforced my existing skills and discovered common patterns that will make future exploration in UIKit more familiar.
