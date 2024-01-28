@@ -22,15 +22,13 @@ In this lesson, I learned how to make simple animations in the view to direct th
 - `transform`: Change the position, size, or orientation of an object.
 - `wireframe model`: Visual representation of a three-dimensional object using lines instead of solid surfaces.
 
-#### 3 - Animations
+## `3 - Animations
 
-##### Contest
-
-summary
+### `Contest`
 
 The "Contest" app allows users to enter their email address to enter a contest and win a prize. If they attempt to submit without providing an email address, the app uses animations to highlight the text field and alert the user that it needs to be completed to enter the contest.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9a5645bd-ff91-4c91-bf71-bc3f6ddf7379
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a291d783-7426-4472-a309-608e803e1be5
 
 In this code, a class named `ViewController` is defined, which inherits from `UIViewController.` View Controllers in iOS are responsible for the management of the user interface and view logic.
 
@@ -46,13 +44,11 @@ Furthermore, an extension named `Challenge Solution` is provided, which defines 
 
 In summary, this code represents a View Controller in an iOS application that performs animations in response to user interaction. The `shake` animation is utilized to indicate an empty text field, and the `Challenge Solution` extension offers a more complex version of the `shake` animation for experimentation or challenge purposes.
 
-##### MusicWireframe
-
-Summary
+### MusicWireframe
 
 The app is a wireframe (a basic outline, with no real functionality) of the "Now Playing" screen in the music app.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1b9e7579-1522-42ad-b871-76b810250f4e
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/1deebd41-0447-4637-b41f-f826d54b66a5
 
 The `ViewController class` contains several properties labeled with the `@IBOutlet` notation, which are associated with user interface (GUI) components. These properties include `albumImageView`, `reverseBackground`, `playPauseBackground`, `forwardBackground`, `reverseButton`, `playPauseButton`, and `forwardButton`.
 
