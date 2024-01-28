@@ -20,15 +20,13 @@ In this lesson, I learned how to use the `Codable` protocol to persist data and 
 - `serialization`: Process of converting data into a format that can be stored or transmitted and then restoring it.
 - `unarchive`: Process of retrieving previously archived data for use in the app.
 
-#### 7 - Saving Data
+## `7 - Saving Data`
 
-##### EmojiDictionary savin data
-
-Summary
+### `EmojiDictionary savin data`
 
 The objective of this lab is to implement the persistence of information between application launches by using the Codable protocol, the FileManager and methods in Data. Persistence will be added to Emoji objects, allowing changes made to the emoji list to persist between app restarts.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/8c820d0a-85f2-4a37-9bbb-ea11a038ad3e
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/6d81de90-1249-4f7a-9cdd-1bcc8ffbd30f
 
 **`Emoji` Struct:**
 A structure called `Emoji` is defined to represent an emoji. This structure contains properties for the "symbol," "name," "description," and "usage" of an emoji. Additionally, a computed property called `archiveURL` is set to determine the location where emojis will be stored in a Property List (plist) file. A static list named `sampleEmojis` is provided, containing example emojis, which is useful for initializing the application with predefined data. Static methods `saveToFile(emojis: [Emoji])` and `loadFromFile()` are also implemented to save and load emojis from a plist file. This ensures data persistence, allowing emojis to be stored locally and retrieved as needed.
