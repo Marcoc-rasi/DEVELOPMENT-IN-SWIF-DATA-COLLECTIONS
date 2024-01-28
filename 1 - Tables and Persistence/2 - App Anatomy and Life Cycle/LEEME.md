@@ -18,16 +18,11 @@ En esta lección, he explorado cómo responder al lanzamiento de una aplicación
 
 ## Aplicaciones de vídeos
 
-### 1 - Tablas y Persistencia
-
-#### Anatomía y ciclo de vida de la aplicación
-##### AppEventCount-Marcocrasi - Lab
-
-Resumen
+### AppEventCount-Marcocrasi - Lab
 
 Las siete etiquetas se actualizan con los eventos del ciclo de vida de la aplicación. Las etiquetas se refrescan correctamente cuando el usuario desencadena diferentes eventos, como navegar a la pantalla de inicio y regresar, o activar la interfaz de cambio de aplicaciones.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ca4ecbcd-6bba-4f51-b6e8-fc0e644d4ec9
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/acaba5bc-fab7-4b97-b19c-719de61afe19
 
 El código se divide en tres partes clave: el controlador de vista `ViewController`, la clase `SceneDelegate` y la clase `AppDelegate`. Estas partes trabajan juntas para rastrear y administrar eventos relacionados con el ciclo de vida de una aplicación iOS. Se utilizan para realizar un seguimiento de eventos y contadores de eventos, lo que permite mostrar información relevante en la interfaz de usuario.
 
@@ -66,16 +61,13 @@ Las funciones más relevantes de esta clase son:
 
 En resumen, este código se utiliza para rastrear y mostrar información sobre eventos y contadores de eventos relacionados con la aplicación y escenas en la interfaz de usuario. Las clases `SceneDelegate` y `AppDelegate` se utilizan para administrar contadores y eventos del ciclo de vida, mientras que el controlador de vista `ViewController` es responsable de mostrar esta información en la interfaz de usuario. Esto puede resultar útil para la depuración, el seguimiento del uso y la recopilación de datos relacionados con la interacción de la aplicación con el usuario.
 
-##### AppLifeCycle-Marcocrasi
-
-Resumen
+### AppLifeCycle-Marcocrasi
 
 Esta aplicación se centra en la exploración de los archivos AppDelegate.swift y SceneDelegate.swift generados automáticamente por Xcode en cada nuevo proyecto. Su propósito es facilitar la comprensión de los métodos de delegado más comunes utilizados durante el ciclo de vida de la aplicación, especialmente durante transiciones como el cambio de primer plano a segundo plano.
 
 Además, al ejecutar la aplicación en el simulador, se observan mensajes en la consola que indican eventos clave, como la finalización del lanzamiento de la aplicación, la conexión de la escena a la sesión, la entrada de la escena en primer plano y la activación de la escena.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/dcd32168-9723-493a-a08e-15b6b7fc0edc
-
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e89203ff-51eb-4c9f-b8d2-4f4cf6112bf4
 
 El código proporcionado se relaciona con la gestión del ciclo de vida de una aplicación iOS. Consta de dos partes principales: `SceneDelegate` y `AppDelegate`. Ambos son cruciales para controlar eventos y acciones específicas durante el ciclo de vida de la aplicación.
 
