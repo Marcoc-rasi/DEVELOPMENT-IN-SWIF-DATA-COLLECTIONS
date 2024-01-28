@@ -18,15 +18,13 @@ En esta lección, he aprendido acerca de los controladores de vista del sistema 
 - `controlador de vista de composición de correo`: Controlador de sistema que permite al usuario redactar y enviar correos electrónicos.
 - `controlador de vista del sistema`: Subclases de `UIViewController` proporcionadas por UIKit para funciones específicas, como compartir contenido o mostrar alertas.
 
-#### 8 - Controladores de vista del sistema
+## `8 - Controladores de vista del sistema`
 
-##### Muebles del hogar
-
-resumen
+### `Muebles del hogar`
 
 El objetivo de este laboratorio es utilizar controladores de vista del sistema en una aplicación que enumera habitaciones y muebles, permitiendo a los usuarios compartir elementos de mobiliario con otras aplicaciones en su dispositivo. Asegúrese de construir y ejecutar la aplicación en un dispositivo iOS físico, en lugar del simulador, para disponer de más aplicaciones que permitan compartir imágenes y texto.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33b90da3-60cf-44e3-a59b-4701ee8e28d7
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/97b22b67-b433-4a12-a779-b8b0adb415ec
 
 El código consta de tres clases dentro del contexto de una aplicación de iOS escrita en Swift utilizando el marco UIKit: `Room`, `Furniture` y `FurnitureDetailViewController`. Estas clases están diseñadas para modelar y gestionar información sobre habitaciones, muebles y detalles de muebles, lo que permite a los usuarios seleccionar imágenes de muebles y compartir información relevante. A continuación se detallan las funcionalidades y características clave de cada clase.
 
@@ -59,13 +57,11 @@ Finalmente, la clase `FurnitureDetailViewController` representa la vista detalla
 
 En resumen, estas clases trabajan juntas para crear una aplicación que permite a los usuarios ver información detallada sobre las habitaciones y sus muebles, seleccionar imágenes para muebles específicos y compartir detalles de los muebles con otras aplicaciones. La modularidad y flexibilidad en la representación de muebles y habitaciones facilitan la gestión de datos en la aplicación.
 
-##### SystemViewControllers-Marcocrasi
-
-resumen
+### `SystemViewControllers-Marcocrasi`
 
 La aplicación integra varias funcionalidades clave para interactuar con el dispositivo y realizar acciones como compartir imágenes, ver sitios web, tomar fotografías y enviar correos electrónicos.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/41e84555-bce7-4d11-90f2-236d68524576
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/22e63245-ff2b-467e-be8b-28826580b796
 
 La clase `ViewController` implementa tres protocolos: `UIImagePickerControllerDelegate`, `UINavigationControllerDelegate` y `MFMailComposeViewControllerDelegate`. Estos protocolos son esenciales para interactuar eficazmente con la cámara, el álbum de fotos y el servicio de correo electrónico.
 
@@ -83,13 +79,11 @@ El método "mailComposeController" se llama cuando el usuario ha terminado de re
 
 En resumen, este código demuestra una implementación de una interfaz de usuario que permite compartir imágenes, abrir sitios web, tomar fotografías o seleccionar imágenes de la biblioteca de fotografías y enviar correos electrónicos directamente desde la aplicación. Los protocolos y controladores específicos de iOS, como "UIActivityViewController", "SFSafariViewController" y "MFMailComposeViewController", son cruciales para proporcionar estas funcionalidades integradas de manera efectiva.
 
-##### Desafío SystemViewControllers-Marcocrasi
-
-resumen
+### `Desafío SystemViewControllers-Marcocrasi`
 
 La aplicación  utiliza el marco UIKit para crear una interfaz de usuario con varios botones, cada uno de los cuales realiza diferentes acciones. Estas acciones incluyen compartir una imagen, abrir un sitio web en Safari, tomar una foto con la cámara del dispositivo, enviar un correo electrónico y enviar un mensaje de texto.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/f60566fe-3dd3-4385-9ed7-ce064221724d
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/71b41eda-abdf-44f3-9486-dd056cedea53
 
 El código comienza importando dos módulos esenciales: `SafariServices` para abrir Safari dentro de la aplicación y `MessageUI` para enviar correos electrónicos y mensajes de texto.
 
