@@ -1,23 +1,23 @@
-# Dynamic Data
+# `Dynamic Data`
 
 Working with large data sets has taught me that as a developer, it is crucial to provide an efficient way to navigate content. A common practice is to implement a search or filter function to reduce the number of results. Additionally, managing an application's data source can become cumbersome, especially with larger data sets. The Fuzzy Data Source API emerges to address these issues. With a relatively small amount of code, I can direct the data source to (almost) manage itself and control its presentation in a table or collection view.
 
-## What I Learned
+## `What I Learned`
 
 - Use `UISearchController`
 - Demonstrate and describe `UICollectionViewDiffableDataSource`
 
 
-## Vocabulary
-- **Diffable Data Source**: A data source that uses snapshots to represent the current state of data, facilitating updates in a view.
-- **Search Controller**: A component that manages the search bar and search results in a user interface.
-- **Snapshot**: An immutable representation of the current state of data in a diffable data source.
+## `Vocabulary`
+- `Diffable Data Source`: A data source that uses snapshots to represent the current state of data, facilitating updates in a view.
+- `Search Controller`: A component that manages the search bar and search results in a user interface.
+- `Snapshot`: An immutable representation of the current state of data in a diffable data source.
 
-##### iTunesSearch
+### `iTunesSearch`
 
 In this lab, I applied my new knowledge of collection views, search controllers, and fuzzy data sources to update the iTunes Search solution (Part 3). I started with a refactored version of the solution, available in the resources folder. The solution has been enhanced to use a custom view controller, allowing me to switch between the views of two view controllers. (Standard UIKit container view controllers include UINavigationController and UITabBarController.) It has also been updated to use a search controller instead of a search bar.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c0c8e6cc-2217-428a-9aaa-f01512f5123c
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/72b160a8-931e-4277-bc98-bbe5af678187
 
 The code presents a set of classes and structures designed for implementing an iOS application for searching and displaying items from a store, possibly linked to the iTunes store. Several key components in this code stand out, all contributing to the overall functionality of the application.
 
@@ -39,11 +39,11 @@ Within the extensions of these classes, the `configure(for item: StoreItem, stor
 
 Together, these classes and structures form the foundation of an application that allows users to search and view store items, with the ability to load images and efficiently manage asynchronous tasks. The code provides a solid structure for implementing this functionality, covering data management through to user interface presentation.
 
-##### BasicCollectionView
+### `BasicCollectionView`
 
 In this lesson, I learned about my first API that uses generics: `UICollectionViewDiffableDataSource`. I understood how it can reduce the work required to provide data to a collection view by offering standard features, such as animation of changes, automatically.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d5060751-01d6-4e4a-ab84-eb78139b11b9
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b68afb0e-04ec-453e-a29c-d6181852cd69
 
 In the provided code snippet, an implementation of a collection view (UICollectionView) in an iOS development environment using the Swift language is presented. This collection view displays a list of United States states and provides real-time search functionality.
 
