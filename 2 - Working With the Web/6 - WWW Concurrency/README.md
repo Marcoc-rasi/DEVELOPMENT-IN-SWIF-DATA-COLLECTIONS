@@ -18,13 +18,13 @@ In this lesson, I learned how to update a user interface with new data. I have u
 - `main queue`: A queue where code related to the user interface runs.
 - `network activity indicator`: Visual representation of the network activity state in an app.
 
-#### 6 - WWW Concurrency
+## `6 - WWW Concurrency
 
-##### iTunesSearch
+### `iTunesSearch`
 
 The goal of this lab is to integrate iTunes search network requests into a real application and apply the lessons learned about concurrency to the project. You will create an application that will allow the user to search for different types of media and view the results in a table view. To improve table view performance, you'll also learn how to update the URL cache size to temporarily store images.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/922b230d-9343-46b5-9209-46848229f868
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a61ee110-3164-4442-968e-c0da4c3be1f7
 
 The code architecture comprises an iOS application designed to interact with the iTunes API, thereby obtaining data related to the categories offered by this platform. At the core of this application, the `StoreItemController` class is defined to manage communication with iTunes web services for searching store items and loading images associated with these items.
 
@@ -40,11 +40,11 @@ The `ItemCell` class is responsible for customizing the appearance and content o
 
 In summary, the code in question consists of various components aimed at interacting with the iTunes API. These components include a table view controller (`StoreItemListTableViewController`), a store item controller (`StoreItemController`), data structures for representing items and search responses (`StoreItem` and `SearchResponse`), and a custom cell (`ItemCell`) designed to display information related to iTunes categories in a table view. The modularity and adaptability of this architecture enable effective interaction with web services, data management, and the presentation of store items in an iOS application, offering flexible and efficient organization.
 
-##### SpacePhoto
+### `SpacePhoto`
 
 An app that uses NASA's Astronomical Photograph of the Day (APOD) API to obtain data and display the information along with the image in the application itself.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e2749e6a-cb6a-4145-b3ff-37bf23009413
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a769780c-085e-4b5c-a3f1-56208cf336d6
 
 The provided code consists of three related components: `ViewController`, `PhotoInfoController`, and `PhotoInfo`. These components work together to retrieve information and an image of a space photo from NASA's API and display it in an iOS application. Here's a detailed technical explanation of how these parts function and relate to each other.
 
