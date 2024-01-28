@@ -15,15 +15,13 @@ En esta lección, he profundizado en características más avanzadas de la vista
 - `acción de fila`: Funcionalidad asociada a una fila en una vista de tabla, como eliminar o compartir.
 - `vista de tabla estática`: Tipo de vista de tabla que muestra una lista fija de elementos, generalmente utilizada para formularios o listas que no cambian.
 
-#### 6 - Vistas de tabla intermedia
+## `6 - Vistas de tabla intermedia`
 
-#### Libros Favoritos
-
-resumen
+### `Libros Favoritos`
 
 El objetivo de este laboratorio es implementar características intermedias de la vista de tabla en una aplicación que realiza un seguimiento de tus libros favoritos.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/b267f9aa-94b6-4e28-89d8-dca0aa3f1abd
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/e0f2b56e-a4b5-450d-a342-aad819830154
 
 El código proporcionado es una implementación Swift para una aplicación iOS centrada en la gestión de libros. La clase `BookTableViewController` es una subclase de `UITableViewController` y se utiliza para controlar una vista de tabla en la interfaz de usuario de la aplicación. La vista de tabla se utiliza para mostrar una lista de libros y soy responsable de administrar su contenido y comportamiento.
 
@@ -39,13 +37,11 @@ Por último, la estructura "Libro" representa un libro con propiedades de títul
 
 En resumen, el código proporcionado es una implementación Swift para una aplicación de gestión de libros de iOS. Utiliza clases y estructuras para representar libros y personalizar su visualización en una vista de tabla. Los métodos de vista de tabla manejan la presentación de datos y la estructura "Libro" proporciona una descripción textual detallada de un libro para su visualización. El código también incluye lógica para editar y navegar entre vistas.
 
-#### Diccionario Emoji
-
-Resumen 
+### `Diccionario Emoji`
 
 En la aplicación se crea una lista de emojis con una celda personalizada de tabla que agregará una tercera etiqueta más grande alineada con el borde izquierdo de la celda para mostrar el emoji.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a4e950dc-f27f-4b22-9768-bcd3f9037eb8
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/7d8b2588-900f-4f3f-af79-7c4847f2c4eb
 
 La clase `EmojiTableViewController` es responsable de mostrar la lista de emojis en una vista de tabla. Esta clase hereda de `UITableViewController` y contiene una propiedad llamada `emojis` que almacena una matriz de objetos `Emoji`. La vista de tabla se configura con la información de estos objetos, incluido su símbolo, nombre, descripción y uso.
 
