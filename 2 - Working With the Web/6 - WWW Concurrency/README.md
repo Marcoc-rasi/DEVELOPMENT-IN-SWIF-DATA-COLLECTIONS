@@ -18,7 +18,7 @@ In this lesson, I learned how to update a user interface with new data. I have u
 - `main queue`: A queue where code related to the user interface runs.
 - `network activity indicator`: Visual representation of the network activity state in an app.
 
-## `6 - WWW Concurrency
+## `6 - WWW Concurrency`
 
 ### `iTunesSearch`
 
