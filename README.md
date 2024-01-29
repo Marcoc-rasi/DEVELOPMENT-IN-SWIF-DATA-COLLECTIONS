@@ -1,6 +1,4 @@
-# DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS
-
-# Introduction
+#DEVELOPMENT-WITH-SWIFT-DATA-COLLECTIONS
 
 # Introduction
 
@@ -8,148 +6,96 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 ## Featured Apps
 
-### 1 - Tables and Persistance
+### `Unit 1 - Tables and Persistence`
 
-#### App Anatomy and Life Cycle
+#### `Lesson 1.7 - Saving Data`
 
-##### AppEventCount-Marcocrasi-- NO
+##### `EmojiDictionary saving data` - Lab
 
-##### AppLifeCycle-Marcocrasi-- NO
+Persistence will be added to Emoji objects, allowing changes made to the emoji list to persist between application restarts.
 
+#### `Lesson 1.8 - System View Controllers`
 
+##### `HomeFurniture` - Lab
 
-#### 3 - Model View Controller
+The goal of this lab is to use system view controllers in an application that lists rooms and furniture, allowing users to share furniture items with other apps on their device.
 
-##### FavoriteAthlete
+##### `SystemViewControllers-Marcocrasi` - Lesson App
 
-#### 4 - Scroll Views
+The application integrates various key features for interacting with the device and performing actions such as sharing images, viewing websites, taking photos, and sending emails.
 
-##### ISpy-Marcocrasi-- NO
+##### Challenge `SystemViewControllers-Marcocrasi`  
 
-##### ScrollingForm-Marcocrasi -- NO
+The app uses the UIKit framework to create a user interface with multiple buttons, each performing different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
 
-##### ScrollingChallengeHorizontal -- NO POCHA
+#### `Lesson 1.9 - Complex Input Screens`
 
-#### 5 - Table Views
+##### `Hotel Manzana` - Lesson App
 
-##### Meal Tracker - Marcocrasi -- NO
+The app consists of a view controller in an iOS app that allows users to manage room reservations at a hotel.
 
-##### EmojiDictionary -- NO POCHA
+#### Guided Project - `ToDoList-Marcocrasi` 
 
-#### 6 - Intermediate Table Views
+The app allows efficient management of lists. You can add, modify, or delete items through a custom input interface. The app uses table views to display lists, screens designed for complex input, and a storage system to preserve data. It facilitates effective list management, adapting to different types of items with specific controls. In summary, the app offers an optimized experience for list management and storage.
 
-#### Favorite books -- NO HAY VIDEO 
+### `Unit 2 - Working With The Web`
 
-#### EmojiDictionary -- NO HAY VIDEO
+#### `Lesson 2.3 - Animations`
 
-#### 7 - Saving Data
+##### `MusicWireframe` - Lesson App
 
-##### EmojiDictionary savin data -- SI POCHA
+The app is a wireframe (a basic outline with no real functionality) of the "Now Playing" screen in the music app.
 
-#### 8 - System View Controllers
+#### Guided Project - `Restaurant OrderApp` And `State Restoration`
 
-##### HomeFurniture -- SI POCHA 
-
-##### SystemViewControllers-Marcocrasi -- SI POCHA
-
-##### Challenge SystemViewControllers-Marcocrasi - SI POCHA
-
-#### 9 - Complex Input Screens
-
-##### EmployeeRoster -- NO POCHA
-
-##### Hotel Manzana -- SI POCHA
-
-
-
-#### Guided Project - List 
-
-##### ToDoList-Marcocrasi -- SI POCHA
-
-### 2 - Working With The Web
-
-#### 3 - Animations
-
-##### Contest -- NO POCHA
-
-##### MusicWireframe -- SI POCHA 
-
-#### 6 - WWW Concurrency
-
-##### iTunesSearch -- SI POCHA
-
-##### SpacePhoto -- NO POCHA
-
-#### Guided Project - Restaurant -- SI POCHA
-
-##### OrderApp
+In this project, networking, JSON, concurrency, and closures in Swift were used to build a client app for a web API that provides a list of menu items for a restaurant. It features an interactive menu, allowing customers to view a list of options, add items to an order, and submit the order to the restaurant.
 
 ##### OrderApp Extension - State Restoration
 
-### 3 - Advanced Data Display
+In the project extension, you'll add the ability for the OrderApp to remember its state. This means that if the user stops the app and returns later, the app will remember where it was. To achieve this, you'll use a tool called NSUserActivity, which essentially stores key information about the user's current order. This "state" will be saved in a specific part of the app called MenuController. So, when the user reopens the app, it will start exactly where they left off.
 
-#### 1 - Collection Views#####
+### `Unit 3 - Advanced Data Display`
 
-##### EmojiDictionary -- SI POCHA
+#### `Lesson 3.1 - Collection Views`
 
-##### BasicCollectionView -- NO POCHA 
+##### `EmojiDictionary` - Lab
 
-#### 2 - Swift Generics
+EmojiDictionary App, this time using a collection view instead of a table view.
 
-##### Life-formSearch -- SI POCHA
+#### `Lesson 3.2 - Swift Generics`
 
-#### 3 - Dynamic Data
+##### `Life-formSearch` - Lab
 
-##### iTunesSearch -- SI POCHA
+I developed an app that simplifies the search and display of taxonomic information and photos of life forms. The app uses the Encyclopedia of Life's data services API to access and display data about identified life forms.
 
-##### BasicCollectionView -- SI POCHA
+#### `Lesson 3.4 - Compositional Layout`
 
-#### 4 - Compositional Layout
+#####  `Compositional Layout`- Lab  
 
-#####  Compositional Layout lab -- SI POCHA
+In the Emoji Dictionary app, grid and column layouts were added, a function to switch between them was added, and simple section headers were included.
 
-#### 5 - Advanced Layout
+#### `Lesson 3.5 - Advanced Layout`
 
-##### iTunesSearch -- SI POCHA
+##### `iTunesSearch` - Lab 
 
-##### AppStoreLayout -- SI POCHA 
+In this update to the iTunes Search Lab solution (Part 4), I added a new search scope that encompasses the four existing scopes (Movies, Music, Apps, and Books). The results have been grouped into sections for clear separation.
 
-#### 6 - Local Notifications
+##### `AppStoreLayout` - Lesson App
 
-##### BillManager -- SI POCHA
+I built a replica of the iOS App Store's home page using a single collection view and a compositional layout with distinct sections.
 
-##### Alarm -- SI POCHA
+#### `Lesson 3.6 - Local Notifications`
 
-#### Guided Project - Habits
+##### `BillManager` - Lab
 
-##### Habits SI POCHA
+BillManager allows users to track pending bills and mark them as paid or pending. Local notifications were added to remind users of pending payments.
 
+##### `Alarm` - Lesson App
 
+This project consists of the basic structure of a simple alarm app that allows creating one alarm at a time. I implemented logic to create an alarm, obtain authorization to send notifications, schedule local notifications, and offer users the option to snooze their alarm.
 
+#### Guided Project - `Habits`
 
+The app addresses various practical aspects. It uses collection views to display datasets, implements generics in Swift, employs differentiable data sources to facilitate dynamic updates, and explores compositional layouts to create advanced interfaces.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The app focuses on being a client for a social network that motivates users to adopt good habits by comparing their rankings with other users. The app makes use of a local server, with a special emphasis on the user interface design. App data is provided in advance, along with a simulation modeling user interaction with the app over time.
