@@ -1,4 +1,3 @@
-
 # `Proyecto Guiado: Hábitos`
 
 Adquirí habilidades fundamentales en esta unidad, aprendiendo a utilizar vistas de colección para mostrar conjuntos de datos. También exploré Swift generics, trabajé con fuentes de datos difusas para facilitar actualizaciones dinámicas y descubrí el poder de los diseños composicionales para crear interfaces avanzadas. En este proyecto guiado, construí una sencilla aplicación cliente de redes sociales que motiva a los usuarios a seguir buenos `hábitos` al clasificarlos frente a otros usuarios.
@@ -120,7 +119,8 @@ Hay un punto de acceso adicional, loggedHabit, que requiere un POST de datos JSO
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/aef78543-2d64-4ab8-949c-f17b1185007f
 
-## `Aplicación de seguimiento de hábitos de iOS: explicación técnica`
+
+**`Aplicación de seguimiento de hábitos de iOS - explicación técnica`**
 
 Los fragmentos de código proporcionados son parte de una aplicación iOS para el seguimiento de hábitos, que funciona como una red social para compartir hábitos. Esta explicación detallada proporciona una descripción detallada de los diversos componentes, modelos de datos y solicitudes de red utilizados dentro de la aplicación.
 
