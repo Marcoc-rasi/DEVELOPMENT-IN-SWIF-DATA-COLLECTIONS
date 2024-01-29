@@ -6,7 +6,7 @@ I expanded my knowledge and skills in iOS application development, building on w
 
 # `Featured Apps`
 
-## `Unit 1 - Tables and Persistence`
+# `Unit 1 - Tables and Persistence`
 
 ## `Lesson 1.7 - Saving Data`
 
@@ -34,11 +34,11 @@ The app uses the UIKit framework to create a user interface with multiple button
 
 The app consists of a view controller in an iOS app that allows users to manage room reservations at a hotel.
 
-### Guided Project - `ToDoList-Marcocrasi` 
+## Guided Project - `ToDoList-Marcocrasi` 
 
 The app allows efficient management of lists. You can add, modify, or delete items through a custom input interface. The app uses table views to display lists, screens designed for complex input, and a storage system to preserve data. It facilitates effective list management, adapting to different types of items with specific controls. In summary, the app offers an optimized experience for list management and storage.
 
-## `Unit 2 - Working With The Web`
+# `Unit 2 - Working With The Web`
 
 ## `Lesson 2.3 - Animations`
 
@@ -46,15 +46,15 @@ The app allows efficient management of lists. You can add, modify, or delete ite
 
 The app is a wireframe (a basic outline with no real functionality) of the "Now Playing" screen in the music app.
 
-### Guided Project - `Restaurant OrderApp` And `State Restoration`
+## Guided Project - `Restaurant OrderApp` And `State Restoration`
 
 In this project, networking, JSON, concurrency, and closures in Swift were used to build a client app for a web API that provides a list of menu items for a restaurant. It features an interactive menu, allowing customers to view a list of options, add items to an order, and submit the order to the restaurant.
 
-### OrderApp Extension - State Restoration
+## OrderApp Extension - State Restoration
 
 In the project extension, you'll add the ability for the OrderApp to remember its state. This means that if the user stops the app and returns later, the app will remember where it was. To achieve this, you'll use a tool called NSUserActivity, which essentially stores key information about the user's current order. This "state" will be saved in a specific part of the app called MenuController. So, when the user reopens the app, it will start exactly where they left off.
 
-## `Unit 3 - Advanced Data Display`
+# `Unit 3 - Advanced Data Display`
 
 ## `Lesson 3.1 - Collection Views`
 
@@ -94,7 +94,7 @@ BillManager allows users to track pending bills and mark them as paid or pending
 
 This project consists of the basic structure of a simple alarm app that allows creating one alarm at a time. I implemented logic to create an alarm, obtain authorization to send notifications, schedule local notifications, and offer users the option to snooze their alarm.
 
-### Guided Project - `Habits`
+## Guided Project - `Habits`
 
 The app addresses various practical aspects. It uses collection views to display datasets, implements generics in Swift, employs differentiable data sources to facilitate dynamic updates, and explores compositional layouts to create advanced interfaces.
 
