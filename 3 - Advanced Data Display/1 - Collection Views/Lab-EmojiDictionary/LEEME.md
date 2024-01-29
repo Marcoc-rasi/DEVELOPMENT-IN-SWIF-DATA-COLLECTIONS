@@ -1,1 +1,15 @@
-h
+### `Diccionario Emoji`
+
+En este laboratorio, aplicarás lo aprendido en un proyecto anterior sobre vistas de tabla: EmojiDictionary. En esta ocasión, lo implementarás utilizando una vista de colección en lugar de una vista de tabla."
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d34d45df-3457-4fed-b3b0-5b0e7ca60298
+
+El código proporcionado, que abarca múltiples partes interconectadas, crea una aplicación de diccionario emoji para iOS. En primer lugar, está la estructura "Emoji", marcada como "Codable", para representar un emoji. Esta estructura almacena cuatro atributos esenciales: "símbolo", "nombre", "descripción" y "uso". Cumplir con "Codable" permite codificar y decodificar fácilmente emojis en formato JSON, simplificando su almacenamiento y transmisión en una aplicación de iOS. .
+
+La clase `EmojiCollectionViewController`, derivada de `UICollectionViewController`, controla la vista de colección que muestra emojis. Al configurar el diseño de la vista de la colección utilizando objetos como `NSCollectionLayoutItem`, `NSCollectionLayoutGroup` y `NSCollectionLayoutSection`, se logra la apariencia deseada. La carga de emojis ocurre durante la inicialización de la vista de colección y se actualiza cada vez que aparece en la pantalla.
+
+La clase `EmojiCollectionViewCell` personaliza las celdas de la vista de colección para presentar emojis. Sus etiquetas, etiquetadas con "@IBOutlet", muestran el "símbolo", el "nombre" y la "descripción" del emoji. La función `actualizar(con emoji)` se encarga de reflejar correctamente estos atributos en las celdas.
+
+Por otro lado, la clase `AddEditEmojiTableViewController` se utiliza para agregar o editar emojis en una tabla. Los campos de texto, como `symbolTextField`, `nameTextField`, `descriptionTextField` y `usageTextField`, se utilizan para ingresar o modificar detalles de emoji. La habilitación del botón guardar se controla a través de la función `updateSaveButtonState`, que verifica la idoneidad de los datos ingresados, incluida la presencia de un solo `emoji` en `symbolTextField`. La función `textEditingChanged` actualiza el estado del botón guardar en respuesta a los cambios en los campos de texto. Por último, la clase prepara información de emoji para su posterior almacenamiento o actualización en `prepare(for segue: UIStoryboardSegue, sender: Any?).`
+
+En resumen, estos fragmentos de código permiten a los usuarios ver, agregar y modificar emojis en la interfaz de usuario de una aplicación de iOS. Las estructuras y clases están meticulosamente diseñadas para brindar una experiencia integral en la gestión de emojis dentro de la aplicación. La conformidad con "Codable" facilita la manipulación de datos emoji, mientras que las clases `EmojiCollectionViewController` y `AddEditEmojiTableViewController` manejan la presentación y edición de emoji en la vista de colección y la tabla, respectivamente. La clase `EmojiCollectionViewCell` personaliza la apariencia visual de los emojis en la vista de colección, asegurando su visualización adecuada. La interacción y la lógica de la aplicación se implementan de manera consistente en todo el código, brindando una experiencia integrada en la gestión de emoji dentro de la aplicación.
