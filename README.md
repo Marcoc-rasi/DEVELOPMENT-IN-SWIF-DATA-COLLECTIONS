@@ -4,7 +4,7 @@
 
 I expanded my knowledge and skills in iOS application development, building on what I learned in the `Fundamentals` course. At this stage, I focused on creating more complex and advanced applications. I worked with data coming from a server and explored new `iOS` APIs that allow for much richer application experiences. I learned how to handle `large data sets` in multiple formats, which has significantly expanded my capabilities in developing applications for the `iOS` platform.
 
-## Featured Apps
+# `Featured Apps`
 
 ## `Unit 1 - Tables and Persistence`
 
