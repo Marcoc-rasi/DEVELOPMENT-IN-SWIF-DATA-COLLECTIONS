@@ -103,12 +103,10 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 #### `SystemViewControllers-Marcocrasi – Lesson App`
 The application integrates various key functionalities to interact with the device and perform actions such as sharing images, viewing websites, taking photos, and sending emails.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d7197654-f9a3-4a68-8eff-a121ebbe125a
-
 #### `Challenge SystemViewControllers-Marcocrasi - Challenge App`
 The application uses the UIKit framework to create a user interface with several buttons, each performing different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/193cafe7-ac09-4cb5-8e43-92841f6c652c
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/15b7b39b-1640-42af-adbd-afe50ddb594f
 
 ### `Lesson 1.9 - Complex Input Screens`
 
