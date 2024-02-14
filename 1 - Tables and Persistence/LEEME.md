@@ -98,15 +98,17 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 #### `HomeFurniture - Lab App`
 El objetivo de este laboratorio es utilizar controladores de vista del sistema en una aplicación que enumera habitaciones y muebles, permitiendo a los usuarios compartir elementos de mobiliario con otras aplicaciones en su dispositivo.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c9e4101c-0a7e-4d4c-bada-a53ead276d68
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/ec1ca3b4-b6ff-460f-8db8-9c0dc8d1c2f2
 
 #### `SystemViewControllers-Marcocrasi – Lesson App`
 La aplicación integra varias funcionalidades clave para interactuar con el dispositivo y realizar acciones como compartir imágenes, ver sitios web, tomar fotografías y enviar correos electrónicos.
 
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/db8e85f5-ccf8-40d0-b32c-5d6a31e803aa
+
 #### `Challenge SystemViewControllers-Marcocrasi - Challenge App`
 La aplicación utiliza el marco UIKit para crear una interfaz de usuario con varios botones, cada uno de los cuales realiza diferentes acciones. Estas acciones incluyen compartir una imagen, abrir un sitio web en Safari, tomar una foto con la cámara del dispositivo, enviar un correo electrónico y enviar un mensaje de texto.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/15b7b39b-1640-42af-adbd-afe50ddb594f
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/9499109f-fd22-4f43-9168-c2dec802aa6f
 
 ### `Lesson 1.9 - Complex Input Screens`
 
