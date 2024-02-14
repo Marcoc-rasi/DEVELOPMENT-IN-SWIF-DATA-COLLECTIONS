@@ -2,7 +2,7 @@
 
 El objetivo de este laboratorio es utilizar controladores de vista del sistema en una aplicación que enumera habitaciones y muebles, permitiendo a los usuarios compartir elementos de mobiliario con otras aplicaciones en su dispositivo. Asegúrese de construir y ejecutar la aplicación en un dispositivo iOS físico, en lugar del simulador, para disponer de más aplicaciones que permitan compartir imágenes y texto.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/97b22b67-b433-4a12-a779-b8b0adb415ec
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3fe377a0-16da-4b83-8b5e-07c0f957ada9
 
 El código consta de tres clases dentro del contexto de una aplicación de iOS escrita en Swift utilizando el marco UIKit: `Room`, `Furniture` y `FurnitureDetailViewController`. Estas clases están diseñadas para modelar y gestionar información sobre habitaciones, muebles y detalles de muebles, lo que permite a los usuarios seleccionar imágenes de muebles y compartir información relevante. A continuación se detallan las funcionalidades y características clave de cada clase.
 

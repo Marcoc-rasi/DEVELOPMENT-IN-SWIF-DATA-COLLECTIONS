@@ -24,19 +24,17 @@ In this lesson, I learned about the most common system view controllers and how 
 
 The goal of this lab is to use system view controllers in an application that lists rooms and furniture, allowing users to share furniture items with other applications on their device. Be sure to build and run the app on a physical iOS device, rather than the simulator, to have more apps that support image and text sharing.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a124f985-2828-446d-b3fb-63eefa85a2aa
-
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3fe377a0-16da-4b83-8b5e-07c0f957ada9
 
 ### `SystemViewControllers-Marcocrasi`
 
 The application integrates several key functionalities to interact with the device and perform actions such as sharing images, viewing websites, taking photos and sending emails.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/bd16b6c3-24a2-4bfd-8a14-2d0429afd1df
-
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/bffc78bf-5e70-47cd-838d-3f031eb785ac
 
 ### `Challenge SystemViewControllers-Marcocrasi`
 
 The application uses the UIKit framework to create a user interface with several buttons, each of which performs different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/86994984-3b95-4339-ac6a-de3be5135f19
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/909df499-7b7f-4d64-bfe5-a76e75fbdc17
 

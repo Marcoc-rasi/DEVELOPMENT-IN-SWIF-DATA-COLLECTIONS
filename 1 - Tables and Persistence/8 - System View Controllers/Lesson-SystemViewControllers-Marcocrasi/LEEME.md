@@ -2,7 +2,7 @@
 
 La aplicación integra varias funcionalidades clave para interactuar con el dispositivo y realizar acciones como compartir imágenes, ver sitios web, tomar fotografías y enviar correos electrónicos.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/22e63245-ff2b-467e-be8b-28826580b796
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/bffc78bf-5e70-47cd-838d-3f031eb785ac
 
 La clase `ViewController` implementa tres protocolos: `UIImagePickerControllerDelegate`, `UINavigationControllerDelegate` y `MFMailComposeViewControllerDelegate`. Estos protocolos son esenciales para interactuar eficazmente con la cámara, el álbum de fotos y el servicio de correo electrónico.
 

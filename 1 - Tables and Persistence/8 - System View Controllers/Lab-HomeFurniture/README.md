@@ -2,7 +2,7 @@
 
 The goal of this lab is to use system view controllers in an application that lists rooms and furniture, allowing users to share furniture items with other applications on their device. Be sure to build and run the app on a physical iOS device, rather than the simulator, to have more apps that support image and text sharing.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/a124f985-2828-446d-b3fb-63eefa85a2aa
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3fe377a0-16da-4b83-8b5e-07c0f957ada9
 
 The code consists of three classes within the context of an iOS application written in Swift using the UIKit framework: `Room`, `Furniture`, and `FurnitureDetailViewController`. These classes are designed to model and manage information about rooms, furniture, and furniture details, allowing users to select furniture images and share relevant information. Below are the key functionalities and features of each class.
 
