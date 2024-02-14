@@ -98,17 +98,17 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 #### `HomeFurniture - Lab App`
 The goal of this lab is to use system view controllers in an application that lists rooms and furniture, allowing users to share furniture items with other applications on their device.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/c9e4101c-0a7e-4d4c-bada-a53ead276d68
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/3fe377a0-16da-4b83-8b5e-07c0f957ada9
 
 #### `SystemViewControllers-Marcocrasi – Lesson App`
 The application integrates various key functionalities to interact with the device and perform actions such as sharing images, viewing websites, taking photos, and sending emails.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/d7197654-f9a3-4a68-8eff-a121ebbe125a
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/bffc78bf-5e70-47cd-838d-3f031eb785ac
 
 #### `Challenge SystemViewControllers-Marcocrasi - Challenge App`
 The application uses the UIKit framework to create a user interface with several buttons, each performing different actions. These actions include sharing an image, opening a website in Safari, taking a photo with the device's camera, sending an email, and sending a text message.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/193cafe7-ac09-4cb5-8e43-92841f6c652c
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/909df499-7b7f-4d64-bfe5-a76e75fbdc17
 
 ### `Lesson 1.9 - Complex Input Screens`
 
