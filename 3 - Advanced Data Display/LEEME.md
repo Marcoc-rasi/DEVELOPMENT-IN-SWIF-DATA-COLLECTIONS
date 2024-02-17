@@ -77,7 +77,7 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 
 #### `AppStoreLayout – Lesson App`
 
-He construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas, también se usa la API `UICollectionViewDiffableDataSource`.
+He construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/4c09ff54-b8b3-45db-9dd8-b7a68d4f0384
 
