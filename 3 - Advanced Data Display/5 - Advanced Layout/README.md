@@ -26,7 +26,7 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/510
 
 ### `AppStoreLayout`
 
-In this lesson, I built a replica of the iOS App Store home page using a single collection view and a compositional layout with distinct sections. The focus of this lesson is on creating compositional layout and reinforcing my knowledge of `UICollectionViewDiffableDataSource`.
+In this lesson, I built a replica of the iOS App Store home page using a single collection view and a compositional layout with distinct sections.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33dc4aa1-04dc-4e6b-bde4-1c3bf5b19e08
 
