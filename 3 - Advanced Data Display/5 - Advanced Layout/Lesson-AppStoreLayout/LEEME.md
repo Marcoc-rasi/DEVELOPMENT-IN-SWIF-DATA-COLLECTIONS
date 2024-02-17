@@ -1,6 +1,6 @@
 ### `Diseño de tienda de aplicaciones`
 
-En esta lección, he construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas. El enfoque de esta lección se centra en la creación del diseño composicional y en reforzar mi conocimiento sobre `UICollectionViewDiffableDataSource`.
+En esta lección, he construido una réplica de la página principal de la App Store de iOS utilizando una única vista de colección y un diseño composicional con secciones distintas.
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIF-DATA-COLLECTIONS/assets/51039101/33dc4aa1-04dc-4e6b-bde4-1c3bf5b19e08
 
